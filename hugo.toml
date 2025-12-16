@@ -2,4 +2,4 @@ baseURL = 'https://example.org/'
 draft = true
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'stack'
