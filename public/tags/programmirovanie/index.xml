@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Programmirovanie on My New Hugo Site</title>
+        <link>http://localhost:1313/tags/programmirovanie/</link>
+        <description>Recent content in Programmirovanie on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 13 Mar 2017 08:40:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/programmirovanie/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CNTML</title>
+        <link>http://localhost:1313/posts/20170313_cntml/</link>
+        <pubDate>Mon, 13 Mar 2017 08:40:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20170313_cntml/</guid>
+        <description>&lt;p&gt;На работе используется прокси с NMTL авторизацией. Чтобы использовать npm, git и т.п. нашлось решение в виде локального прокси CNTML. Но при установке большого пакета через npm происходило &amp;ldquo;зависание&amp;rdquo; на неком произвольном этапе. Пробовал скачивать отдельные пакеты, но это не помогло. Решением оказалось &amp;ldquo;убийство&amp;rdquo; процесса cntml через диспетчер задач и его повторный запуск в списке служб. После это установка &amp;ldquo;начинала продолжать&amp;rdquo; загрузку.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Я сделал это</title>
+        <link>http://localhost:1313/posts/20120831_ya_sdelal_eto/</link>
+        <pubDate>Fri, 31 Aug 2012 08:31:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20120831_ya_sdelal_eto/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/before.png" alt="Featured image of post Я сделал это" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/before.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;before.png&#34;
+	
+	
+&gt;
+До переименования&lt;/p&gt;
+&lt;p&gt;Я сделал это! Я написал bat файл для переименования каталогов фотографий.&lt;/p&gt;
+&lt;p&gt;Сохраняем текст программы в файл с расширением bat и запускаем его в папке, содержащей библиотеку фотографий (т.е в папке, содержащей подпапки с фотографиями). Программа обходит все подпапки в текущей папке, анализирует дату создания и добавит в имена подпапок период дат хранящихся  в них фотографий.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/after.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;after.png&#34;
+	
+	
+&gt;
+После переименования&lt;/p&gt;
+&lt;p&gt;Протокол пеерименования:&lt;/p&gt;
+&lt;p&gt;( 2011.05.16 - 2011.05.16 ) 2011-05-16 -  2011.05.16-2011-05-16&lt;/p&gt;
+&lt;p&gt;( 2007.09.28 - 2011.04.04 ) _Разобрать -  2007.09.28-2011.04.04-_Разобрать&lt;/p&gt;
+&lt;p&gt;Работает на 1 уровень. Дерево целиком не разматывает.&lt;/p&gt;
+&lt;p&gt;@echo off
+setlocal enabledelayedexpansion
+for /D %%f in (*) do (
+echo %%f
+dir /O:D /T:W /4 &amp;ldquo;%%f*.jpg&amp;rdquo; &amp;gt; tmp
+set /a crow=0
+FOR /F &amp;ldquo;eol=  skip=5 tokens=1,2,3  delims=. &amp;quot; %%i in (tmp) do (
+set /a crow+=1
+)
+set /a crow-=2
+set /a mrow=0
+FOR /F &amp;ldquo;eol=  skip=5 tokens=1,2,3  delims=. &amp;quot; %%i in (tmp) do (
+set /a mrow+=1
+if !mrow! LEQ !crow! (
+rem echo #mrow= !mrow!  crow= !crow!
+set &amp;ldquo;day=%%i&amp;rdquo;
+set &amp;ldquo;month=%%j&amp;rdquo;
+set &amp;ldquo;year=%%k&amp;rdquo;
+set dat=%%k%%j%%i
+echo # !year!.!month!.!day! - !dat! - !ndat! - !xdat!
+if !mrow! == 1 (
+set xyear=!year!
+set xmonth=!month!
+set xday=!day!
+set nyear=!year!
+set nmonth=!month!
+set nday=!day!
+set xdat=!xyear!!xmonth!!xday!
+set ndat=!nyear!!nmonth!!nday!
+rem echo &amp;ldquo;f0&amp;rdquo;
+)
+if !dat! GTR !xdat! (
+set xyear=!year!
+set xmonth=!month!
+set xday=!day!
+set xdat=!xyear!!xmonth!!xday!
+rem echo &amp;ldquo;f1&amp;rdquo;
+)
+if !dat! LSS !ndat! (
+set nyear=!year!
+set nmonth=!month!
+set nday=!day!
+set ndat=!nyear!!nmonth!!nday!
+rem echo &amp;ldquo;f2&amp;rdquo;
+)
+)
+echo ##!year!.!month!.!day! - !dat! - !ndat! - !xdat!
+)
+echo ### !nyear!.!nmonth!.!nday! - !xyear!.!xmonth!.!xday!
+if !xyear! == !nyear! (
+set fdate=!nyear!
+if !xmonth! == !nmonth! (
+set fdate=!fdate!.!nmonth!
+if !xday! == !nday! (
+set fdate=!fdate!.!nday!
+) else (
+set fdate=!fdate!.!nday!-!xday!
+) &lt;br&gt;
+) else (
+set fdate=!fdate!.!nmonth!.!nday!-!xmonth!.!xday!
+)&lt;/p&gt;
+&lt;p&gt;) else (&lt;/p&gt;
+&lt;p&gt;set fdate=!nyear!.!nmonth!.!nday!-!xyear!.!xmonth!.!xday!
+)
+set &amp;ldquo;ouname=!fdate!-%%f&amp;rdquo;
+set &amp;ldquo;inname=%%f&amp;rdquo;
+echo ( !nyear!.!nmonth!.!nday! - !xyear!.!xmonth!.!xday! ^) !inname! -  !ouname!
+rename &amp;ldquo;!inname!&amp;rdquo; &amp;ldquo;!ouname!&amp;rdquo;
+)&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

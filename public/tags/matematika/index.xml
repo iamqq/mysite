@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Matematika on My New Hugo Site</title>
+        <link>http://localhost:1313/tags/matematika/</link>
+        <description>Recent content in Matematika on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 29 Nov 2010 07:43:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/matematika/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Математики</title>
+        <link>http://localhost:1313/posts/20101129_matematiki/</link>
+        <pubDate>Mon, 29 Nov 2010 07:43:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101129_matematiki/</guid>
+        <description>&lt;p&gt;Стоит бесконечная очередь математиков за хлебом. Первый говорит:&lt;/p&gt;
+&lt;p&gt;-Мне буханку хлеба.&lt;/p&gt;
+&lt;p&gt;Второй говорит:&lt;/p&gt;
+&lt;p&gt;-Мне полбуханки хлеба.&lt;/p&gt;
+&lt;p&gt;Третий говорит:&lt;/p&gt;
+&lt;p&gt;-Мне четверть буханки хлеба.&lt;/p&gt;
+&lt;p&gt;Четвертый говорит:&lt;/p&gt;
+&lt;p&gt;-Мне восьмушку, пожалуйста&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Тут продавец их прерывает, и говорит:&lt;/p&gt;
+&lt;p&gt;-Я все понял. Вот вам две буханки.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

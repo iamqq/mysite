@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>It on My New Hugo Site</title>
+        <link>http://localhost:1313/tags/it/</link>
+        <description>Recent content in It on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 09 Jan 2023 02:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Передача температуры хост системы Proxmox  в Home Assistant</title>
+        <link>http://localhost:1313/posts/20230109_proxmox_temperature_home_assistant/</link>
+        <pubDate>Mon, 09 Jan 2023 02:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20230109_proxmox_temperature_home_assistant/</guid>
+        <description>&lt;p&gt;В качестве домашнего сервера у меня развернут Proxmox на старом ноутбуке  и в нем создана виртуальная машина с Home Assistant (НА) по вот этим &lt;a class=&#34;link&#34; href=&#34;https://github.com/tteck/Proxmox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;инструкциям&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;На ноутбуке помирает вентилятор, но в целом и без него сервер не перегревается, но мне все же захотелось  контролировать температуру моего &amp;ldquo;сервера&amp;rdquo; и как-то влиять на нее.&lt;/p&gt;
+&lt;p&gt;Контролировать мне удобнее в HA, но виртуальная машина не видит показаний температуры хост системы.&lt;/p&gt;
+&lt;p&gt;На самом сервере   я контролирую температуру командой :&lt;/p&gt;
+&lt;p&gt;sensors&lt;/p&gt;
+&lt;p&gt;Не помню, делал ли я что-то для установки этой программы или она по умолчаню присутсвует в системе, но инструкций по ее установке полно и если у вас ее нет, найдите и установите по инструкции.&lt;/p&gt;
+&lt;p&gt;Примерно так выглядит вывод команды (выделил интересующую меня температуру):&lt;/p&gt;
+&lt;p&gt;coretemp-isa-0000
+Adapter: ISA adapter&lt;br&gt;
+Package id 0: &lt;strong&gt;+52.0&lt;/strong&gt;°C (high = +72.0°C, crit = +90.0°C)&lt;br&gt;
+Core 0:    +52.0°C (high = +72.0°C, crit = +90.0°C)&lt;br&gt;
+Core 1:    +50.0°C (high = +72.0°C, crit = +90.0°C)
+&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;Почитав help к команде sensors обнаружил у нее приятный ключик -j - выводить в json. В HA установлен add-on &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://github.com/home-assistant/addons/tree/master/samba&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Samba share&lt;/a&gt;&amp;rdquo;. В итоге решил периодический опрашивать температуру через cron, скидывать через smb протокол в HA и там создать сенсор с показаниями интересующей меня температуры через интеграцию file&lt;/p&gt;
+&lt;p&gt;Вот окончательный скрипт, который я запланировал на ежеминутное исполнение в cron-е хост системы:&lt;/p&gt;
+&lt;p&gt;sensors -j | tr -d &amp;lsquo;\n&amp;rsquo; &amp;gt;  sensors.json
+smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;
+sleep 15
+sensors -j | tr -d &amp;lsquo;\n&amp;rsquo; &amp;gt;  sensors.json
+smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;
+sleep 15
+sensors -j | tr -d &amp;lsquo;\n&amp;rsquo; &amp;gt;  sensors.json
+smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;
+sleep 15
+sensors -j | tr -d &amp;lsquo;\n&amp;rsquo; &amp;gt;  sensors.json
+smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;Пояснения к коду:&lt;/p&gt;
+&lt;p&gt;sensors -j - формирую json  с информацией о температуре сервераtr -d &amp;lsquo;\n&amp;rsquo; -  убираю все переносы строк, т.к. интеграция file в HA читает только последнюю строку, т.е. мне нужно получить json  в одну строку&amp;gt;  sensors.json сохраняю json  в локальный файл(полная перезапись)smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;  - закидываю файл с json в HA в папку /config/tmpsleep 15 - жду 15 секунд  - зачем? -  дело в том, что через cron можно запланировать выполнение скрипта не чаше раза в минуту, а мне же хотелось получать показания  чуть чаще, поэтому я еще три раза повторил интересующий меня блок с засыпанием в промежутке на 15 секунд, т.е. файл в HA будет обновляться примерно каждые 15 секундТеперь как создан сенсор в HA? В configuration.yaml (или куда вы там вписываете свои сенсоры) добавьте:&lt;/p&gt;
+&lt;p&gt;sensor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;platform: file
+name: server_temperature
+file_path: /config/tmp/sensors.json
+value_template: &amp;ldquo;{{ value_json[&amp;lsquo;coretemp-isa-0000&amp;rsquo;][&amp;lsquo;Package id 0&amp;rsquo;][&amp;rsquo;temp1_input&amp;rsquo;] }}&amp;rdquo;
+unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Дальше я направил на ноутбук простой вентилятор и включаю его через валявшуюся у меня умную розетку при достижении критической температуры (см &lt;a class=&#34;link&#34; href=&#34;https://www.home-assistant.io/integrations/generic_thermostat/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;generic termostat&lt;/a&gt;)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Не доверяйте программистам</title>
+        <link>http://localhost:1313/posts/20121004_dont_trust_programmers/</link>
+        <pubDate>Thu, 04 Oct 2012 08:44:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20121004_dont_trust_programmers/</guid>
+        <description>&lt;p&gt;Предыстория.&lt;/p&gt;
+&lt;p&gt;В связи с не заглохшим желанием узнавать что-нибудь новое, по средам я посещаю &lt;a class=&#34;link&#34; href=&#34;http://www.it-people.ru/obrazovatelnye-programmy/otkrytye-seminary-po-sredam/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;открытые семинары it-people&lt;/a&gt;. Вот и вчера пришел выпить молочного коктейля (дурацкая тяга к углеводам) и послушать про интернет магазины. В ходе обсуждения озвучили мысль как &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/gerasimovich_yu/status/253514155498287105&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;плохо собственнику интернет-магазина зависеть от программиста&lt;/a&gt;. И понеслось&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Так как в общении я немного тормоз и все аргументы для спора мне приходят несколько позже чем надо, то попробую здесь описать те мысли, которые были вызваны вчерашним обсуждением.&lt;/p&gt;
+&lt;p&gt;Как вы себе представляете независимость от программиста в ИНТЕРНЕТ бизнесе? В том бизнесе, который ВООБЩЕ БЕЗ ПРОГРАММИСТА НЕ ВОЗМОЖЕН? Коробочные продукты?&lt;/p&gt;
+&lt;p&gt;Ну так кто готов ими пользоваться? Прозвучало, что существует приличное множество коробочных продуктов, но они написаны, видите ли, программистами для программистов, они не учитывают требования МОЕГО бизнеса, они слишком примитивны или, наоборот, тяжелы во внедрении. Ну это все понятно. Большинство из написанных движков писалась на основании представления МЕНЕДЖЕРОВ  о СТАНДАРТНОЙ функциональности (вы же не умете программировать? Почему программисты должны досконально разбираться в ваших продажах?) и дорабатывалось на основании МАССОВЫХ замечаний к движку, и то, если движок получил достаточное распространения. Они просто не знали ваших схем скидок, взаимоотношений с партнерами, работы с оптовиками. Если бы они попытались это учесть, то их продукт никогда и не вышел&amp;hellip; Другая сторона медали - &amp;ldquo;тяжелы во внедрении&amp;rdquo;. Наверняка это магазины, в которых все кастомизируется и можно учесть все пожелания бизнеса. Другое дело, чтобы понять где и в каком из сотни справочников надо заполнить чекбокс, чтобы заработала нужная фича - нужно освоить продукт на уровне, чаше всего не доступном  простому пользователю и для этого опять потребуется программист, консалтер или, в крайнем случае, хороший админ. Вспоминается фраза &amp;ldquo;&lt;strong&gt;Чем универсальнее продукт - тем меньше мест, где его можно использовать&lt;/strong&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Я не считаю, что программист это бОльшая проблема, чем менеджер (кражи клиентских баз которыми мы обсуждали на прошлом семинаре) или служба доставки (проблему автопарка и почты России обсуждали на этом семинаре). Просто зона ответственности программиста в ИНТЕРНЕТ магазинах гораздо выше. Это  лишь один из обязательных рисков.&lt;/p&gt;
+&lt;p&gt;Причем, как показал пример e96, знание программирования  является серьезным плюсом для владельца бизнеса :) .&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://o.twimg.com/1/proxy.jpg?t=FQQVBBgpaHR0cHM6Ly90d2l0cGljLmNvbS9zaG93L2xhcmdlL2IwMGRnaC5qcGcUAhYAEgA&amp;amp;s=zGxc6PeTXhyo8xVi7zdp2vg9PEA_oy--kG2HEhdCkps&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;А про озвученное документирование собственных доработок почему-то вспоминается картинка .&lt;/p&gt;
+&lt;p&gt;Мыслей было больше. Часть я забыл, часть не смог складно изложить. Перечитывая написанное постоянно хочется что-то поправить. Бью себя по рукам и публикую как есть, иначе остыну и вообще ничего не опубликую.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Своими руками</title>
+        <link>http://localhost:1313/posts/20120614_svoimi_rukami/</link>
+        <pubDate>Thu, 14 Jun 2012 12:58:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20120614_svoimi_rukami/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/button.png" alt="Featured image of post Своими руками" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/button.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;button.png&#34;
+	
+	
+&gt;Добавил две кнопки на боковой панели - Яндекс деньги и Dropbox refferal. Понятно что никто не ткнет, ну а вдруг! Жажда халявы неискоренима.&lt;/p&gt;
+&lt;p&gt;Кнопка Яндекс денег сгенерирована через стандартный &lt;a class=&#34;link&#34; href=&#34;https://money.yandex.ru/embed/quickpay/small.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;сервис&lt;/a&gt; , Мучился только с ее положением на странице. По умолчанию она оказывалась сдвинута вправо на 60px. С непривычки пытался применить все подряд - начиная со стилей к полю внутри IFRAME и заканчивая JavaScript. Узнал при этом много нового (лишь бы не забыть как обычно :) ). В итоге обернул в div, который сдвинул куда надо.&lt;/p&gt;
+&lt;p&gt;Потом пытался нарисовать подобную кнопку для dropbox. Понятно, что так же красиво не получилось, но хоть что-то для начала&amp;hellip;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Google&#43;</title>
+        <link>http://localhost:1313/posts/20110705_google/</link>
+        <pubDate>Tue, 05 Jul 2011 07:44:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110705_google/</guid>
+        <description>&lt;p&gt;Вот и я получил инвайт. Стоило только попросить в комментариях к описанию процесса раздачи инвайтов в Google+ в Google Buzz :).  По этому же описанию раздал инвайты всем в семье. Пытаюсь понять - что это такое. Красивенько так. Только с моей социапатичностью - любая социальная сеть вызывает больше интерес, как техническая реализация.&lt;/p&gt;
+&lt;p&gt;Да, вебкамера в чате заработала под ubuntu, но попробовать чат пока не с кем.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Google&#43;</title>
+        <link>http://localhost:1313/posts/20110701_google_2/</link>
+        <pubDate>Fri, 01 Jul 2011 07:58:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110701_google_2/</guid>
+        <description>&lt;p&gt;Запросил себе инвайт для &lt;a class=&#34;link&#34; href=&#34;http://plus.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google+&lt;/a&gt;. Все вокруг в твиттере уже пишут, что получили его тем или иным способом. Жду.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Не смог</title>
+        <link>http://localhost:1313/posts/20110209_ne_smog/</link>
+        <pubDate>Wed, 09 Feb 2011 18:23:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110209_ne_smog/</guid>
+        <description>&lt;p&gt;Приезжали SAP-овцы. Обсуждали систему оперативного учета. Все идет к тому, что будет PP в отдельном манданте. По ходу разговора всплыло обсуждение внедрения SAP на КУМЗ-е и ВСМПО. Посоветовали мне эти проекты в резюме не включать :) (хотя говорят что КУМЗ с нового года запустился. По этому поводу вспоминается программистский анекдот:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Вы знаете &lt;a class=&#34;link&#34; href=&#34;http://ru.wikipedia.org/wiki/SQL&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SQL&lt;/a&gt;?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Нет&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Тогда так и пишите в резюме - знаю &lt;a class=&#34;link&#34; href=&#34;http://ru.wikipedia.org/wiki/NoSQL&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NOSQL&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Пошел в кино в &amp;ldquo;Карнавал&amp;rdquo;, но из всего что там шло, так и не смог ничего выбрать. И не пошел.&lt;/p&gt;
+&lt;p&gt;Зато посмотрел &amp;ldquo;Серьезный человек&amp;rdquo; - такие зарисовки из жизни евреев. Ничего не понял&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Не работает ноутбук</title>
+        <link>http://localhost:1313/posts/20110203_ne_rabotaet_noutbuk/</link>
+        <pubDate>Thu, 03 Feb 2011 12:55:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110203_ne_rabotaet_noutbuk/</guid>
+        <description>&lt;p&gt;Пришел в квартиру. Давай смотреть кто там в интернете не прав. Вожу пальцем по тачпаду, курсор бегает, но ничего не кликается. Ну думаю, либо из за долгого простоя что-то глюкано, либо что-то в скачанных в обед обновлениях было. Перезагрузился. Сходил на кухню. Пришел. Все двигается и кликается. Сел на диван. Звонок по телефону - поговорил - снова не кликается! Пошел искать мышь (а вдруг ею будет кликаться!). На кухне нет, на кресле нет. Поднимаю одеяло на диване - вот она! Под одеялом, на том месте где я сидел! Ага! Кликнул тачпадом - работает! Т.е. я просто сидел на ней и зажимал кнопки сквозь одеяло - вот и все проблемы :)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Регламент ведения разработок УГМК</title>
+        <link>http://localhost:1313/posts/20110111_reglament_vedeniya_razrabotok_ugmk/</link>
+        <pubDate>Tue, 11 Jan 2011 13:47:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110111_reglament_vedeniya_razrabotok_ugmk/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;Что-то из этого привычно, а к чему-то и надо привыкать:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Внутренние объекты именуются в соответствии со следующими правилами:&lt;/em&gt;
+&lt;em&gt;&lt;strong&gt;Селекционный экран&lt;/strong&gt;&lt;/em&gt;*:** *&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         p_&amp;lt;имя&amp;gt; = параметр селекционного экрана (&lt;strong&gt;parameters&lt;/strong&gt;);&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         s_&amp;lt;имя&amp;gt; = опции выбора селекционного экрана &lt;strong&gt;(select-options);&lt;/strong&gt;&lt;/em&gt;
+&lt;em&gt;&lt;strong&gt;Основные объекты&lt;/strong&gt;&lt;/em&gt;***:****** ***&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         lit_&amp;lt;имя&amp;gt; = локальная внутренняя таблица &lt;strong&gt;(internal table);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         git_&amp;lt;имя&amp;gt; = глобальная внутренняя таблица &lt;strong&gt;(internal table);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         lwa_&amp;lt;имя&amp;gt; = локальная рабочая область внутренней таблицы &lt;strong&gt;(work area);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         gwa_&amp;lt;имя&amp;gt; = глобальная рабочая область внутренней таблицы &lt;strong&gt;(work area);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         lr_&amp;lt;имя&amp;gt; = локальный диапазон &lt;strong&gt;(ranges);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         gr_&amp;lt;имя&amp;gt; = глобальный диапазон &lt;strong&gt;(ranges);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         lс_&amp;lt;имя&amp;gt; = локальная константа &lt;strong&gt;(constants);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         gс_&amp;lt;имя&amp;gt; = глобальная константа &lt;strong&gt;(constants);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         lt_&amp;lt;имя&amp;gt; = локальный внутренний тип &lt;strong&gt;(types);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         gt_&amp;lt;имя&amp;gt; = глобальный внутренний тип &lt;strong&gt;(types);&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         lv_&amp;lt;имя&amp;gt; = локальная внутренняя переменная;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         gv_&amp;lt;имя&amp;gt; = глобальная внутренняя переменная&lt;/em&gt;*.***
+*** &lt;strong&gt;&lt;strong&gt;&lt;strong&gt;Параметры &lt;strong&gt;&lt;strong&gt;&lt;strong&gt;подпрограмм FORM&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;:&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt; ***&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         pu_&amp;lt;имя&amp;gt; = using-параметр подпрограммы;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         pc_&amp;lt;имя&amp;gt; = changing-параметр подпрограммы;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         pit_&amp;lt;имя&amp;gt; = tables-параметр подпрограммы.&lt;/em&gt;
+***Классы, интерфейсы: ***&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         lcl_&amp;lt;имя&amp;gt; = имя локального класса;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         lif_&amp;lt;имя&amp;gt; = имя локального интерфейса;&lt;/em&gt;
+&lt;em&gt;&lt;strong&gt;Параметры методов классов;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         im_&amp;lt;имя&amp;gt; = importing-параметр метода класса, интерфейса;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         ex_&amp;lt;имя&amp;gt; = exporting-параметр метода класса, интерфейса;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         ch_&amp;lt;имя&amp;gt; = changing-параметр метода класса, интерфейса;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         re_&amp;lt;имя&amp;gt; = result-параметр метода класса, интерфейса;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         exc_&amp;lt;имя&amp;gt; = исключение блока exceptions метода класса, интерфейса;&lt;/em&gt;
+&lt;em&gt;&lt;strong&gt;Параметры функциональных модулей&lt;/strong&gt;&lt;/em&gt;***:****** ***&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         im_&amp;lt;имя&amp;gt; = importing-параметр ФМ;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         ex_&amp;lt;имя&amp;gt; = exporting-параметр ФМ;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         ch_&amp;lt;имя&amp;gt; = changing-параметр ФМ;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;·         pit_&amp;lt;имя&amp;gt; = tables-параметр ФМ;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;*·         *&lt;em&gt;exc_&amp;lt;имя&amp;gt; = исключение блока exceptions ФМ.&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Расшаривание фотографий</title>
+        <link>http://localhost:1313/posts/20101124_rassharivanie_fotografij/</link>
+        <pubDate>Wed, 24 Nov 2010 06:12:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101124_rassharivanie_fotografij/</guid>
+        <description>&lt;p&gt;В один день два сервиса:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://dropmocks.com/mKHYM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://dropmocks.com/mKHYM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;и&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://min.us/mvoM8me&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://min.us/mvoM8me&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Идея фактически одна и та же. Небольшие (но для холивара достаточные) различия в реализации. Интересно - чья идея? Или все как в истории про обезьян на соседних островах? (про всемирное информационное пространство)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Панель blogger</title>
+        <link>http://localhost:1313/posts/20101119_panel_blogger/</link>
+        <pubDate>Fri, 19 Nov 2010 05:39:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101119_panel_blogger/</guid>
+        <description>&lt;p&gt;Зашел утром в свой блог и не обнаружил панели и списка читаемых мной блогов. Давай искать что произошло. Посмотрел дизайн. Проверил что виджеты нужные подключены. Поискал что-нибудь про панель в интернете. Ничего.
+Отвлекся от всего этого и через какое-то время вспомнил - я же AdBlock вчера перенастраивал. Проверил - точно - ОН. Ну все - панель найдена!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Motorola Milestone</title>
+        <link>http://localhost:1313/posts/20101116_motorola_milestone/</link>
+        <pubDate>Tue, 16 Nov 2010 03:11:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101116_motorola_milestone/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/motorola_milestone.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;motorola_milestone.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
+&lt;p&gt;Самое первое впечатление - это не телефон! Чтобы позвонить с голого аппарата требуется не менее четырех действий. Да еще поиск номера - чистое листание списка контактов. Да, со временем частоиспользуемые контакты выводятся в виджеты, ставятся альтернативные программы звонилки и жизнь налаживается. Хотя универсальность аппарата лезет из всех щелей.&lt;/p&gt;
+&lt;p&gt;-Вы его выбрали? А вот все его реквизиты для связи&lt;/p&gt;
+&lt;p&gt;-Позвонить или связаться по скайпу?&lt;/p&gt;
+&lt;p&gt;-А в какую программу вернуться? В стандартную или в ту, что вы недавно установили?&lt;/p&gt;
+&lt;p&gt;И такие вопросы по любому поводу. Правда есть запоминание действий по умолчанию и постепенно вы с ним притираетесь друг к другу&amp;hellip;&lt;/p&gt;
+&lt;p&gt;НО зато маркет с кучей бесплатных программ и игрушек. Но зато тяжело копаться в этой куче. Но зато легко лазит в интернет через WIFI и читает почту с гугла и выкладывает картинки в пикасу. Но зато по поводу и без повода лезет в интернет и требуется либо переходить на безлимитный по интернету тариф, либо искать в маркете программу по запрещению выхода в интернет через GPRS.&lt;/p&gt;
+&lt;p&gt;Вообщем телефон богатый как жизнь - и плюсы и минусы :)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Как говорил АА</title>
+        <link>http://localhost:1313/posts/20101112_kak_govoril_aa/</link>
+        <pubDate>Fri, 12 Nov 2010 18:19:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101112_kak_govoril_aa/</guid>
+        <description>&lt;p&gt;ABAP - очень поэтичный язык. Все конструкции у него в рифму:&lt;/p&gt;
+&lt;p&gt;if - endif,&lt;/p&gt;
+&lt;p&gt;loop - endloop.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Visual C# Express. Шесть раз перезагрузись и откажись.</title>
+        <link>http://localhost:1313/posts/20101026_visual_c_express_shest_raz_perezagruzis_i_otkazhis/</link>
+        <pubDate>Tue, 26 Oct 2010 16:11:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101026_visual_c_express_shest_raz_perezagruzis_i_otkazhis/</guid>
+        <description>&lt;p&gt;Сегодня пытался инсталлировать вышеозначенный продукт на работе. Потребовался 3-ий сервиспак. Нашел, поставил, перегрузился(1) при этом. Начал установку Експресса. Подмонтировал образ в виртуальный сдром, который отцепился при перезагрузке(2). Пока все это разрулил пришлось еще два(3,4) раза перезагрузится.  В итоге установил. Запускаю. Пытаюсь ввести ключ. Перезагрузка(5). Еща попытка - снова перезагрузка(6). Бросил. Видимо на моем 1 гиге памяти - не судьба&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Дома на ноутбуке с 4-мя гигами под виртульной машиной (выделено 1.5 гига, но нет антивируса) - летает.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Штрихкодирование</title>
+        <link>http://localhost:1313/posts/20101016_shtrihkodirovanie/</link>
+        <pubDate>Sat, 16 Oct 2010 03:31:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101016_shtrihkodirovanie/</guid>
+        <description>&lt;p&gt;Запускается проект по отслеживанию местоположения документов, находящихся на согласовании.Чтобы в любой момент знать где находится документ и сколько он там там находится. Вообщем, чтобы документы не терялись. Внедрение задержалось, т.к. приказ о внедрении затерялся.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Ubuntu 10.10</title>
+        <link>http://localhost:1313/posts/20101013_ubuntu_1010/</link>
+        <pubDate>Wed, 13 Oct 2010 16:08:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101013_ubuntu_1010/</guid>
+        <description>&lt;p&gt;Обновился. При переключении клавиатуры, запуске Skype и еще при непонятно какой активности переставала работать мышь, иногда Alt-Tab и иногда даже кнопка выключения. Стал грешить на апгрейт. Думал, поставлю начисто - будет все нормально. Взял на работе внешний диск, т.к. решил все переразметить, а ценных файлов у меня гигов 80 (видео и образы виртуальных машин). И флешку, т.к. CD-ROM-а у меня к счастью нет, т.е. устанавливаться надо с флешки.&lt;/p&gt;
+&lt;p&gt;При сохранении выяснилось что внешний диск форматирован в fat32 и файлы более 4Гб не анего не пишутся (все три образа виртуальных машин - 5, 9 и 15 Гб). Пришлось освоить команду split .&lt;/p&gt;
+&lt;p&gt;Сохранил все что нажито непосильным трудом. Установил начисто систему. Не помогло! Пришлось гуглить подробней. Нашел ссылку на &lt;a class=&#34;link&#34; href=&#34;http://launchpadlibrarian.net/54205518/xserver-xorg-input-evdev_2.5.0%2Bgit20100822.990540fa-0ubuntu0sarvatt_i386.deb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;патч&lt;/a&gt; на форуме &lt;a class=&#34;link&#34; href=&#34;http://forum.ubuntu.ru/index.php?topic=112853.15&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ububntu.ru &lt;/a&gt;. И все задышало. А проблема была с моей мышей (A4Tech G7-630).&lt;/p&gt;
+&lt;p&gt;Что изменилось? Не знаю. Из заметного - шрифты. А так просто получил ехperiens.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>САШКА!</title>
+        <link>http://localhost:1313/posts/20101004_sashka/</link>
+        <pubDate>Mon, 04 Oct 2010 12:51:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101004_sashka/</guid>
+        <description>&lt;p&gt;Тебе должно понравится! Для тебя это актуально.&lt;/p&gt;
+&lt;p&gt;p.s. Я вот что еще думаю: Может тебе статистику на свой блог прицепить? Ну, чтобы хотя бы знать как часто к тебе заходят? Если соберешься - смотри &lt;a class=&#34;link&#34; href=&#34;http://www.google.com/analytics/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.google.com/analytics/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>LoadNix</title>
+        <link>http://localhost:1313/posts/20100928_loadnix/</link>
+        <pubDate>Tue, 28 Sep 2010 18:14:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20100928_loadnix/</guid>
+        <description>&lt;p&gt;Написал отдельную программу загрузки с двумя большими кнопками. Отправил. Пусть пробуют.&lt;/p&gt;
+&lt;p&gt;з.ы. Опять столкнулся с проблемой точек-запятых. При заливке из Excel теряется дробная часть!. Надо править.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Delphi</title>
+        <link>http://localhost:1313/posts/20100924_delphi/</link>
+        <pubDate>Fri, 24 Sep 2010 18:28:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20100924_delphi/</guid>
+        <description>&lt;p&gt;На моем ноутбуке Delphi7 запускается и работает ощутимо быстрее чем на старом компьютере! И это в VirtualBox-е, который запущен из под Линукса!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Настройка блога</title>
+        <link>http://localhost:1313/posts/20100922_nastrojka_bloga/</link>
+        <pubDate>Wed, 22 Sep 2010 15:50:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20100922_nastrojka_bloga/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/edithtml.png" alt="Featured image of post Настройка блога" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/edithtml.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;edithtml.png&#34;
+	
+	
+&gt;
+Все-таки профессия дает о себе знать. Не могу оставить блог со стандартным шаблоном. Возможностей подправить шрифт и фон, да добавить виджеты - мне не хватает. Охота его (блог) перестроить согласно своему мнению об удобстве и рациональном использовании места. Вот и правлю код дизайна.&lt;/p&gt;
+&lt;p&gt;Что же было поправлено? Ну, во первых Имя блога было перенесено вниз, в один блок с сообщениями. Зачем? А затем чтобы левый блок с виджетами поднялся к верхней границе экрана. Правда я потом вверху замутил виджет с ссылками на теги, но он гораздо меньше по высоте имени блога и представляет собой своеобразное горизонтальное меню, которому там самое место. Кроме того в этот виджет добавил ссылку на главную страницу, так что подумываю о том, чтобы вообще убрать отдельное ИМЯ БЛОГА из дизайна. И еще одно изменение, потребовавшее глубокого погружения в шаблон - ссылки навигации. Стандартно они находятся внизу блока сообщений, но меня это не устроило - добавил еще вверху  :).&lt;/p&gt;
+&lt;p&gt;Из крупного пока все.&lt;/p&gt;
+&lt;p&gt;З.Ы, Крупное имя блога - убрал!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Facebook</title>
+        <link>http://localhost:1313/posts/20100922_facebook/</link>
+        <pubDate>Wed, 22 Sep 2010 13:37:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20100922_facebook/</guid>
+        <description>&lt;p&gt;Пробую настроить трансляцию своих постов из блога прямо на стену в фейсбук. Что-то не очень получается. Как я понял, надо найти соответствующее приложение и настроить его. Во первых поиск приложений - еще тот квест! Но, в итоге разобрался. Ищем в поиске по некому тексту. Например &amp;ldquo;blog&amp;rdquo;. После того, как выпадет список найденного выбираем в левом столбце &amp;ldquo;Приложения&amp;rdquo;! И в появившемся списке пытаемся найти приложение, которое устроит вас по своей функциональности.&lt;/p&gt;
+&lt;p&gt;Я уже перебрал штук пять. И все делают что-то не то и не так. И каждый раз вопросы про разрешение доступа к данным профиля! Страшно! Один раз даже ввел в каком-то профиле пароль от аккаунта Google. Но сразу Гугл предупредил о доступе к аккаунту из другой страны (Типа всегда заходили из России, а тут вдруг из Америки) и предложил сменить пароль. Я испугался и сменил.&lt;/p&gt;
+&lt;p&gt;Вообщем пока ищу&amp;hellip;&lt;/p&gt;
+&lt;p&gt;З.Ы. Похоже &amp;ldquo;My Blog Posts&amp;rdquo; - это то приложение, которое я искал.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>О работе</title>
+        <link>http://localhost:1313/posts/20100921_o_rabote/</link>
+        <pubDate>Tue, 21 Sep 2010 04:33:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20100921_o_rabote/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/cam_0474.jpg" alt="Featured image of post О работе" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/cam_0474.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;cam_0474.jpg&#34;
+	
+	
+&gt;
+На работе запускаем отслеживание прохождения листа согласования. На листе согласования печатается штрихкод. При считывании штрихкода с документа на рабочем месте будем отмечать местоположение документа. Для экспериментов предоставили три варианта сканеров штрихкода. Тот что на гибкой ножке устанавливается в разъем клавиатуры, и при любом сбросе настроек отрубает клавиатуру. Приходится ему скармливать штрихкод, объясняющий ему, как именно он подключен&amp;hellip; Зато я его могу ориентировать почти как угодно!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/cam_0475.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;cam_0475.jpg&#34;
+	
+	
+&gt;
+Кроме того заметил что возобновляют стройку технического университета (или как он там называется? Вообщем карманный ВУЗ УГМК) в Верхней Пышме. Находится прямо возле нашего здания. Может построят за год-два? Ульянка! Пойдешь сюда учится? ;)&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

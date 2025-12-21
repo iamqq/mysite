@@ -5,6 +5,295 @@
         <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language>
+        <lastBuildDate>Mon, 09 Jan 2023 02:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>It</title>
+        <link>http://localhost:1313/tags/it/</link>
+        <pubDate>Mon, 09 Jan 2023 02:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/it/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Programmirovanie</title>
+        <link>http://localhost:1313/tags/programmirovanie/</link>
+        <pubDate>Mon, 13 Mar 2017 08:40:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/programmirovanie/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Pestnya</title>
+        <link>http://localhost:1313/tags/pestnya/</link>
+        <pubDate>Wed, 08 Feb 2017 19:36:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/pestnya/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Zdorove</title>
+        <link>http://localhost:1313/tags/zdorove/</link>
+        <pubDate>Mon, 27 Aug 2012 03:03:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/zdorove/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Pohod</title>
+        <link>http://localhost:1313/tags/pohod/</link>
+        <pubDate>Wed, 01 Aug 2012 05:04:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/pohod/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Puteshestviya</title>
+        <link>http://localhost:1313/tags/puteshestviya/</link>
+        <pubDate>Wed, 01 Aug 2012 05:04:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/puteshestviya/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Karta_mira</title>
+        <link>http://localhost:1313/tags/karta_mira/</link>
+        <pubDate>Tue, 31 Jul 2012 18:25:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/karta_mira/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Android</title>
+        <link>http://localhost:1313/tags/android/</link>
+        <pubDate>Tue, 31 Jul 2012 15:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/android/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Gadzhety</title>
+        <link>http://localhost:1313/tags/gadzhety/</link>
+        <pubDate>Tue, 31 Jul 2012 15:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/gadzhety/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Avtomobil</title>
+        <link>http://localhost:1313/tags/avtomobil/</link>
+        <pubDate>Tue, 31 Jul 2012 08:36:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/avtomobil/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Wish</title>
+        <link>http://localhost:1313/tags/wish/</link>
+        <pubDate>Fri, 27 Jul 2012 07:36:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/wish/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Rabota</title>
+        <link>http://localhost:1313/tags/rabota/</link>
+        <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/rabota/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Sap_r3</title>
+        <link>http://localhost:1313/tags/sap_r3/</link>
+        <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/sap_r3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ucheba</title>
+        <link>http://localhost:1313/tags/ucheba/</link>
+        <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/ucheba/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Uem</title>
+        <link>http://localhost:1313/tags/uem/</link>
+        <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/uem/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Podarki</title>
+        <link>http://localhost:1313/tags/podarki/</link>
+        <pubDate>Fri, 29 Jun 2012 05:46:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/podarki/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Doroga_domoj</title>
+        <link>http://localhost:1313/tags/doroga_domoj/</link>
+        <pubDate>Thu, 28 Jun 2012 10:05:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/doroga_domoj/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Mesta</title>
+        <link>http://localhost:1313/tags/mesta/</link>
+        <pubDate>Thu, 28 Jun 2012 10:05:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/mesta/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Filosofiya</title>
+        <link>http://localhost:1313/tags/filosofiya/</link>
+        <pubDate>Mon, 25 Jun 2012 08:45:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/filosofiya/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Video</title>
+        <link>http://localhost:1313/tags/video/</link>
+        <pubDate>Tue, 19 Jun 2012 17:58:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/video/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Domashnie_dela</title>
+        <link>http://localhost:1313/tags/domashnie_dela/</link>
+        <pubDate>Thu, 14 Jun 2012 07:04:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/domashnie_dela/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Krasivo</title>
+        <link>http://localhost:1313/tags/krasivo/</link>
+        <pubDate>Sat, 09 Jun 2012 07:33:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/krasivo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Zhivnost</title>
+        <link>http://localhost:1313/tags/zhivnost/</link>
+        <pubDate>Sat, 09 Jun 2012 05:10:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/zhivnost/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Kvinta</title>
+        <link>http://localhost:1313/tags/kvinta/</link>
+        <pubDate>Mon, 19 Sep 2011 15:55:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/kvinta/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Nigerijskie_pisma</title>
+        <link>http://localhost:1313/tags/nigerijskie_pisma/</link>
+        <pubDate>Wed, 06 Jul 2011 07:09:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/nigerijskie_pisma/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Google</title>
+        <link>http://localhost:1313/tags/google/</link>
+        <pubDate>Tue, 05 Jul 2011 07:44:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/google/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Filmy</title>
+        <link>http://localhost:1313/tags/filmy/</link>
+        <pubDate>Wed, 22 Jun 2011 09:33:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/filmy/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Televizor</title>
+        <link>http://localhost:1313/tags/televizor/</link>
+        <pubDate>Mon, 11 Apr 2011 04:21:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/televizor/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Wii</title>
+        <link>http://localhost:1313/tags/wii/</link>
+        <pubDate>Mon, 11 Apr 2011 04:21:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/wii/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Muzyka</title>
+        <link>http://localhost:1313/tags/muzyka/</link>
+        <pubDate>Thu, 24 Mar 2011 16:45:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/muzyka/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>S_dnem_rozhdeniya</title>
+        <link>http://localhost:1313/tags/s_dnem_rozhdeniya/</link>
+        <pubDate>Thu, 17 Mar 2011 04:43:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/s_dnem_rozhdeniya/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Bugagashenki</title>
+        <link>http://localhost:1313/tags/bugagashenki/</link>
+        <pubDate>Wed, 23 Feb 2011 19:07:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/bugagashenki/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Kofe</title>
+        <link>http://localhost:1313/tags/kofe/</link>
+        <pubDate>Tue, 25 Jan 2011 10:16:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/kofe/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Matematika</title>
+        <link>http://localhost:1313/tags/matematika/</link>
+        <pubDate>Mon, 29 Nov 2010 07:43:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/matematika/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ekz</title>
+        <link>http://localhost:1313/tags/ekz/</link>
+        <pubDate>Tue, 16 Nov 2010 03:11:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/ekz/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Klinika</title>
+        <link>http://localhost:1313/tags/klinika/</link>
+        <pubDate>Sat, 04 Sep 2010 03:49:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/klinika/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Google on My New Hugo Site</title>
+        <link>http://localhost:1313/tags/google/</link>
+        <description>Recent content in Google on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 05 Jul 2011 07:44:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Google&#43;</title>
+        <link>http://localhost:1313/posts/20110705_google/</link>
+        <pubDate>Tue, 05 Jul 2011 07:44:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110705_google/</guid>
+        <description>&lt;p&gt;Вот и я получил инвайт. Стоило только попросить в комментариях к описанию процесса раздачи инвайтов в Google+ в Google Buzz :).  По этому же описанию раздал инвайты всем в семье. Пытаюсь понять - что это такое. Красивенько так. Только с моей социапатичностью - любая социальная сеть вызывает больше интерес, как техническая реализация.&lt;/p&gt;
+&lt;p&gt;Да, вебкамера в чате заработала под ubuntu, но попробовать чат пока не с кем.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
