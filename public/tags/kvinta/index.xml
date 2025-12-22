@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Kvinta on My New Hugo Site</title>
-        <link>http://localhost:1313/tags/kvinta/</link>
-        <description>Recent content in Kvinta on My New Hugo Site</description>
+        <title>квинта on My New Hugo Site</title>
+        <link>https://example.org/tags/kvinta/</link>
+        <description>Recent content in квинта on My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 19 Sep 2011 15:55:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/kvinta/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 19 Sep 2011 15:55:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/kvinta/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Квинтюше посвящяется</title>
-        <link>http://localhost:1313/posts/20110919_kvintyushe_posvyashchyaetsya/</link>
+        <link>https://example.org/posts/20110919_kvintyushe_posvyashchyaetsya/</link>
         <pubDate>Mon, 19 Sep 2011 15:55:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/20110919_kvintyushe_posvyashchyaetsya/</guid>
+        <guid>https://example.org/posts/20110919_kvintyushe_posvyashchyaetsya/</guid>
         <description></description>
         </item>
         

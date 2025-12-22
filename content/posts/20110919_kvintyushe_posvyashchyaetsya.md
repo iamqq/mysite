@@ -1,10 +1,10 @@
 +++
 title = "Квинтюше посвящяется"
-description = ""
+description = "Квинтюше посвящяется"
 
 date = "2011-09-19T15:55:00Z"
 draft = false
-tags = ['kvinta']
+tags = ['квинта']
 +++
 
 

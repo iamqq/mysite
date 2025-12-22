@@ -1,6 +1,6 @@
 +++
 title = "Разбушевалась стихия"
-description = ""
+description = "Разбушевалась стихия"
 
 date = "2011-01-20T14:46:00Z"
 draft = false

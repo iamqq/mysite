@@ -1,11 +1,10 @@
 +++
 title = "О моей операции"
-description = ""
+description = "О моей операции"
 image = "/images/blogspot/iamqq/cam_0458.jpg"
 date = "2010-09-02T06:04:00Z"
 draft = false
-tags = ['klinika']
+tags = ['клиника']
 +++
 
-![cam_0458.jpg](/images/blogspot/iamqq/cam_0458.jpg)
- ![cam_0459.jpg](/images/blogspot/iamqq/cam_0459.jpg)
+![cam_0459.jpg](/images/blogspot/iamqq/cam_0459.jpg)

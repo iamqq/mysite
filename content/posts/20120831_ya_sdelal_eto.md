@@ -1,13 +1,12 @@
 +++
 title = "Я сделал это"
-description = "До переименования"
+description = "До переименования Я сделал это! Я написал bat файл для переименования каталогов фотографий. Сохраняем текст программы в файл с расширением bat и запускаем его..."
 image = "/images/blogspot/iamqq/before.png"
 date = "2012-08-31T08:31:00Z"
 draft = false
-tags = ['programmirovanie']
+tags = ['программирование']
 +++
 
-![before.png](/images/blogspot/iamqq/before.png)
 До переименования
 
 Я сделал это! Я написал bat файл для переименования каталогов фотографий.

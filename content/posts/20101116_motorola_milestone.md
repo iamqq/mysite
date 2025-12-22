@@ -1,13 +1,11 @@
 +++
 title = "Motorola Milestone"
-description = "Что я могу про него сказать?"
+description = "Что я могу про него сказать? Самое первое впечатление - это не телефон! Чтобы позвонить с голого аппарата требуется не менее четырех действий. Да еще поиск..."
 image = "/images/blogspot/iamqq/motorola_milestone.jpg"
 date = "2010-11-16T03:11:00Z"
 draft = false
-tags = ['it', 'ekz', 'android']
+tags = ['IT', 'Ekz', 'android']
 +++
-
-![motorola_milestone.jpg](/images/blogspot/iamqq/motorola_milestone.jpg)
 
 Что я могу про него сказать?
 

@@ -1,46 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Android on My New Hugo Site</title>
-        <link>http://localhost:1313/tags/android/</link>
-        <description>Recent content in Android on My New Hugo Site</description>
+        <title>android on My New Hugo Site</title>
+        <link>https://example.org/tags/android/</link>
+        <description>Recent content in android on My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 31 Jul 2012 15:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/android/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 31 Jul 2012 15:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/android/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Китайский SGSIII</title>
-        <link>http://localhost:1313/posts/20120731_chinese_sgs3/</link>
+        <link>https://example.org/posts/20120731_chinese_sgs3/</link>
         <pubDate>Tue, 31 Jul 2012 15:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/20120731_chinese_sgs3/</guid>
-        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/chinasgsiii.png" alt="Featured image of post Китайский SGSIII" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/chinasgsiii.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;chinasgsiii.png&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;А почему только одна симка? :)&lt;/p&gt;
+        <guid>https://example.org/posts/20120731_chinese_sgs3/</guid>
+        <description>&lt;img src="https://example.org/images/blogspot/iamqq/chinasgsiii.png" alt="Featured image of post Китайский SGSIII" /&gt;&lt;p&gt;А почему только одна симка? :)&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Блоггер под андрод</title>
-        <link>http://localhost:1313/posts/20110624_blogger_pod_androd/</link>
+        <link>https://example.org/posts/20110624_blogger_pod_androd/</link>
         <pubDate>Fri, 24 Jun 2011 06:42:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/20110624_blogger_pod_androd/</guid>
-        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/android_blogger.png" alt="Featured image of post Блоггер под андрод" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/android_blogger.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;android_blogger.png&#34;
-	
-	
-&gt;Установил клиент для публикаций в Блог под андроид. Прикольно. Только набирать на экранной клавиатуре не очень удобно.&lt;/p&gt;
+        <guid>https://example.org/posts/20110624_blogger_pod_androd/</guid>
+        <description>&lt;img src="https://example.org/images/blogspot/iamqq/android_blogger.png" alt="Featured image of post Блоггер под андрод" /&gt;&lt;p&gt;Установил клиент для публикаций в Блог под андроид. Прикольно. Только набирать на экранной клавиатуре не очень удобно.&lt;/p&gt;
 &lt;p&gt;Еще, по ходу набора выяснилось, чтобы они корежит текст при использовании форматирования.&lt;/p&gt;
 &lt;p&gt;И посты с картинками с трудом отправляются по нашим телефонным сетям.&lt;/p&gt;
 &lt;p&gt;Но все равно, этот гораздо удобнее чем писать через мобильный браузер.&lt;/p&gt;
@@ -48,21 +29,11 @@
         </item>
         <item>
         <title>Motorola Milestone</title>
-        <link>http://localhost:1313/posts/20101116_motorola_milestone/</link>
+        <link>https://example.org/posts/20101116_motorola_milestone/</link>
         <pubDate>Tue, 16 Nov 2010 03:11:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/20101116_motorola_milestone/</guid>
-        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/motorola_milestone.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;motorola_milestone.jpg&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
+        <guid>https://example.org/posts/20101116_motorola_milestone/</guid>
+        <description>&lt;img src="https://example.org/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
 &lt;p&gt;Самое первое впечатление - это не телефон! Чтобы позвонить с голого аппарата требуется не менее четырех действий. Да еще поиск номера - чистое листание списка контактов. Да, со временем частоиспользуемые контакты выводятся в виджеты, ставятся альтернативные программы звонилки и жизнь налаживается. Хотя универсальность аппарата лезет из всех щелей.&lt;/p&gt;
 &lt;p&gt;-Вы его выбрали? А вот все его реквизиты для связи&lt;/p&gt;
 &lt;p&gt;-Позвонить или связаться по скайпу?&lt;/p&gt;

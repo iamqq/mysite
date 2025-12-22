@@ -1,10 +1,10 @@
 +++
 title = "Pre-Intermediate"
-description = "Вот так, за пол часа прошел тестирование, выяснил, что нахожусь между Elementary и Pre-Intermediate, пошел на тестовое занятие на Pre-Intermediate и теперь по понедельникам и четвергам у меня английский."
+description = "Вот так, за пол часа прошел тестирование, выяснил, что нахожусь между Elementary и Pre-Intermediate, пошел на тестовое занятие на Pre-Intermediate и теперь по..."
 
 date = "2011-09-19T16:01:00Z"
 draft = false
-tags = ['ucheba']
+tags = ['Учеба']
 +++
 
 Вот так, за пол часа прошел тестирование, выяснил, что нахожусь между Elementary и Pre-Intermediate, пошел на тестовое занятие на Pre-Intermediate и теперь по понедельникам и четвергам у меня английский.

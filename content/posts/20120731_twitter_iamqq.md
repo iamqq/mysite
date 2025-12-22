@@ -1,6 +1,6 @@
 +++
 title = "Twitter / iamqq"
-description = "h1 a:hover {background-color:#888;color:#fff ! important;}                          div#emailbody table#itemcontentlist tr td div ul {                                         list-style-type:square;                                         padding-left:1em;                         }               ..."
+description = "h1 a:hover {background-color:#888;color:#fff ! important;} div#emailbody table#itemcontentlist tr td div ul { list-style-type:square; padding-left:1em; }..."
 
 date = "2012-07-31T08:38:00Z"
 draft = false

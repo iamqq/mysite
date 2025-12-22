@@ -1,0 +1,4 @@
+/* Hide post description (subtitle) on single article pages to avoid duplication with content */
+.article-page .article-details .article-title-wrapper .article-subtitle {
+    display: none;
+}

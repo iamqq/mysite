@@ -2,296 +2,296 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on My New Hugo Site</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://example.org/tags/</link>
         <description>Recent content in Tags on My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 09 Jan 2023 02:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>It</title>
-        <link>http://localhost:1313/tags/it/</link>
+        <lastBuildDate>Mon, 09 Jan 2023 02:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>IT</title>
+        <link>https://example.org/tags/it/</link>
         <pubDate>Mon, 09 Jan 2023 02:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/it/</guid>
+        <guid>https://example.org/tags/it/</guid>
         <description></description>
         </item>
         <item>
-        <title>Programmirovanie</title>
-        <link>http://localhost:1313/tags/programmirovanie/</link>
+        <title>программирование</title>
+        <link>https://example.org/tags/programming/</link>
         <pubDate>Mon, 13 Mar 2017 08:40:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/programmirovanie/</guid>
+        <guid>https://example.org/tags/programming/</guid>
         <description></description>
         </item>
         <item>
-        <title>Pestnya</title>
-        <link>http://localhost:1313/tags/pestnya/</link>
+        <title>пестня</title>
+        <link>https://example.org/tags/song/</link>
         <pubDate>Wed, 08 Feb 2017 19:36:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/pestnya/</guid>
+        <guid>https://example.org/tags/song/</guid>
         <description></description>
         </item>
         <item>
-        <title>Zdorove</title>
-        <link>http://localhost:1313/tags/zdorove/</link>
+        <title>здоровье</title>
+        <link>https://example.org/tags/health/</link>
         <pubDate>Mon, 27 Aug 2012 03:03:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/zdorove/</guid>
+        <guid>https://example.org/tags/health/</guid>
         <description></description>
         </item>
         <item>
-        <title>Pohod</title>
-        <link>http://localhost:1313/tags/pohod/</link>
+        <title>поход</title>
+        <link>https://example.org/tags/pohod/</link>
         <pubDate>Wed, 01 Aug 2012 05:04:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/pohod/</guid>
+        <guid>https://example.org/tags/pohod/</guid>
         <description></description>
         </item>
         <item>
-        <title>Puteshestviya</title>
-        <link>http://localhost:1313/tags/puteshestviya/</link>
+        <title>путешествия</title>
+        <link>https://example.org/tags/travel/</link>
         <pubDate>Wed, 01 Aug 2012 05:04:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/puteshestviya/</guid>
+        <guid>https://example.org/tags/travel/</guid>
         <description></description>
         </item>
         <item>
-        <title>Karta_mira</title>
-        <link>http://localhost:1313/tags/karta_mira/</link>
+        <title>карта мира</title>
+        <link>https://example.org/tags/world_map/</link>
         <pubDate>Tue, 31 Jul 2012 18:25:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/karta_mira/</guid>
+        <guid>https://example.org/tags/world_map/</guid>
         <description></description>
         </item>
         <item>
-        <title>Android</title>
-        <link>http://localhost:1313/tags/android/</link>
+        <title>android</title>
+        <link>https://example.org/tags/android/</link>
         <pubDate>Tue, 31 Jul 2012 15:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/android/</guid>
+        <guid>https://example.org/tags/android/</guid>
         <description></description>
         </item>
         <item>
-        <title>Gadzhety</title>
-        <link>http://localhost:1313/tags/gadzhety/</link>
+        <title>гаджеты</title>
+        <link>https://example.org/tags/gadgets/</link>
         <pubDate>Tue, 31 Jul 2012 15:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/gadzhety/</guid>
+        <guid>https://example.org/tags/gadgets/</guid>
         <description></description>
         </item>
         <item>
-        <title>Avtomobil</title>
-        <link>http://localhost:1313/tags/avtomobil/</link>
+        <title>Автомобиль</title>
+        <link>https://example.org/tags/car/</link>
         <pubDate>Tue, 31 Jul 2012 08:36:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/avtomobil/</guid>
+        <guid>https://example.org/tags/car/</guid>
         <description></description>
         </item>
         <item>
-        <title>Wish</title>
-        <link>http://localhost:1313/tags/wish/</link>
+        <title>wish</title>
+        <link>https://example.org/tags/wish/</link>
         <pubDate>Fri, 27 Jul 2012 07:36:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/wish/</guid>
+        <guid>https://example.org/tags/wish/</guid>
         <description></description>
         </item>
         <item>
-        <title>Rabota</title>
-        <link>http://localhost:1313/tags/rabota/</link>
+        <title>SAP R/3</title>
+        <link>https://example.org/tags/sap_r3/</link>
         <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/rabota/</guid>
+        <guid>https://example.org/tags/sap_r3/</guid>
         <description></description>
         </item>
         <item>
-        <title>Sap_r3</title>
-        <link>http://localhost:1313/tags/sap_r3/</link>
+        <title>работа</title>
+        <link>https://example.org/tags/work/</link>
         <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/sap_r3/</guid>
+        <guid>https://example.org/tags/work/</guid>
         <description></description>
         </item>
         <item>
-        <title>Ucheba</title>
-        <link>http://localhost:1313/tags/ucheba/</link>
+        <title>Учеба</title>
+        <link>https://example.org/tags/ucheba/</link>
         <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/ucheba/</guid>
+        <guid>https://example.org/tags/ucheba/</guid>
         <description></description>
         </item>
         <item>
-        <title>Uem</title>
-        <link>http://localhost:1313/tags/uem/</link>
+        <title>УЭМ</title>
+        <link>https://example.org/tags/uem/</link>
         <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/uem/</guid>
+        <guid>https://example.org/tags/uem/</guid>
         <description></description>
         </item>
         <item>
-        <title>Podarki</title>
-        <link>http://localhost:1313/tags/podarki/</link>
+        <title>подарки</title>
+        <link>https://example.org/tags/podarki/</link>
         <pubDate>Fri, 29 Jun 2012 05:46:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/podarki/</guid>
+        <guid>https://example.org/tags/podarki/</guid>
         <description></description>
         </item>
         <item>
-        <title>Doroga_domoj</title>
-        <link>http://localhost:1313/tags/doroga_domoj/</link>
+        <title>дорога домой</title>
+        <link>https://example.org/tags/road_home/</link>
         <pubDate>Thu, 28 Jun 2012 10:05:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/doroga_domoj/</guid>
+        <guid>https://example.org/tags/road_home/</guid>
         <description></description>
         </item>
         <item>
-        <title>Mesta</title>
-        <link>http://localhost:1313/tags/mesta/</link>
+        <title>места</title>
+        <link>https://example.org/tags/mesta/</link>
         <pubDate>Thu, 28 Jun 2012 10:05:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/mesta/</guid>
+        <guid>https://example.org/tags/mesta/</guid>
         <description></description>
         </item>
         <item>
-        <title>Filosofiya</title>
-        <link>http://localhost:1313/tags/filosofiya/</link>
+        <title>философия</title>
+        <link>https://example.org/tags/filosofiya/</link>
         <pubDate>Mon, 25 Jun 2012 08:45:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/filosofiya/</guid>
+        <guid>https://example.org/tags/filosofiya/</guid>
         <description></description>
         </item>
         <item>
-        <title>Video</title>
-        <link>http://localhost:1313/tags/video/</link>
+        <title>видео</title>
+        <link>https://example.org/tags/video/</link>
         <pubDate>Tue, 19 Jun 2012 17:58:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/video/</guid>
+        <guid>https://example.org/tags/video/</guid>
         <description></description>
         </item>
         <item>
-        <title>Domashnie_dela</title>
-        <link>http://localhost:1313/tags/domashnie_dela/</link>
+        <title>Домашние дела</title>
+        <link>https://example.org/tags/household_chores/</link>
         <pubDate>Thu, 14 Jun 2012 07:04:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/domashnie_dela/</guid>
+        <guid>https://example.org/tags/household_chores/</guid>
         <description></description>
         </item>
         <item>
-        <title>Krasivo</title>
-        <link>http://localhost:1313/tags/krasivo/</link>
+        <title>красиво</title>
+        <link>https://example.org/tags/krasivo/</link>
         <pubDate>Sat, 09 Jun 2012 07:33:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/krasivo/</guid>
+        <guid>https://example.org/tags/krasivo/</guid>
         <description></description>
         </item>
         <item>
-        <title>Zhivnost</title>
-        <link>http://localhost:1313/tags/zhivnost/</link>
+        <title>живность</title>
+        <link>https://example.org/tags/animals/</link>
         <pubDate>Sat, 09 Jun 2012 05:10:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/zhivnost/</guid>
+        <guid>https://example.org/tags/animals/</guid>
         <description></description>
         </item>
         <item>
-        <title>Kvinta</title>
-        <link>http://localhost:1313/tags/kvinta/</link>
+        <title>квинта</title>
+        <link>https://example.org/tags/kvinta/</link>
         <pubDate>Mon, 19 Sep 2011 15:55:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/kvinta/</guid>
+        <guid>https://example.org/tags/kvinta/</guid>
         <description></description>
         </item>
         <item>
-        <title>Nigerijskie_pisma</title>
-        <link>http://localhost:1313/tags/nigerijskie_pisma/</link>
+        <title>нигерийские письма</title>
+        <link>https://example.org/tags/nigerian_scam/</link>
         <pubDate>Wed, 06 Jul 2011 07:09:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/nigerijskie_pisma/</guid>
+        <guid>https://example.org/tags/nigerian_scam/</guid>
         <description></description>
         </item>
         <item>
-        <title>Google</title>
-        <link>http://localhost:1313/tags/google/</link>
+        <title>Google&#43;</title>
+        <link>https://example.org/tags/google/</link>
         <pubDate>Tue, 05 Jul 2011 07:44:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/google/</guid>
+        <guid>https://example.org/tags/google/</guid>
         <description></description>
         </item>
         <item>
-        <title>Filmy</title>
-        <link>http://localhost:1313/tags/filmy/</link>
+        <title>фильмы</title>
+        <link>https://example.org/tags/filmy/</link>
         <pubDate>Wed, 22 Jun 2011 09:33:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/filmy/</guid>
+        <guid>https://example.org/tags/filmy/</guid>
         <description></description>
         </item>
         <item>
-        <title>Televizor</title>
-        <link>http://localhost:1313/tags/televizor/</link>
+        <title>wii</title>
+        <link>https://example.org/tags/wii/</link>
         <pubDate>Mon, 11 Apr 2011 04:21:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/televizor/</guid>
+        <guid>https://example.org/tags/wii/</guid>
         <description></description>
         </item>
         <item>
-        <title>Wii</title>
-        <link>http://localhost:1313/tags/wii/</link>
+        <title>телевизор</title>
+        <link>https://example.org/tags/tv/</link>
         <pubDate>Mon, 11 Apr 2011 04:21:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/wii/</guid>
+        <guid>https://example.org/tags/tv/</guid>
         <description></description>
         </item>
         <item>
-        <title>Muzyka</title>
-        <link>http://localhost:1313/tags/muzyka/</link>
+        <title>музыка</title>
+        <link>https://example.org/tags/muzyka/</link>
         <pubDate>Thu, 24 Mar 2011 16:45:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/muzyka/</guid>
+        <guid>https://example.org/tags/muzyka/</guid>
         <description></description>
         </item>
         <item>
-        <title>S_dnem_rozhdeniya</title>
-        <link>http://localhost:1313/tags/s_dnem_rozhdeniya/</link>
+        <title>с днем рождения</title>
+        <link>https://example.org/tags/s_dnem_rozhdeniya/</link>
         <pubDate>Thu, 17 Mar 2011 04:43:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/s_dnem_rozhdeniya/</guid>
+        <guid>https://example.org/tags/s_dnem_rozhdeniya/</guid>
         <description></description>
         </item>
         <item>
-        <title>Bugagashenki</title>
-        <link>http://localhost:1313/tags/bugagashenki/</link>
+        <title>бугагашеньки</title>
+        <link>https://example.org/tags/fun/</link>
         <pubDate>Wed, 23 Feb 2011 19:07:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/bugagashenki/</guid>
+        <guid>https://example.org/tags/fun/</guid>
         <description></description>
         </item>
         <item>
-        <title>Kofe</title>
-        <link>http://localhost:1313/tags/kofe/</link>
+        <title>кофе</title>
+        <link>https://example.org/tags/kofe/</link>
         <pubDate>Tue, 25 Jan 2011 10:16:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/kofe/</guid>
+        <guid>https://example.org/tags/kofe/</guid>
         <description></description>
         </item>
         <item>
-        <title>Matematika</title>
-        <link>http://localhost:1313/tags/matematika/</link>
+        <title>математика</title>
+        <link>https://example.org/tags/matematika/</link>
         <pubDate>Mon, 29 Nov 2010 07:43:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/matematika/</guid>
+        <guid>https://example.org/tags/matematika/</guid>
         <description></description>
         </item>
         <item>
         <title>Ekz</title>
-        <link>http://localhost:1313/tags/ekz/</link>
+        <link>https://example.org/tags/ekz/</link>
         <pubDate>Tue, 16 Nov 2010 03:11:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/ekz/</guid>
+        <guid>https://example.org/tags/ekz/</guid>
         <description></description>
         </item>
         <item>
-        <title>Klinika</title>
-        <link>http://localhost:1313/tags/klinika/</link>
+        <title>клиника</title>
+        <link>https://example.org/tags/clinic/</link>
         <pubDate>Sat, 04 Sep 2010 03:49:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/klinika/</guid>
+        <guid>https://example.org/tags/clinic/</guid>
         <description></description>
         </item>
         

@@ -1,10 +1,10 @@
 +++
 title = "ЯНСЕН КУКАНСЕН - \"Сирожене пирожене\""
-description = ""
+description = "ЯНСЕН КУКАНСЕН - \\"
 
 date = "2010-10-28T06:48:00Z"
 draft = false
-tags = ['video']
+tags = ['видео']
 +++
 
 

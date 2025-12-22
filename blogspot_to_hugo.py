@@ -37,7 +37,28 @@ TRANSLATION_MAP = {
     "Автомобильное": "automotive",
     "Fitbit Ultra": "fitbit_ultra",
     "Прилетели в Москву": "arrived_in_moscow",
-    "Поехали": "lets_go"
+    "Поехали": "lets_go",
+    "Телевизор": "televizor"
+}
+
+# Tag Translation Map (Original Tag -> English Slug)
+TAG_TRANSLATION_MAP = {
+    "телевизор": "tv",
+    "Домашние дела": "household_chores",
+    "Автомобиль": "car",
+    "путешествия": "travel",
+    "здоровье": "health",
+    "работа": "work",
+    "видео": "video",
+    "гаджеты": "gadgets",
+    "клиника": "clinic",
+    "живность": "animals",
+    "дорога домой": "road_home",
+    "карта мира": "world_map",
+    "пестня": "song",
+    "бугагашеньки": "fun",
+    "нигерийские письма": "nigerian_scam",
+    "программирование": "programming"
 }
 
 def clean_filename(title):
@@ -123,23 +144,28 @@ def html_to_markdown(html_content, blog_img_dir):
     
     return text.strip()
 
-def get_first_paragraph(markdown_body):
+def get_summary(markdown_body):
     # Remove images
     text = re.sub(r'!\[.*?\]\(.*?\)', '', markdown_body)
-    # Remove links but keep text [text](url) -> text
+    # Remove URLs from links but keep text
     text = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', text)
-    # Remove other markdown formatting
-    text = text.replace('**', '').replace('*', '').replace('`', '')
+    # Remove markdown bold/italic
+    text = text.replace('**', '').replace('*', '')
     
-    # Split by double newline or single newline if double isn't used
-    paragraphs = [p.strip() for p in text.split('\n') if p.strip()]
-    if not paragraphs:
-        return ""
+    # Clean up whitespace
+    text = re.sub(r'\n+', ' ', text).strip()
     
-    summary = paragraphs[0]
-    if len(summary) > 300:
-        summary = summary[:297] + "..."
-    return summary
+    # Try to take first ~200 chars, but end at a sentence boundary if possible
+    if len(text) <= 200:
+        return text
+        
+    summary = text[:200]
+    # Try to find last sentence end in the first 200 chars
+    last_dot = max(summary.rfind('.'), summary.rfind('!'), summary.rfind('?'))
+    if last_dot > 100:
+        return text[:last_dot+1]
+        
+    return summary.rsplit(' ', 1)[0] + "..."
 
 def process_blog(blog_conf):
     feed_path = os.path.join(EXT_DIR, blog_conf["path"])
@@ -194,12 +220,21 @@ def process_blog(blog_conf):
         content_elem = entry.find('atom:content', NS)
         html_body = content_elem.text if content_elem is not None else ""
         
-        # Tags transliteration
-        tags = []
+        # Tags processing
+        processed_tags = []
         for cat in entry.findall('atom:category', NS):
             term = cat.get('term')
             if term and not term.startswith('tag:blogger.com'):
-                tags.append(clean_filename(term))
+                tag_title = term
+                tag_slug = TAG_TRANSLATION_MAP.get(tag_title) or clean_filename(tag_title)
+                
+                processed_tags.append(tag_title)
+                
+                # Create taxonomy metadata to force English URL
+                tag_meta_dir = os.path.join("content/tags", tag_title.lower())
+                os.makedirs(tag_meta_dir, exist_ok=True)
+                with open(os.path.join(tag_meta_dir, "_index.md"), "w", encoding="utf-8") as f:
+                    f.write(f'---\ntitle: "{tag_title}"\nurl: "/tags/{tag_slug}/"\n---\n')
         
         # Slug/Filename
         if title in TRANSLATION_MAP:
@@ -220,13 +255,19 @@ def process_blog(blog_conf):
         filepath = os.path.join(OUTPUT_POSTS_DIR, filename)
         
         body = html_to_markdown(html_body, blog_conf["img_sub"])
-        description = get_first_paragraph(body)
         
         # Extract featured image (the first image in the post)
         featured_image = ""
         img_match = re.search(r'!\[.*?\]\((.*?)\)', body)
         if img_match:
             featured_image = img_match.group(1)
+            # Remove the first occurrence of the featured image from the body
+            # We escape the image path for use in regex
+            escaped_img_path = re.escape(featured_image)
+            img_pattern = rf'!\[.*?\]\({escaped_img_path}\)'
+            body = re.sub(img_pattern, '', body, count=1).strip()
+
+        description = get_summary(body)
         
         # Escape double quotes for TOML
         escaped_title = title.replace('"', '\\"')
@@ -240,7 +281,7 @@ description = "{escaped_description}"
 {image_fm}
 date = "{date_iso}"
 draft = false
-tags = {tags}
+tags = {processed_tags}
 +++
 
 {body}

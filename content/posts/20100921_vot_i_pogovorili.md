@@ -1,6 +1,6 @@
 +++
 title = "Вот и поговорили"
-description = "[20:32:28] Ekz: пап?[21:41:20] sergey.ryazanov: пап-пап[21:41:40] sergey.ryazanov: пап пап, пап парапа пап пап[21:41:56] sergey.ryazanov: па пара пап пап пап[21:42:05] sergey.ryazanov: пап пара па па"
+description = "[20:32:28] Ekz: пап?[21:41:20] sergey.ryazanov: пап-пап[21:41:40] sergey.ryazanov: пап пап, пап парапа пап пап[21:41:56] sergey.ryazanov: па пара пап пап..."
 
 date = "2010-09-21T16:54:00Z"
 draft = false
