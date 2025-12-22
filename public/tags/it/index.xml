@@ -1,65 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>IT on My New Hugo Site</title>
-        <link>https://example.org/tags/it/</link>
-        <description>Recent content in IT on My New Hugo Site</description>
+        <title>IT on Sergey Ryazanov</title>
+        <link>https://mysite-ci3.pages.dev/tags/it/</link>
+        <description>Recent content in IT on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Mon, 09 Jan 2023 02:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/it/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>ru-ru</language>
+        <lastBuildDate>Mon, 09 Jan 2023 02:00:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/it/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Передача температуры хост системы Proxmox  в Home Assistant</title>
-        <link>https://example.org/posts/20230109_proxmox_temperature_home_assistant/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20230109_proxmox_temperature_home_assistant/</link>
         <pubDate>Mon, 09 Jan 2023 02:00:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20230109_proxmox_temperature_home_assistant/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20230109_proxmox_temperature_home_assistant/</guid>
         <description>&lt;p&gt;В качестве домашнего сервера у меня развернут Proxmox на старом ноутбуке  и в нем создана виртуальная машина с Home Assistant (НА) по вот этим &lt;a class=&#34;link&#34; href=&#34;https://github.com/tteck/Proxmox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;инструкциям&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;На ноутбуке помирает вентилятор, но в целом и без него сервер не перегревается, но мне все же захотелось  контролировать температуру моего &amp;ldquo;сервера&amp;rdquo; и как-то влиять на нее.&lt;/p&gt;
 &lt;p&gt;Контролировать мне удобнее в HA, но виртуальная машина не видит показаний температуры хост системы.&lt;/p&gt;
 &lt;p&gt;На самом сервере   я контролирую температуру командой :&lt;/p&gt;
-&lt;p&gt;sensors&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sensors  
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Не помню, делал ли я что-то для установки этой программы или она по умолчаню присутсвует в системе, но инструкций по ее установке полно и если у вас ее нет, найдите и установите по инструкции.&lt;/p&gt;
 &lt;p&gt;Примерно так выглядит вывод команды (выделил интересующую меня температуру):&lt;/p&gt;
-&lt;p&gt;coretemp-isa-0000
-Adapter: ISA adapter&lt;br&gt;
-Package id 0: &lt;strong&gt;+52.0&lt;/strong&gt;°C (high = +72.0°C, crit = +90.0°C)&lt;br&gt;
-Core 0:    +52.0°C (high = +72.0°C, crit = +90.0°C)&lt;br&gt;
+&lt;pre&gt;&lt;code&gt;coretemp-isa-0000
+Adapter: ISA adapter  
+Package id 0: +52.0°C (high = +72.0°C, crit = +90.0°C)  
+Core 0:    +52.0°C (high = +72.0°C, crit = +90.0°C)  
 Core 1:    +50.0°C (high = +72.0°C, crit = +90.0°C)
-&amp;hellip;.&lt;/p&gt;
+....
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Почитав help к команде sensors обнаружил у нее приятный ключик -j - выводить в json. В HA установлен add-on &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://github.com/home-assistant/addons/tree/master/samba&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Samba share&lt;/a&gt;&amp;rdquo;. В итоге решил периодический опрашивать температуру через cron, скидывать через smb протокол в HA и там создать сенсор с показаниями интересующей меня температуры через интеграцию file&lt;/p&gt;
 &lt;p&gt;Вот окончательный скрипт, который я запланировал на ежеминутное исполнение в cron-е хост системы:&lt;/p&gt;
-&lt;p&gt;sensors -j | tr -d &amp;lsquo;\n&amp;rsquo; &amp;gt;  sensors.json
-smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;
+&lt;pre&gt;&lt;code&gt;sensors -j | tr -d &#39;\n&#39; &amp;gt;  sensors.json
+smbclient //192.168.x.x/config -U user%password --directory tmp -c &#39;put sensors.json&#39;
 sleep 15
-sensors -j | tr -d &amp;lsquo;\n&amp;rsquo; &amp;gt;  sensors.json
-smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;
+sensors -j | tr -d &#39;\n&#39; &amp;gt;  sensors.json
+smbclient //192.168.x.x/config -U user%password --directory tmp -c &#39;put sensors.json&#39;
 sleep 15
-sensors -j | tr -d &amp;lsquo;\n&amp;rsquo; &amp;gt;  sensors.json
-smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;
+sensors -j | tr -d &#39;\n&#39; &amp;gt;  sensors.json
+smbclient //192.168.x.x/config -U user%password --directory tmp -c &#39;put sensors.json&#39;
 sleep 15
-sensors -j | tr -d &amp;lsquo;\n&amp;rsquo; &amp;gt;  sensors.json
-smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;&lt;/p&gt;
+sensors -j | tr -d &#39;\n&#39; &amp;gt;  sensors.json
+smbclient //192.168.x.x/config -U user%password --directory tmp -c &#39;put sensors.json&#39;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Пояснения к коду:&lt;/p&gt;
 &lt;p&gt;sensors -j - формирую json  с информацией о температуре сервераtr -d &amp;lsquo;\n&amp;rsquo; -  убираю все переносы строк, т.к. интеграция file в HA читает только последнюю строку, т.е. мне нужно получить json  в одну строку&amp;gt;  sensors.json сохраняю json  в локальный файл(полная перезапись)smbclient //192.168.x.x/config -U user%password &amp;ndash;directory tmp -c &amp;lsquo;put sensors.json&amp;rsquo;  - закидываю файл с json в HA в папку /config/tmpsleep 15 - жду 15 секунд  - зачем? -  дело в том, что через cron можно запланировать выполнение скрипта не чаше раза в минуту, а мне же хотелось получать показания  чуть чаще, поэтому я еще три раза повторил интересующий меня блок с засыпанием в промежутке на 15 секунд, т.е. файл в HA будет обновляться примерно каждые 15 секундТеперь как создан сенсор в HA? В configuration.yaml (или куда вы там вписываете свои сенсоры) добавьте:&lt;/p&gt;
-&lt;p&gt;sensor:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;platform: file
-name: server_temperature
-file_path: /config/tmp/sensors.json
-value_template: &amp;ldquo;{{ value_json[&amp;lsquo;coretemp-isa-0000&amp;rsquo;][&amp;lsquo;Package id 0&amp;rsquo;][&amp;rsquo;temp1_input&amp;rsquo;] }}&amp;rdquo;
-unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;sensor:  
+  - platform: file
+    name: server_temperature
+    file_path: /config/tmp/sensors.json
+    value_template: &amp;quot;{{ value_json[&#39;coretemp-isa-0000&#39;][&#39;Package id 0&#39;][&#39;temp1_input&#39;] }}&amp;quot;
+    unit_of_measurement: &amp;quot;°C&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Дальше я направил на ноутбук простой вентилятор и включаю его через валявшуюся у меня умную розетку при достижении критической температуры (см &lt;a class=&#34;link&#34; href=&#34;https://www.home-assistant.io/integrations/generic_thermostat/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;generic termostat&lt;/a&gt;)&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Не доверяйте программистам</title>
-        <link>https://example.org/posts/20121004_dont_trust_programmers/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20121004_dont_trust_programmers/</link>
         <pubDate>Thu, 04 Oct 2012 08:44:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20121004_dont_trust_programmers/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20121004_dont_trust_programmers/</guid>
         <description>&lt;p&gt;Предыстория.&lt;/p&gt;
 &lt;p&gt;В связи с не заглохшим желанием узнавать что-нибудь новое, по средам я посещаю &lt;a class=&#34;link&#34; href=&#34;http://www.it-people.ru/obrazovatelnye-programmy/otkrytye-seminary-po-sredam/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;открытые семинары it-people&lt;/a&gt;. Вот и вчера пришел выпить молочного коктейля (дурацкая тяга к углеводам) и послушать про интернет магазины. В ходе обсуждения озвучили мысль как &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/gerasimovich_yu/status/253514155498287105&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -77,11 +79,11 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>Своими руками</title>
-        <link>https://example.org/posts/20120614_svoimi_rukami/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20120614_svoimi_rukami/</link>
         <pubDate>Thu, 14 Jun 2012 12:58:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20120614_svoimi_rukami/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/button.png" alt="Featured image of post Своими руками" /&gt;&lt;p&gt;Добавил две кнопки на боковой панели - Яндекс деньги и Dropbox refferal. Понятно что никто не ткнет, ну а вдруг! Жажда халявы неискоренима.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20120614_svoimi_rukami/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/button.png" alt="Featured image of post Своими руками" /&gt;&lt;p&gt;Добавил две кнопки на боковой панели - Яндекс деньги и Dropbox refferal. Понятно что никто не ткнет, ну а вдруг! Жажда халявы неискоренима.&lt;/p&gt;
 &lt;p&gt;Кнопка Яндекс денег сгенерирована через стандартный &lt;a class=&#34;link&#34; href=&#34;https://money.yandex.ru/embed/quickpay/small.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;сервис&lt;/a&gt; , Мучился только с ее положением на странице. По умолчанию она оказывалась сдвинута вправо на 60px. С непривычки пытался применить все подряд - начиная со стилей к полю внутри IFRAME и заканчивая JavaScript. Узнал при этом много нового (лишь бы не забыть как обычно :) ). В итоге обернул в div, который сдвинул куда надо.&lt;/p&gt;
 &lt;p&gt;Потом пытался нарисовать подобную кнопку для dropbox. Понятно, что так же красиво не получилось, но хоть что-то для начала&amp;hellip;.&lt;/p&gt;
@@ -89,30 +91,30 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>Google&#43;</title>
-        <link>https://example.org/posts/20110705_google/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110705_google/</link>
         <pubDate>Tue, 05 Jul 2011 07:44:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110705_google/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110705_google/</guid>
         <description>&lt;p&gt;Вот и я получил инвайт. Стоило только попросить в комментариях к описанию процесса раздачи инвайтов в Google+ в Google Buzz :).  По этому же описанию раздал инвайты всем в семье. Пытаюсь понять - что это такое. Красивенько так. Только с моей социапатичностью - любая социальная сеть вызывает больше интерес, как техническая реализация.&lt;/p&gt;
 &lt;p&gt;Да, вебкамера в чате заработала под ubuntu, но попробовать чат пока не с кем.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Google&#43;</title>
-        <link>https://example.org/posts/20110701_google_2/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110701_google_2/</link>
         <pubDate>Fri, 01 Jul 2011 07:58:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110701_google_2/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110701_google_2/</guid>
         <description>&lt;p&gt;Запросил себе инвайт для &lt;a class=&#34;link&#34; href=&#34;http://plus.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google+&lt;/a&gt;. Все вокруг в твиттере уже пишут, что получили его тем или иным способом. Жду.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Не смог</title>
-        <link>https://example.org/posts/20110209_ne_smog/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110209_ne_smog/</link>
         <pubDate>Wed, 09 Feb 2011 18:23:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110209_ne_smog/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110209_ne_smog/</guid>
         <description>&lt;p&gt;Приезжали SAP-овцы. Обсуждали систему оперативного учета. Все идет к тому, что будет PP в отдельном манданте. По ходу разговора всплыло обсуждение внедрения SAP на КУМЗ-е и ВСМПО. Посоветовали мне эти проекты в резюме не включать :) (хотя говорят что КУМЗ с нового года запустился. По этому поводу вспоминается программистский анекдот:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -133,19 +135,19 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>Не работает ноутбук</title>
-        <link>https://example.org/posts/20110203_ne_rabotaet_noutbuk/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110203_ne_rabotaet_noutbuk/</link>
         <pubDate>Thu, 03 Feb 2011 12:55:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110203_ne_rabotaet_noutbuk/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110203_ne_rabotaet_noutbuk/</guid>
         <description>&lt;p&gt;Пришел в квартиру. Давай смотреть кто там в интернете не прав. Вожу пальцем по тачпаду, курсор бегает, но ничего не кликается. Ну думаю, либо из за долгого простоя что-то глюкано, либо что-то в скачанных в обед обновлениях было. Перезагрузился. Сходил на кухню. Пришел. Все двигается и кликается. Сел на диван. Звонок по телефону - поговорил - снова не кликается! Пошел искать мышь (а вдруг ею будет кликаться!). На кухне нет, на кресле нет. Поднимаю одеяло на диване - вот она! Под одеялом, на том месте где я сидел! Ага! Кликнул тачпадом - работает! Т.е. я просто сидел на ней и зажимал кнопки сквозь одеяло - вот и все проблемы :)&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Регламент ведения разработок УГМК</title>
-        <link>https://example.org/posts/20110111_reglament_vedeniya_razrabotok_ugmk/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110111_reglament_vedeniya_razrabotok_ugmk/</link>
         <pubDate>Tue, 11 Jan 2011 13:47:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110111_reglament_vedeniya_razrabotok_ugmk/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110111_reglament_vedeniya_razrabotok_ugmk/</guid>
         <description>&lt;p&gt;&lt;strong&gt;Что-то из этого привычно, а к чему-то и надо привыкать:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Внутренние объекты именуются в соответствии со следующими правилами:&lt;/em&gt;
 &lt;em&gt;&lt;strong&gt;Селекционный экран&lt;/strong&gt;&lt;/em&gt;*:** *&lt;/p&gt;
@@ -187,10 +189,10 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>Расшаривание фотографий</title>
-        <link>https://example.org/posts/20101124_rassharivanie_fotografij/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20101124_rassharivanie_fotografij/</link>
         <pubDate>Wed, 24 Nov 2010 06:12:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20101124_rassharivanie_fotografij/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20101124_rassharivanie_fotografij/</guid>
         <description>&lt;p&gt;В один день два сервиса:&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://dropmocks.com/mKHYM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://dropmocks.com/mKHYM&lt;/a&gt;&lt;/p&gt;
@@ -202,21 +204,21 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>Панель blogger</title>
-        <link>https://example.org/posts/20101119_panel_blogger/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20101119_panel_blogger/</link>
         <pubDate>Fri, 19 Nov 2010 05:39:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20101119_panel_blogger/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20101119_panel_blogger/</guid>
         <description>&lt;p&gt;Зашел утром в свой блог и не обнаружил панели и списка читаемых мной блогов. Давай искать что произошло. Посмотрел дизайн. Проверил что виджеты нужные подключены. Поискал что-нибудь про панель в интернете. Ничего.
 Отвлекся от всего этого и через какое-то время вспомнил - я же AdBlock вчера перенастраивал. Проверил - точно - ОН. Ну все - панель найдена!&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Motorola Milestone</title>
-        <link>https://example.org/posts/20101116_motorola_milestone/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20101116_motorola_milestone/</link>
         <pubDate>Tue, 16 Nov 2010 03:11:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20101116_motorola_milestone/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20101116_motorola_milestone/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
 &lt;p&gt;Самое первое впечатление - это не телефон! Чтобы позвонить с голого аппарата требуется не менее четырех действий. Да еще поиск номера - чистое листание списка контактов. Да, со временем частоиспользуемые контакты выводятся в виджеты, ставятся альтернативные программы звонилки и жизнь налаживается. Хотя универсальность аппарата лезет из всех щелей.&lt;/p&gt;
 &lt;p&gt;-Вы его выбрали? А вот все его реквизиты для связи&lt;/p&gt;
 &lt;p&gt;-Позвонить или связаться по скайпу?&lt;/p&gt;
@@ -228,10 +230,10 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>Как говорил АА</title>
-        <link>https://example.org/posts/20101112_kak_govoril_aa/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20101112_kak_govoril_aa/</link>
         <pubDate>Fri, 12 Nov 2010 18:19:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20101112_kak_govoril_aa/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20101112_kak_govoril_aa/</guid>
         <description>&lt;p&gt;ABAP - очень поэтичный язык. Все конструкции у него в рифму:&lt;/p&gt;
 &lt;p&gt;if - endif,&lt;/p&gt;
 &lt;p&gt;loop - endloop.&lt;/p&gt;
@@ -239,29 +241,29 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>Visual C# Express. Шесть раз перезагрузись и откажись.</title>
-        <link>https://example.org/posts/20101026_visual_c_express_shest_raz_perezagruzis_i_otkazhis/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20101026_visual_c_express_shest_raz_perezagruzis_i_otkazhis/</link>
         <pubDate>Tue, 26 Oct 2010 16:11:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20101026_visual_c_express_shest_raz_perezagruzis_i_otkazhis/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20101026_visual_c_express_shest_raz_perezagruzis_i_otkazhis/</guid>
         <description>&lt;p&gt;Сегодня пытался инсталлировать вышеозначенный продукт на работе. Потребовался 3-ий сервиспак. Нашел, поставил, перегрузился(1) при этом. Начал установку Експресса. Подмонтировал образ в виртуальный сдром, который отцепился при перезагрузке(2). Пока все это разрулил пришлось еще два(3,4) раза перезагрузится.  В итоге установил. Запускаю. Пытаюсь ввести ключ. Перезагрузка(5). Еща попытка - снова перезагрузка(6). Бросил. Видимо на моем 1 гиге памяти - не судьба&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Дома на ноутбуке с 4-мя гигами под виртульной машиной (выделено 1.5 гига, но нет антивируса) - летает.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Штрихкодирование</title>
-        <link>https://example.org/posts/20101016_shtrihkodirovanie/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20101016_shtrihkodirovanie/</link>
         <pubDate>Sat, 16 Oct 2010 03:31:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20101016_shtrihkodirovanie/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20101016_shtrihkodirovanie/</guid>
         <description>&lt;p&gt;Запускается проект по отслеживанию местоположения документов, находящихся на согласовании.Чтобы в любой момент знать где находится документ и сколько он там там находится. Вообщем, чтобы документы не терялись. Внедрение задержалось, т.к. приказ о внедрении затерялся.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Ubuntu 10.10</title>
-        <link>https://example.org/posts/20101013_ubuntu_1010/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20101013_ubuntu_1010/</link>
         <pubDate>Wed, 13 Oct 2010 16:08:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20101013_ubuntu_1010/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20101013_ubuntu_1010/</guid>
         <description>&lt;p&gt;Обновился. При переключении клавиатуры, запуске Skype и еще при непонятно какой активности переставала работать мышь, иногда Alt-Tab и иногда даже кнопка выключения. Стал грешить на апгрейт. Думал, поставлю начисто - будет все нормально. Взял на работе внешний диск, т.к. решил все переразметить, а ценных файлов у меня гигов 80 (видео и образы виртуальных машин). И флешку, т.к. CD-ROM-а у меня к счастью нет, т.е. устанавливаться надо с флешки.&lt;/p&gt;
 &lt;p&gt;При сохранении выяснилось что внешний диск форматирован в fat32 и файлы более 4Гб не анего не пишутся (все три образа виртуальных машин - 5, 9 и 15 Гб). Пришлось освоить команду split .&lt;/p&gt;
 &lt;p&gt;Сохранил все что нажито непосильным трудом. Установил начисто систему. Не помогло! Пришлось гуглить подробней. Нашел ссылку на &lt;a class=&#34;link&#34; href=&#34;http://launchpadlibrarian.net/54205518/xserver-xorg-input-evdev_2.5.0%2Bgit20100822.990540fa-0ubuntu0sarvatt_i386.deb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -272,10 +274,10 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>САШКА!</title>
-        <link>https://example.org/posts/20101004_sashka/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20101004_sashka/</link>
         <pubDate>Mon, 04 Oct 2010 12:51:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20101004_sashka/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20101004_sashka/</guid>
         <description>&lt;p&gt;Тебе должно понравится! Для тебя это актуально.&lt;/p&gt;
 &lt;p&gt;p.s. Я вот что еще думаю: Может тебе статистику на свой блог прицепить? Ну, чтобы хотя бы знать как часто к тебе заходят? Если соберешься - смотри &lt;a class=&#34;link&#34; href=&#34;http://www.google.com/analytics/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://www.google.com/analytics/&lt;/a&gt;&lt;/p&gt;
@@ -283,30 +285,30 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>LoadNix</title>
-        <link>https://example.org/posts/20100928_loadnix/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100928_loadnix/</link>
         <pubDate>Tue, 28 Sep 2010 18:14:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100928_loadnix/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20100928_loadnix/</guid>
         <description>&lt;p&gt;Написал отдельную программу загрузки с двумя большими кнопками. Отправил. Пусть пробуют.&lt;/p&gt;
 &lt;p&gt;з.ы. Опять столкнулся с проблемой точек-запятых. При заливке из Excel теряется дробная часть!. Надо править.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Delphi</title>
-        <link>https://example.org/posts/20100924_delphi/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100924_delphi/</link>
         <pubDate>Fri, 24 Sep 2010 18:28:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100924_delphi/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20100924_delphi/</guid>
         <description>&lt;p&gt;На моем ноутбуке Delphi7 запускается и работает ощутимо быстрее чем на старом компьютере! И это в VirtualBox-е, который запущен из под Линукса!&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Настройка блога</title>
-        <link>https://example.org/posts/20100922_nastrojka_bloga/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100922_nastrojka_bloga/</link>
         <pubDate>Wed, 22 Sep 2010 15:50:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100922_nastrojka_bloga/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/edithtml.png" alt="Featured image of post Настройка блога" /&gt;&lt;p&gt;Все-таки профессия дает о себе знать. Не могу оставить блог со стандартным шаблоном. Возможностей подправить шрифт и фон, да добавить виджеты - мне не хватает. Охота его (блог) перестроить согласно своему мнению об удобстве и рациональном использовании места. Вот и правлю код дизайна.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20100922_nastrojka_bloga/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/edithtml.png" alt="Featured image of post Настройка блога" /&gt;&lt;p&gt;Все-таки профессия дает о себе знать. Не могу оставить блог со стандартным шаблоном. Возможностей подправить шрифт и фон, да добавить виджеты - мне не хватает. Охота его (блог) перестроить согласно своему мнению об удобстве и рациональном использовании места. Вот и правлю код дизайна.&lt;/p&gt;
 &lt;p&gt;Что же было поправлено? Ну, во первых Имя блога было перенесено вниз, в один блок с сообщениями. Зачем? А затем чтобы левый блок с виджетами поднялся к верхней границе экрана. Правда я потом вверху замутил виджет с ссылками на теги, но он гораздо меньше по высоте имени блога и представляет собой своеобразное горизонтальное меню, которому там самое место. Кроме того в этот виджет добавил ссылку на главную страницу, так что подумываю о том, чтобы вообще убрать отдельное ИМЯ БЛОГА из дизайна. И еще одно изменение, потребовавшее глубокого погружения в шаблон - ссылки навигации. Стандартно они находятся внизу блока сообщений, но меня это не устроило - добавил еще вверху  :).&lt;/p&gt;
 &lt;p&gt;Из крупного пока все.&lt;/p&gt;
 &lt;p&gt;З.Ы, Крупное имя блога - убрал!&lt;/p&gt;
@@ -314,10 +316,10 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>Facebook</title>
-        <link>https://example.org/posts/20100922_facebook/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100922_facebook/</link>
         <pubDate>Wed, 22 Sep 2010 13:37:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100922_facebook/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20100922_facebook/</guid>
         <description>&lt;p&gt;Пробую настроить трансляцию своих постов из блога прямо на стену в фейсбук. Что-то не очень получается. Как я понял, надо найти соответствующее приложение и настроить его. Во первых поиск приложений - еще тот квест! Но, в итоге разобрался. Ищем в поиске по некому тексту. Например &amp;ldquo;blog&amp;rdquo;. После того, как выпадет список найденного выбираем в левом столбце &amp;ldquo;Приложения&amp;rdquo;! И в появившемся списке пытаемся найти приложение, которое устроит вас по своей функциональности.&lt;/p&gt;
 &lt;p&gt;Я уже перебрал штук пять. И все делают что-то не то и не так. И каждый раз вопросы про разрешение доступа к данным профиля! Страшно! Один раз даже ввел в каком-то профиле пароль от аккаунта Google. Но сразу Гугл предупредил о доступе к аккаунту из другой страны (Типа всегда заходили из России, а тут вдруг из Америки) и предложил сменить пароль. Я испугался и сменил.&lt;/p&gt;
 &lt;p&gt;Вообщем пока ищу&amp;hellip;&lt;/p&gt;
@@ -326,12 +328,12 @@ unit_of_measurement: &amp;ldquo;°C&amp;rdquo;&lt;/li&gt;
         </item>
         <item>
         <title>О работе</title>
-        <link>https://example.org/posts/20100921_o_rabote/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100921_o_rabote/</link>
         <pubDate>Tue, 21 Sep 2010 04:33:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100921_o_rabote/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/cam_0474.jpg" alt="Featured image of post О работе" /&gt;&lt;p&gt;На работе запускаем отслеживание прохождения листа согласования. На листе согласования печатается штрихкод. При считывании штрихкода с документа на рабочем месте будем отмечать местоположение документа. Для экспериментов предоставили три варианта сканеров штрихкода. Тот что на гибкой ножке устанавливается в разъем клавиатуры, и при любом сбросе настроек отрубает клавиатуру. Приходится ему скармливать штрихкод, объясняющий ему, как именно он подключен&amp;hellip; Зато я его могу ориентировать почти как угодно!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.org/images/blogspot/iamqq/cam_0475.jpg&#34;
+        <guid>https://mysite-ci3.pages.dev/posts/20100921_o_rabote/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/cam_0474.jpg" alt="Featured image of post О работе" /&gt;&lt;p&gt;На работе запускаем отслеживание прохождения листа согласования. На листе согласования печатается штрихкод. При считывании штрихкода с документа на рабочем месте будем отмечать местоположение документа. Для экспериментов предоставили три варианта сканеров штрихкода. Тот что на гибкой ножке устанавливается в разъем клавиатуры, и при любом сбросе настроек отрубает клавиатуру. Приходится ему скармливать штрихкод, объясняющий ему, как именно он подключен&amp;hellip; Зато я его могу ориентировать почти как угодно!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/cam_0475.jpg&#34;
 	
 	
 	

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>здоровье on My New Hugo Site</title>
-        <link>https://example.org/tags/health/</link>
-        <description>Recent content in здоровье on My New Hugo Site</description>
+        <title>здоровье on Sergey Ryazanov</title>
+        <link>https://mysite-ci3.pages.dev/tags/health/</link>
+        <description>Recent content in здоровье on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Mon, 27 Aug 2012 03:03:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/health/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>ru-ru</language>
+        <lastBuildDate>Mon, 27 Aug 2012 03:03:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/health/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Диагностирование болезни по месту боли живота</title>
-        <link>https://example.org/posts/20120827_diagnosing_abdominal_pain/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20120827_diagnosing_abdominal_pain/</link>
         <pubDate>Mon, 27 Aug 2012 03:03:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20120827_diagnosing_abdominal_pain/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20120827_diagnosing_abdominal_pain/</guid>
         <description>&lt;p&gt;Надеюсь не пригодится, но на всякий случай оставлю здесь, т.к. прецеденты лично у меня уже были. Хотя я не очень верю в самодиагностику, а больше в самовнушение (читайте &amp;ldquo;Трое в лодке не считая собаки&amp;rdquo; про чтение медицинского справочника). Вспоминая свой случай, точно уверен, что если живот болит, то он болит весь :). Если в тот момент у меня кто-то попытался бы выяснить где болит, то он ничего бы не добился &amp;hellip;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Легкая атлетика</title>
-        <link>https://example.org/posts/20120628_legkaya_atletika/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20120628_legkaya_atletika/</link>
         <pubDate>Thu, 28 Jun 2012 10:10:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20120628_legkaya_atletika/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/img_20120627_191636.jpg" alt="Featured image of post Легкая атлетика" /&gt;&lt;p&gt;Участвовал в соревнованиях по легонькой атлетике. Первоначально соревнования планировались на вторник, я про это благополучно забыл.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20120628_legkaya_atletika/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/img_20120627_191636.jpg" alt="Featured image of post Легкая атлетика" /&gt;&lt;p&gt;Участвовал в соревнованиях по легонькой атлетике. Первоначально соревнования планировались на вторник, я про это благополучно забыл.&lt;/p&gt;
 &lt;p&gt;Мы в этот день отдавали документы на гостевую шенгенскую визу и поэтому вся семья была в Пышме/Екатеринбурге. Т.е. для совместного времяпровождения мне совсем не улыбалось участвовать в соревнованиях после работы. И вот оно счастье - гроза! Все соревнования отменились!&lt;/p&gt;
 &lt;p&gt;На следующий день вечер был абсолютно свободен, на небе светило солнышко и ничто не могло мне помешать бросить ядро и пробежать сто метров (прыгать в длину не имело никакого смысла).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.org/images/blogspot/iamqq/img_20120627_192027.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/img_20120627_192027.jpg&#34;
 	
 	
 	
@@ -43,21 +43,21 @@
         </item>
         <item>
         <title>Алекс приземлился</title>
-        <link>https://example.org/posts/20120628_aleks_prizemlilsya/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20120628_aleks_prizemlilsya/</link>
         <pubDate>Thu, 28 Jun 2012 10:05:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20120628_aleks_prizemlilsya/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/20120628_121554.jpeg" alt="Featured image of post Алекс приземлился" /&gt;&lt;p&gt;Вчера отправляли Алекса обратно домой. Потом через &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.mobiata.flighttrack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://mysite-ci3.pages.dev/posts/20120628_aleks_prizemlilsya/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/20120628_121554.jpeg" alt="Featured image of post Алекс приземлился" /&gt;&lt;p&gt;Вчера отправляли Алекса обратно домой. Потом через &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.mobiata.flighttrack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;FlightTrack&lt;/a&gt; отслеживал весь его путь. Часовую задержку в Москве, две пересадки. И вот на данный момент он уже в родном штате. Надеюсь что сразу прошла аллергия и прекратили болеть суставы. Не болей, Алекс!&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Ухо</title>
-        <link>https://example.org/posts/20120628_uho/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20120628_uho/</link>
         <pubDate>Thu, 28 Jun 2012 09:54:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20120628_uho/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/img_20120627_152306_706706.jpg" alt="Featured image of post Ухо" /&gt;&lt;p&gt;Видимо при купании вода попала в ухо и оно заболело. Даже не заболело, а это противное чувство небольшой отечности и желание его почесать изнутри. В итоге Оксанка купила борный спирт, для прогрева.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20120628_uho/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/img_20120627_152306_706706.jpg" alt="Featured image of post Ухо" /&gt;&lt;p&gt;Видимо при купании вода попала в ухо и оно заболело. Даже не заболело, а это противное чувство небольшой отечности и желание его почесать изнутри. В итоге Оксанка купила борный спирт, для прогрева.&lt;/p&gt;
 &lt;p&gt;Но кто же знал (т.е. все знали, я не знал), что перед употреблением любого препарата для уха его надо греть. Я не погрел. В итоге всю ночь не знал какой стороной головы  прикладываться к подушке - больным ухом вверх - ухо мерзло, вниз - болело. Ну потом как-то приноровился и уснул.&lt;/p&gt;
 &lt;p&gt;С утра стало неприятно жевать. После обсуждения о моей ошибке с холодным борным спиртом, я поддался на уговоры и пошел в поликлинику.&lt;/p&gt;
 &lt;p&gt;Все-таки наша медицина самая бесплатная медицина в мире. Нет, возможно это не их вина. Но карточки опять не было. Мне выписали как минимум третью в этой поликлинике новую карточку. И отправили в соседнее здание, записываться к ЛОРу. Очередь во вторую регистратуру была не большая. Мне быстро выдали талончик и я пошел к кабинету. И вот у кабинета началось. Пришел я еще до 10 часов, а талончик был на 11:50. &amp;ldquo;Кто крайний?&amp;rdquo;, &amp;ldquo;А по талончикам или по очереди?&amp;rdquo;,&amp;ldquo;Мне только спросить!&amp;rdquo;,&amp;ldquo;А у вас какое время?У меня раньше!&amp;rdquo;,&amp;ldquo;А профосмотр уже закончился!&amp;rdquo;. Минут через 10 мне это совсем надоело и я ушел на работу.&lt;/p&gt;
@@ -67,19 +67,19 @@
         </item>
         <item>
         <title>Пойду в спортзал</title>
-        <link>https://example.org/posts/20110912_pojdu_v_sportzal/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110912_pojdu_v_sportzal/</link>
         <pubDate>Mon, 12 Sep 2011 14:53:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110912_pojdu_v_sportzal/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110912_pojdu_v_sportzal/</guid>
         <description>&lt;p&gt;Скачал Радио-Т, подкаст Росновского и Модель для сборки. Теперь можно идти в спортзал. Да, у нас наконец-то дали горячую воду!&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Когда курение полезно</title>
-        <link>https://example.org/posts/20110628_kogda_kurenie_polezno/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110628_kogda_kurenie_polezno/</link>
         <pubDate>Tue, 28 Jun 2011 10:33:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110628_kogda_kurenie_polezno/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110628_kogda_kurenie_polezno/</guid>
         <description>&lt;p&gt;Завязка: На работе запрещено курение в помещениях. Совсем! Курить можно только на крыльце. Зимой я постоянно вспоминаю сериал компьютерщики, как там курящие работники шли к курилке, которая располагалась черти где. По улицам, под ветром и дождем шли они к какому-то лесу, где на опушке стояла маленькая стеклянная будка, куда все они набивались и курили&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Отвлекся.&lt;/p&gt;
 &lt;p&gt;Получается что все курильщики вынуждены несколько раз в день спуститься на крыльцо и подняться обратно. А если некогда ждать лифт?&lt;/p&gt;
@@ -89,10 +89,10 @@
         </item>
         <item>
         <title>Не смог</title>
-        <link>https://example.org/posts/20110209_ne_smog/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110209_ne_smog/</link>
         <pubDate>Wed, 09 Feb 2011 18:23:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110209_ne_smog/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110209_ne_smog/</guid>
         <description>&lt;p&gt;Приезжали SAP-овцы. Обсуждали систему оперативного учета. Все идет к тому, что будет PP в отдельном манданте. По ходу разговора всплыло обсуждение внедрения SAP на КУМЗ-е и ВСМПО. Посоветовали мне эти проекты в резюме не включать :) (хотя говорят что КУМЗ с нового года запустился. По этому поводу вспоминается программистский анекдот:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -113,10 +113,10 @@
         </item>
         <item>
         <title>Здоровье - это когда каждый день болит что-нибудь другое (c) Танатонавты</title>
-        <link>https://example.org/posts/20110112_zdorove_eto_kogda_kazhdyj_den_bolit_chto_nibud_drugoe_c_tanatonavty/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110112_zdorove_eto_kogda_kazhdyj_den_bolit_chto_nibud_drugoe_c_tanatonavty/</link>
         <pubDate>Wed, 12 Jan 2011 13:11:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110112_zdorove_eto_kogda_kazhdyj_den_bolit_chto_nibud_drugoe_c_tanatonavty/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110112_zdorove_eto_kogda_kazhdyj_den_bolit_chto_nibud_drugoe_c_tanatonavty/</guid>
         <description>&lt;p&gt;Защемило плечо, да так, что не охота поворачивать голову. Зато совершенно не болит поясница :)&lt;/p&gt;
 &lt;p&gt;Сегодня в бассейн - надеюсь там все отпустит.&lt;/p&gt;
 </description>

@@ -1,15 +1,16 @@
-baseURL = 'https://example.org/'
-draft = true
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://mysite-ci3.pages.dev/'
+draft = false
+languageCode = 'ru-ru'
+title = 'Sergey Ryazanov'
 theme = 'stack'
 
 [params]
     mainSections = ["posts"]
     
     [params.sidebar]
-        subtitle = "Blog about history, computer and travel"
-        avatar = { enabled = true, local = true, src = "img/avatar.png" }
+        subtitle = "My life"
+        avatar = { enabled = true, local = false, src = "/img/logo.png" }
+        favicon = "/img/logo.png"
 
     [params.widgets]
         homepage = [

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Домашние дела on My New Hugo Site</title>
-        <link>https://example.org/tags/household_chores/</link>
-        <description>Recent content in Домашние дела on My New Hugo Site</description>
+        <title>Домашние дела on Sergey Ryazanov</title>
+        <link>https://mysite-ci3.pages.dev/tags/household_chores/</link>
+        <description>Recent content in Домашние дела on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Thu, 14 Jun 2012 07:04:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/household_chores/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>ru-ru</language>
+        <lastBuildDate>Thu, 14 Jun 2012 07:04:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/household_chores/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Диалоги не о животных (о получении прав)</title>
-        <link>https://example.org/posts/20120614_dialogi_ne_o_zhivotnyh_o_poluchenii_prav/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20120614_dialogi_ne_o_zhivotnyh_o_poluchenii_prav/</link>
         <pubDate>Thu, 14 Jun 2012 07:04:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20120614_dialogi_ne_o_zhivotnyh_o_poluchenii_prav/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20120614_dialogi_ne_o_zhivotnyh_o_poluchenii_prav/</guid>
         <description>&lt;p&gt;Старшая дочь сегодня сдавала на права.  Сдала!&lt;/p&gt;
 &lt;p&gt;Решил выложить диалоги.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Я &amp;lt;-&amp;gt; жена&lt;/strong&gt;&lt;/p&gt;
@@ -64,10 +64,10 @@
         </item>
         <item>
         <title>Неделя &#34;НЕ СПАТЬ&#34;</title>
-        <link>https://example.org/posts/20110520_nedelya_ne_spat/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110520_nedelya_ne_spat/</link>
         <pubDate>Fri, 20 May 2011 02:23:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110520_nedelya_ne_spat/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110520_nedelya_ne_spat/</guid>
         <description>&lt;p&gt;Ну, в понедельник на работу в Пышму, поэтому понятно что &lt;strong&gt;встал рано, в пять утра&lt;/strong&gt;. Отработал, пришел в квартиру, упал и уснул.&lt;/p&gt;
 &lt;p&gt;Вторник.&lt;strong&gt;Проснулся сам, в шесть&lt;/strong&gt;. Вечером забыл телефон на работе, поэтому пришлось искать какую-нибудь балалайку на ноутбук, чтобы она меня разбудила. Нашел (по слову &amp;ldquo;будильник&amp;rdquo; :)  ) , установил. Ночью просыпался. Видимо боялся проспать.&lt;/p&gt;
 &lt;p&gt;Среда. &lt;strong&gt;Проснулся до будильника&lt;/strong&gt; и раньше пошел на работу. Пришел самым первым. И хорошо, т.к. будильник на телефоне продолжал звенеть. Заткнул его.&lt;/p&gt;
@@ -79,11 +79,11 @@
         </item>
         <item>
         <title>Как я провел этим выходным</title>
-        <link>https://example.org/posts/20110411_kak_ya_provel_etim_vyhodnym/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110411_kak_ya_provel_etim_vyhodnym/</link>
         <pubDate>Mon, 11 Apr 2011 04:21:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110411_kak_ya_provel_etim_vyhodnym/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/images.jpg" alt="Featured image of post Как я провел этим выходным" /&gt;&lt;p&gt;Пару недель назад я озаботился заменой своей акустики, вызванной&lt;a class=&#34;link&#34; href=&#34;http://sergejr.blogspot.com/2011/03/blog-post_24.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://mysite-ci3.pages.dev/posts/20110411_kak_ya_provel_etim_vyhodnym/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/images.jpg" alt="Featured image of post Как я провел этим выходным" /&gt;&lt;p&gt;Пару недель назад я озаботился заменой своей акустики, вызванной&lt;a class=&#34;link&#34; href=&#34;http://sergejr.blogspot.com/2011/03/blog-post_24.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt; несоответствием&lt;/a&gt; их импеданса (о с какими словами я познакомился) с требованиями ресивера. Что привело уже к поездке с оным ресивером в магазин для ремонта. Повторной поездки мне не хотелось. Существует конечно &amp;ldquo;бесплатное&amp;rdquo; организационное решение - сказать ребенку не выкручивать громкость ресивера на максимум. Но всем же понятно, что даже если эти слова и отложатся у ребенка в голове, то у нее же есть друзья, которые всегда успеют выкрутить громкость повыше, пока их не успели  предупредить (&amp;ldquo;НЕЕЕ-Е-Е-Т!!!&amp;rdquo; - &amp;quot; Поздно!Э&amp;quot;).&lt;/p&gt;
 &lt;p&gt;Поэтому я озаботился поиском новой акустики. Но &amp;ldquo;вдруг&amp;rdquo; выяснилось, что цены на нее начинаются с 10 тысяч рублей. А так как я не такой уж аудиофил, то тратить такие деньги мне не хотелось. Есть конечно и более бюджетные варианты с подходящим импедансом, но они не удовлетворяют меня визуально. Что это за акустика из пяти спичечных коробков? Хотя бы фронтальные колонки должны быть метровой высоты! И я нашел такие! Всего за четыре тысячи! Но только под заказ. Заказал и стал ждать. И чем дольше ждал и читал про них, тем больше понимал, что нет их уже в продаже и не дождусь я исполнения своего заказа.&lt;/p&gt;
 &lt;p&gt;Стал искать альтернативы. Решил заглянуть на наш форум и вдруг нашел на нем! BBK Angel 2 Series. Да, с рук, но всего за 4 тысячи. При ценах в интернетах от восьми тысяч. Правда находил информацию, что в Ашане из в одно время продавали по две тысячи. Но меня то там тогда не было! И наверняка это просто был единственный комплект с витрины. Вообщем написал продавцу в личку и стал ждать ответа. Как выяснилось дальше - решение писать только в личку оказалось стратегически верным :). Ответа ждал практически две недели. Следил за появлением продавца на форуме - а он не появлялся. И в пятницу стал стучаться в скайп (скайп был указан в профиле пользователя). И зачем-то написал в тему. Вот тут то и началось - тема поднялась, народ ее увидел и за один вечер появилось в теме два предложения о покупке акустики! (до этого тема состояла лишь из предложения о продаже). Я как-то даже заочковал. Но в субботу, после занятий йогой, заглянув на форум я увидел в личке сообщение с телефоном продавца! Одолжив денег у Оксанки, взяв Мишку в качестве грузчика (он заинтересованное лицо, т.к. ему отошли мои старые колонки) я за полчаса съездил и купил их!&lt;/p&gt;
@@ -96,10 +96,10 @@
         </item>
         <item>
         <title>Одно за другим</title>
-        <link>https://example.org/posts/20110324_odno_za_drugim/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</link>
         <pubDate>Thu, 24 Mar 2011 16:45:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110324_odno_za_drugim/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</guid>
         <description>&lt;p&gt;Купили сперва вроде телевизор (диагональ 72). Тыщ двадцать вроде стоил.&lt;/p&gt;
 &lt;p&gt;Потом ДВД, чтобы смотреть фильмы. Тыщи за две.&lt;/p&gt;
 &lt;p&gt;Потом акустику к ДВД, чтобы смотреть фильмы с нормальным звуком. Не хорошим, а нормальным. Простая аккустика 5.1. Тыщ за пять.&lt;/p&gt;
@@ -117,20 +117,20 @@
         </item>
         <item>
         <title>Много спать вредно!</title>
-        <link>https://example.org/posts/20110203_mnogo_spat_vredno/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110203_mnogo_spat_vredno/</link>
         <pubDate>Thu, 03 Feb 2011 15:44:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110203_mnogo_spat_vredno/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110203_mnogo_spat_vredno/</guid>
         <description>&lt;p&gt;Сказала вселенная и сперва позвонила мне из ВТБ24, потом прислала друзей из Тагила (Костя Худосовцев и Саня Цыганов - практически первые, кто заехал ко мне по доброй воле за эти полтора года). А потом, когда я уже практически засыпал - стук в дверь - показалось? - снова стук в дверь - не пойду - опять стук в дверь - встал открыл - помятого вида женщина - Вы тут долго жить будете? Заплатите 50 рублей за февраль или сами будете подъезд мыть - Нате вам сто рублей (и до апреля не приходите)&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Окончательно проснулся и пошел в ванну.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Лампочка</title>
-        <link>https://example.org/posts/20100920_lampochka/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100920_lampochka/</link>
         <pubDate>Mon, 20 Sep 2010 14:32:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100920_lampochka/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20100920_lampochka/</guid>
         <description>&lt;p&gt;В холодильнике погасла лампочка.  Т.е при открывании холодильника в нем темно. Давно погасла. С начала лета наверно. Даже сперва думал что холодильник перестал работать - потом слушаю - шумит компрессор. Ну думаю, поменяю. Да сходе не нашел где она и не стал менять. А зачем? В холодильнике темно, но на кухне то светло. И в отраженном свете все видно.&lt;/p&gt;
 &lt;p&gt;Прошло лето. Стала плохо закрываться крышка в морозилке. Ну не НоуФрост все-таки - намерзает на ней. Пришлось размораживать. Разморозил (спасибо нашему спонсору - тепловентилятору). Включаю - чудо! Лампочка горит!&lt;/p&gt;
 &lt;p&gt;P.S. Из того что было в холодильнике сделал уху и рыбу вареную с морковью. Сварил гречку. Смогу это есть или нет - пока не знаю, т.к. делал из того что было, а не из-того, чего надо :).&lt;/p&gt;
@@ -138,20 +138,20 @@
         </item>
         <item>
         <title>Его ПОВЕСИЛИ!</title>
-        <link>https://example.org/posts/20100918_ego_povesili/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100918_ego_povesili/</link>
         <pubDate>Sat, 18 Sep 2010 16:19:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100918_ego_povesili/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/2010_09_18_221634.jpg" alt="Featured image of post Его ПОВЕСИЛИ!" /&gt;&lt;p&gt;Ура. Мы раздвинули мебельную стенку и повесили, как хотели, телевизор.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20100918_ego_povesili/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/2010_09_18_221634.jpg" alt="Featured image of post Его ПОВЕСИЛИ!" /&gt;&lt;p&gt;Ура. Мы раздвинули мебельную стенку и повесили, как хотели, телевизор.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Крепление телевизора на стенку</title>
-        <link>https://example.org/posts/20100915_kreplenie_televizora_na_stenku/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100915_kreplenie_televizora_na_stenku/</link>
         <pubDate>Wed, 15 Sep 2010 16:57:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100915_kreplenie_televizora_na_stenku/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/0097254_pe237566_s4.jpg" alt="Featured image of post Крепление телевизора на стенку" /&gt;&lt;p&gt;Хочу повесить телевизор на стенку. Да, во всех магазинах продаются соответствующие крепления. Но почему при цене телевизора от 20 тысяч крепления стоят порядка 2-х тысяч. А то и 4 или 5 тысяч? Т.е. напресовать и скрутить пару железок стоит почти столько же, чколько четверть прекрасного 40 дюймового телевизора? Грустно.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20100915_kreplenie_televizora_na_stenku/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/0097254_pe237566_s4.jpg" alt="Featured image of post Крепление телевизора на стенку" /&gt;&lt;p&gt;Хочу повесить телевизор на стенку. Да, во всех магазинах продаются соответствующие крепления. Но почему при цене телевизора от 20 тысяч крепления стоят порядка 2-х тысяч. А то и 4 или 5 тысяч? Т.е. напресовать и скрутить пару железок стоит почти столько же, чколько четверть прекрасного 40 дюймового телевизора? Грустно.&lt;/p&gt;
 &lt;p&gt;Ну ничего! Нашел в икее вот такую &lt;a class=&#34;link&#34; href=&#34;http://www.ikea.com/ru/ru/catalog/products/90147936&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;конструкцию&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Выдержка с сайта:&lt;/p&gt;
@@ -165,10 +165,10 @@
         </item>
         <item>
         <title>Мебеля</title>
-        <link>https://example.org/posts/20100912_mebelya/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100912_mebelya/</link>
         <pubDate>Sun, 12 Sep 2010 18:38:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100912_mebelya/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20100912_mebelya/</guid>
         <description>&lt;p&gt;Сегодня доделали боковые щкафы. Осталось убрать средний шкаф, повесить телевизор и развести все провода.&lt;/p&gt;
 &lt;p&gt;Теперь печатаем фотки для Ульянки (в летопись).&lt;/p&gt;
 &lt;p&gt;Да, еще собрал загрузочную флешку с Windows XP PE и научился редактировать реестр с основной системы через загружаемую Windows XP PE!&lt;/p&gt;
@@ -176,11 +176,11 @@
         </item>
         <item>
         <title>AV ресивер</title>
-        <link>https://example.org/posts/20100901_av_resiver/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100901_av_resiver/</link>
         <pubDate>Wed, 01 Sep 2010 05:05:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100901_av_resiver/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/i.jpg" alt="Featured image of post AV ресивер" /&gt;&lt;p&gt;У меня есть простенькая акустика  5.1, которая была подключена к ДВД проигрывателю через обычные шесть проводов с &amp;ldquo;тюльпанами&amp;rdquo;.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20100901_av_resiver/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/i.jpg" alt="Featured image of post AV ресивер" /&gt;&lt;p&gt;У меня есть простенькая акустика  5.1, которая была подключена к ДВД проигрывателю через обычные шесть проводов с &amp;ldquo;тюльпанами&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Не так давно приобрел ASUS O!Play для просмотра видео с коридорного сервера. И все бы ничего, но с Асуса звук шел только стерео и только на телевизор. Из выходов для многоканального звука был только оптический выход.&lt;/p&gt;
 &lt;p&gt;И захотелось мне  объединить все устройства, чтобы использовалась вся аппаратура и ничего не простаивало без дела!&lt;/p&gt;
 &lt;p&gt;Стал разбираться в вопросе. Выяснилось что раньше были внешние звуковые карты,позволявшие преобразовать оптический сигнал в 5.1. Но при этом придется отключать ДВД. Не то чтобы я его часто смотрю, но жалко отключать.&lt;/p&gt;
@@ -190,7 +190,7 @@
 &lt;p&gt;Еще один HDMI кабель
 Оптический(SPDIF) кабель
 Медный бескислородный провод (кучу метров без штекеров) чтобы сделать разводку по комнате.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.org/images/blogspot/iamqq/89994_2248_draft_large.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/89994_2248_draft_large.jpg&#34;
 	
 	
 	
@@ -206,11 +206,11 @@
         </item>
         <item>
         <title>Подключение к телевизору</title>
-        <link>https://example.org/posts/20100821_podklyuchenie_k_televizoru/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100821_podklyuchenie_k_televizoru/</link>
         <pubDate>Sat, 21 Aug 2010 17:18:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100821_podklyuchenie_k_televizoru/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/1001065698.jpg" alt="Featured image of post Подключение к телевизору" /&gt;&lt;p&gt;Пришлось покупать новые кабеля для подключения всех устройств к новому телевизору.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20100821_podklyuchenie_k_televizoru/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/1001065698.jpg" alt="Featured image of post Подключение к телевизору" /&gt;&lt;p&gt;Пришлось покупать новые кабеля для подключения всех устройств к новому телевизору.&lt;/p&gt;
 &lt;p&gt;В первую очередь компонентный AV кабель для приставки WII. В статье, в которой я прочитал про него был указан уровень цен 2000 за оригинальный и 500 за копию. Ну я и рассчитывал уже на 500 рублей. Даже нашел соответствующий кабель в Ozon-е. И тут захожу в Элдораду и что я вижу - 99 рублей!!! Конечно купил. Видимо со времени той статьи прошло достаточно времени&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Но вот за HDMI мне пришлось выложить 330 рублей, хотя я читал про цены в 180 рублей. Ладно хоть не 1000 и более (как за некоторые из имевшихся в магазине).&lt;/p&gt;
 &lt;p&gt;Теперь все устройства зацеплены, осталось только подключить звук (5.1).&lt;/p&gt;
@@ -218,11 +218,11 @@
         </item>
         <item>
         <title>Телевизор</title>
-        <link>https://example.org/posts/20100820_televizor/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20100820_televizor/</link>
         <pubDate>Fri, 20 Aug 2010 16:15:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20100820_televizor/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/2010_08_22_014919.jpg" alt="Featured image of post Телевизор" /&gt;&lt;p&gt;Приобрели телевизор ЖК Samsung LE - 40 C 530 F1W. Теперь надо покупать HDMI кабель&amp;hellip;&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20100820_televizor/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/2010_08_22_014919.jpg" alt="Featured image of post Телевизор" /&gt;&lt;p&gt;Приобрели телевизор ЖК Samsung LE - 40 C 530 F1W. Теперь надо покупать HDMI кабель&amp;hellip;&lt;/p&gt;
 </description>
         </item>
         

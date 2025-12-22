@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>музыка on My New Hugo Site</title>
-        <link>https://example.org/tags/muzyka/</link>
-        <description>Recent content in музыка on My New Hugo Site</description>
+        <title>музыка on Sergey Ryazanov</title>
+        <link>https://mysite-ci3.pages.dev/tags/muzyka/</link>
+        <description>Recent content in музыка on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Thu, 24 Mar 2011 16:45:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/muzyka/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>ru-ru</language>
+        <lastBuildDate>Thu, 24 Mar 2011 16:45:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/muzyka/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Одно за другим</title>
-        <link>https://example.org/posts/20110324_odno_za_drugim/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</link>
         <pubDate>Thu, 24 Mar 2011 16:45:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110324_odno_za_drugim/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</guid>
         <description>&lt;p&gt;Купили сперва вроде телевизор (диагональ 72). Тыщ двадцать вроде стоил.&lt;/p&gt;
 &lt;p&gt;Потом ДВД, чтобы смотреть фильмы. Тыщи за две.&lt;/p&gt;
 &lt;p&gt;Потом акустику к ДВД, чтобы смотреть фильмы с нормальным звуком. Не хорошим, а нормальным. Простая аккустика 5.1. Тыщ за пять.&lt;/p&gt;
@@ -29,20 +29,20 @@
         </item>
         <item>
         <title>Ва-банк. Маршруты Московские</title>
-        <link>https://example.org/posts/20110217_va_bank_marshruty_moskovskie/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</link>
         <pubDate>Thu, 17 Feb 2011 16:52:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110217_va_bank_marshruty_moskovskie/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</guid>
         <description>&lt;p&gt;Электричкой из Москвы я поеду, я поеду в никуда&amp;hellip;
 Периодически вспоминаю эту песню (точнее припев) и не могу вспомнить название. Может теперь запомню? Песня то замечательная.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Музыка</title>
-        <link>https://example.org/posts/20110203_muzyka/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110203_muzyka/</link>
         <pubDate>Thu, 03 Feb 2011 13:20:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110203_muzyka/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110203_muzyka/</guid>
         <description>&lt;p&gt;Все-таки в музыке меня больше цепляют тексты. Вчера ходил на &amp;ldquo;Бурлеск&amp;rdquo;. Пока субтитрами идет текст песни - меня цепляет. Только картинку смотреть не успеваю. Кончаются субтитры - цепляет меньше, до момента, пока не услышу распознанный по субтитрам английский текст. Т.е. если (может написать &amp;ldquo;когда&amp;rdquo;?) выучу английский, то смогу и английские песни слушать с большим удовольствием (или с меньшим? :) ). А вот набрел вчера на &amp;ldquo;Остров&amp;rdquo; Псоя Короленко - и слушаю который раз этот рифмованный поток немного знакомых фраз!&lt;/p&gt;
 &lt;p&gt;Хотя не только тексты :) Gorillaz я же тоже слушаю с удовольствием. Видимо тексты и ритмы :)&lt;/p&gt;
 </description>

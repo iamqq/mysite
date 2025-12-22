@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>карта мира on My New Hugo Site</title>
-        <link>https://example.org/tags/world_map/</link>
-        <description>Recent content in карта мира on My New Hugo Site</description>
+        <title>карта мира on Sergey Ryazanov</title>
+        <link>https://mysite-ci3.pages.dev/tags/world_map/</link>
+        <description>Recent content in карта мира on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 31 Jul 2012 18:25:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/world_map/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>ru-ru</language>
+        <lastBuildDate>Tue, 31 Jul 2012 18:25:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/world_map/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Карта мира</title>
-        <link>https://example.org/posts/20120731_world_map_2/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20120731_world_map_2/</link>
         <pubDate>Tue, 31 Jul 2012 18:25:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20120731_world_map_2/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/tumblr_ky1ww6p0wh1qz4s3wo1_500.jpg" alt="Featured image of post Карта мира" /&gt;&lt;p&gt;&lt;img src=&#34;https://example.org/images/blogspot/iamqq/3702f97fd99bc1f919195b258f1_prev.jpg&#34;
+        <guid>https://mysite-ci3.pages.dev/posts/20120731_world_map_2/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/tumblr_ky1ww6p0wh1qz4s3wo1_500.jpg" alt="Featured image of post Карта мира" /&gt;&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/3702f97fd99bc1f919195b258f1_prev.jpg&#34;
 	
 	
 	
@@ -21,7 +21,7 @@
 		alt=&#34;3702f97fd99bc1f919195b258f1_prev.jpg&#34;
 	
 	
-&gt; &lt;img src=&#34;https://example.org/images/blogspot/iamqq/130476759_thumb_400x257_516.jpg&#34;
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/130476759_thumb_400x257_516.jpg&#34;
 	
 	
 	
@@ -30,7 +30,7 @@
 		alt=&#34;130476759_thumb_400x257_516.jpg&#34;
 	
 	
-&gt;&lt;img src=&#34;https://example.org/images/blogspot/iamqq/american_world_thumb_400x224_525.jpg&#34;
+&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/american_world_thumb_400x224_525.jpg&#34;
 	
 	
 	
@@ -44,11 +44,11 @@
         </item>
         <item>
         <title>Карта мира</title>
-        <link>https://example.org/posts/20120612_world_map/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20120612_world_map/</link>
         <pubDate>Tue, 12 Jun 2012 06:07:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20120612_world_map/</guid>
-        <description>&lt;img src="https://example.org/images/blogspot/iamqq/3702f97fd99bc1f919195b258f1_prev.jpg" alt="Featured image of post Карта мира" /&gt;&lt;p&gt;Одно время нашел некое количество фотографий с различными картами мира. Буду их выкладывать сюда.&lt;/p&gt;
+        <guid>https://mysite-ci3.pages.dev/posts/20120612_world_map/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/3702f97fd99bc1f919195b258f1_prev.jpg" alt="Featured image of post Карта мира" /&gt;&lt;p&gt;Одно время нашел некое количество фотографий с различными картами мира. Буду их выкладывать сюда.&lt;/p&gt;
 </description>
         </item>
         

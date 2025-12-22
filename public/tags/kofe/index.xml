@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>кофе on My New Hugo Site</title>
-        <link>https://example.org/tags/kofe/</link>
-        <description>Recent content in кофе on My New Hugo Site</description>
+        <title>кофе on Sergey Ryazanov</title>
+        <link>https://mysite-ci3.pages.dev/tags/kofe/</link>
+        <description>Recent content in кофе on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 25 Jan 2011 10:16:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/kofe/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>ru-ru</language>
+        <lastBuildDate>Tue, 25 Jan 2011 10:16:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/kofe/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>В пятницу - в Москву</title>
-        <link>https://example.org/posts/20110125_v_pyatnitsu_v_moskvu/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110125_v_pyatnitsu_v_moskvu/</link>
         <pubDate>Tue, 25 Jan 2011 10:16:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110125_v_pyatnitsu_v_moskvu/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110125_v_pyatnitsu_v_moskvu/</guid>
         <description>&lt;p&gt;На весь день. Т.к. прилетаем рано, то прямо с утра - в Старбакс. Причем все складывается удачно - аэроэкспресс из Домодедово до Павелецкой. И старбакс прямо на павелецкой (&lt;a class=&#34;link&#34; href=&#34;http://starbuckscoffee.ru/ru/_About&amp;#43;Starbucks/Our_Stores.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://starbuckscoffee.ru/ru/_About+Starbucks/Our_Stores.htm&lt;/a&gt;  см. №34 ежедневно по будням с 07.30 до 23.00 ). И контора куда пойдем в пяти минутах ходьбы от Павелецкой(SAP). Чудно!&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>План работ</title>
-        <link>https://example.org/posts/20110112_plan_rabot/</link>
+        <link>https://mysite-ci3.pages.dev/posts/20110112_plan_rabot/</link>
         <pubDate>Wed, 12 Jan 2011 14:35:00 +0000</pubDate>
         
-        <guid>https://example.org/posts/20110112_plan_rabot/</guid>
+        <guid>https://mysite-ci3.pages.dev/posts/20110112_plan_rabot/</guid>
         <description>&lt;p&gt;Обсуждали модернизацию системы оперативного учета - старую помыть или новую родить.&lt;/p&gt;
 &lt;p&gt;Похоже будем покупать &amp;hellip;&lt;/p&gt;
 &lt;p&gt;Прежде чем покупать предложили мне съездить в SAP в Москву и посмотреть систему в действии. Если поеду - зайду в Старбакс!!!&lt;/p&gt;

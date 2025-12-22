@@ -17,19 +17,19 @@ tags = ['IT']
 
 
 
- sensors  
+    sensors  
 
 Не помню, делал ли я что-то для установки этой программы или она по умолчаню присутсвует в системе, но инструкций по ее установке полно и если у вас ее нет, найдите и установите по инструкции.
 
 Примерно так выглядит вывод команды (выделил интересующую меня температуру):
 
 
- coretemp-isa-0000
- Adapter: ISA adapter  
- Package id 0: **+52.0**°C (high = +72.0°C, crit = +90.0°C)  
- Core 0:    +52.0°C (high = +72.0°C, crit = +90.0°C)  
- Core 1:    +50.0°C (high = +72.0°C, crit = +90.0°C)
- ....
+    coretemp-isa-0000
+    Adapter: ISA adapter  
+    Package id 0: +52.0°C (high = +72.0°C, crit = +90.0°C)  
+    Core 0:    +52.0°C (high = +72.0°C, crit = +90.0°C)  
+    Core 1:    +50.0°C (high = +72.0°C, crit = +90.0°C)
+    ....
 
 
 Почитав help к команде sensors обнаружил у нее приятный ключик -j - выводить в json. В HA установлен add-on "[Samba share](https://github.com/home-assistant/addons/tree/master/samba)". В итоге решил периодический опрашивать температуру через cron, скидывать через smb протокол в HA и там создать сенсор с показаниями интересующей меня температуры через интеграцию file
@@ -38,17 +38,17 @@ tags = ['IT']
 
 
  
-sensors -j | tr -d '\n' >  sensors.json
-smbclient //192.168.x.x/config -U user%password --directory tmp -c 'put sensors.json'
-sleep 15
-sensors -j | tr -d '\n' >  sensors.json
-smbclient //192.168.x.x/config -U user%password --directory tmp -c 'put sensors.json'
-sleep 15
-sensors -j | tr -d '\n' >  sensors.json
-smbclient //192.168.x.x/config -U user%password --directory tmp -c 'put sensors.json'
-sleep 15
-sensors -j | tr -d '\n' >  sensors.json
-smbclient //192.168.x.x/config -U user%password --directory tmp -c 'put sensors.json'
+    sensors -j | tr -d '\n' >  sensors.json
+    smbclient //192.168.x.x/config -U user%password --directory tmp -c 'put sensors.json'
+    sleep 15
+    sensors -j | tr -d '\n' >  sensors.json
+    smbclient //192.168.x.x/config -U user%password --directory tmp -c 'put sensors.json'
+    sleep 15
+    sensors -j | tr -d '\n' >  sensors.json
+    smbclient //192.168.x.x/config -U user%password --directory tmp -c 'put sensors.json'
+    sleep 15
+    sensors -j | tr -d '\n' >  sensors.json
+    smbclient //192.168.x.x/config -U user%password --directory tmp -c 'put sensors.json'
 
 
 Пояснения к коду:
@@ -58,12 +58,12 @@ sensors -j - формирую json  с информацией о темпера�
 
 
  
-sensor:  
-  - platform: file
-    name: server_temperature
-    file_path: /config/tmp/sensors.json
-    value_template: "{{ value_json['coretemp-isa-0000']['Package id 0']['temp1_input'] }}"
-    unit_of_measurement: "°C"
+    sensor:  
+      - platform: file
+        name: server_temperature
+        file_path: /config/tmp/sensors.json
+        value_template: "{{ value_json['coretemp-isa-0000']['Package id 0']['temp1_input'] }}"
+        unit_of_measurement: "°C"
 
 
 Дальше я направил на ноутбук простой вентилятор и включаю его через валявшуюся у меня умную розетку при достижении критической температуры (см [generic termostat](https://www.home-assistant.io/integrations/generic_thermostat/))
