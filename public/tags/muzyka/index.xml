@@ -35,6 +35,15 @@
         <guid>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</guid>
         <description>&lt;p&gt;Электричкой из Москвы я поеду, я поеду в никуда&amp;hellip;
 Периодически вспоминаю эту песню (точнее припев) и не могу вспомнить название. Может теперь запомню? Песня то замечательная.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/ZjXov0YIqUg&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>

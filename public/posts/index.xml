@@ -6,7 +6,162 @@
         <description>Recent content in Posts on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ru-ru</language>
-        <lastBuildDate>Mon, 09 Jan 2023 02:00:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 Dec 2025 16:15:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo</title>
+        <link>https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/</link>
+        <pubDate>Wed, 24 Dec 2025 16:15:00 +0000</pubDate>
+        
+        <guid>https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/</guid>
+        <description>&lt;img src="https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/2.JPG" alt="Featured image of post Hugo" /&gt;&lt;p&gt;Осваиваю Hugo. Решил попробовать пост с галереей.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/1.jpg&#34;
+	width=&#34;2268&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/1_hu_56f90bcfd41f51e0.jpg 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/1_hu_ca0c8abe0e9deb91.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;135px&#34;
+	
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/2.JPG&#34;
+	width=&#34;1024&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/2_hu_7be63cfbac228af5.JPG 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/2_hu_6a23f1121c918601.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/3.JPG&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/3_hu_d67bc4435f7ffa59.JPG 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/3_hu_60d27fcf6ea03bd4.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 3&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/4.JPG&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/4_hu_c54e669d5b4a03e0.JPG 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/4_hu_31c6801a25bc3545.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 4&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/5.jpg&#34;
+	width=&#34;1200&#34;
+	height=&#34;1600&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/5_hu_ca77f474b61f71b0.jpg 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/5_hu_b2581c4bae8e8323.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 5&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/6.jpg&#34;
+	width=&#34;4656&#34;
+	height=&#34;3496&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/6_hu_c7b5e066ca7b918f.jpg 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/6_hu_8fe8d17384d2750.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 6&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/7.jpg&#34;
+	width=&#34;2048&#34;
+	height=&#34;1536&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/7_hu_69bd3532f74b11dd.jpg 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/7_hu_3345d3e6cd3ab96a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 7&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt; &lt;br&gt;
+&lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/8.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;2268&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/8_hu_ccc35556469fc74.jpg 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/8_hu_7bd03a9206155cfa.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 8&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/9.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;2268&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/9_hu_34abd69814bda53b.jpg 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/9_hu_6f8d0b76b3a3e3fa.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 9&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/10.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;2268&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/10_hu_314730c37702b8d0.jpg 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/10_hu_b64f40e76e173247.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 10&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/11.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;2268&#34;
+	srcset=&#34;https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/11_hu_7533fbe33b5b2de4.jpg 480w, https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/11_hu_605f4593fba38fd9.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Image 11&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Передача температуры хост системы Proxmox  в Home Assistant</title>
         <link>https://mysite-ci3.pages.dev/posts/20230109_proxmox_temperature_home_assistant/</link>
         <pubDate>Mon, 09 Jan 2023 02:00:00 +0000</pubDate>
@@ -752,7 +907,16 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         <pubDate>Wed, 20 Jun 2012 13:28:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20120620_nado_doma_poprobovat/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/Z8yW5cyXXRc&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Уматурман - В голове моей говешка&#43;Китаец Чань-суй&#43;Река</title>
@@ -761,6 +925,15 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         
         <guid>https://mysite-ci3.pages.dev/posts/20120619_umaturman_v_golove_moej_goveshkakitaets_chan_sujreka/</guid>
         <description>&lt;p&gt;Этой песне (первой) место в моем блоге.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/CIT6oSqyDSI&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -981,7 +1154,16 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         <pubDate>Sun, 21 Aug 2011 05:37:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20110821_phun_2d_physics_sandbox/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/0H5g9VS0ENM&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Я МИЛЛИОНЕР!!!</title>
@@ -1184,7 +1366,16 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         <pubDate>Wed, 20 Apr 2011 19:08:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20110420_amazing_hd_v9_crazy_awsome_android_22_os_capacitive_screen_smart_phone/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/842XuVgDl0E&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Post-Tracker.ru</title>
@@ -1314,6 +1505,15 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         <guid>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</guid>
         <description>&lt;p&gt;Электричкой из Москвы я поеду, я поеду в никуда&amp;hellip;
 Периодически вспоминаю эту песню (точнее припев) и не могу вспомнить название. Может теперь запомню? Песня то замечательная.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/ZjXov0YIqUg&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -1350,7 +1550,16 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         <pubDate>Thu, 10 Feb 2011 17:21:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20110210_phantomhd_kitten_in_slow_motionmp4/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/J1vpB6h3ek4&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Так себе каникулы</title>
@@ -1517,7 +1726,16 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         <pubDate>Mon, 24 Jan 2011 17:35:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20110124_slabo_s_takoj_skorostyu_govorit/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/I6XLswqiX0s&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Хорьки</title>
@@ -1533,7 +1751,16 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         <pubDate>Thu, 20 Jan 2011 14:46:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20110120_razbushevalas_stihiya/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/kYUpkPTcqPY&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Уроки зимы</title>
@@ -1553,6 +1780,15 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         
         <guid>https://mysite-ci3.pages.dev/posts/20110115_bob_sinclar_feat_ben_onono_rainbow_of_love/</guid>
         <description>&lt;p&gt;кто и как придумывает такой видеоряд?&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/DdVvnLrXH7U&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -1561,7 +1797,16 @@ Posted: 11 Jul 2012 02:45 AM PDT&lt;/p&gt;
         <pubDate>Fri, 14 Jan 2011 21:08:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20110114_funny_cats/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/IytNBm8WA1c&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Трон</title>
@@ -1666,7 +1911,16 @@ Upd. А вот так было.&lt;/p&gt;
         <pubDate>Wed, 22 Dec 2010 14:46:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20101222_google_demo_slam_epic_docs_animation/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/bt9F7tKcZcU&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Путь воина</title>
@@ -1783,7 +2037,16 @@ Upd. А вот так было.&lt;/p&gt;
         <pubDate>Wed, 24 Nov 2010 19:43:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20101124_pytalsya_delat_sumku_na_ulyankin_dr_po_etoj_instruktsii/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/NC7MH3EzBWM&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Расшаривание фотографий</title>
@@ -1831,6 +2094,15 @@ Upd. А вот так было.&lt;/p&gt;
         <description>&lt;p&gt;Говорили про робота-пылесос и по наводке с сайта &lt;a class=&#34;link&#34; href=&#34;http://www.exler.ru/expromt/23-11-2010.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Экслера&lt;/a&gt; нашел этот ролик&lt;/p&gt;
 &lt;p&gt;Говори&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/vf9wHkkNGUU&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -1952,6 +2224,15 @@ Upd. А вот так было.&lt;/p&gt;
         
         <guid>https://mysite-ci3.pages.dev/posts/20101107_sirozhene_pirozhene_padonkas_studio/</guid>
         <description>&lt;p&gt;Вот это вариант лучше&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/ptRVRYINM1g&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -1960,7 +2241,16 @@ Upd. А вот так было.&lt;/p&gt;
         <pubDate>Sat, 30 Oct 2010 14:56:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/ntj2h-W70Ms&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>главное, чтобы мозги на месте(сделано Улькой)</title>
@@ -1968,7 +2258,16 @@ Upd. А вот так было.&lt;/p&gt;
         <pubDate>Sat, 30 Oct 2010 04:22:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/_7bBOnzEl54&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>ЯНСЕН КУКАНСЕН - &#34;Сирожене пирожене&#34;</title>
@@ -1976,7 +2275,16 @@ Upd. А вот так было.&lt;/p&gt;
         <pubDate>Thu, 28 Oct 2010 06:48:00 +0000</pubDate>
         
         <guid>https://mysite-ci3.pages.dev/posts/20101028_yansen_kukansen_sirozhene_pirozhene/</guid>
-        <description></description>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/GaI9RRpdNSM&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         <item>
         <title>Visual C# Express. Шесть раз перезагрузись и откажись.</title>
@@ -2088,6 +2396,15 @@ Upd. А вот так было.&lt;/p&gt;
         <description>&lt;p&gt;Тебе должно понравится! Для тебя это актуально.&lt;/p&gt;
 &lt;p&gt;p.s. Я вот что еще думаю: Может тебе статистику на свой блог прицепить? Ну, чтобы хотя бы знать как часто к тебе заходят? Если соберешься - смотри &lt;a class=&#34;link&#34; href=&#34;http://www.google.com/analytics/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://www.google.com/analytics/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/dABo_DCIdpM&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -2108,6 +2425,15 @@ Upd. А вот так было.&lt;/p&gt;
         <description>&lt;p&gt;Пошел снежок. В связи с удаленностью от дома решил заранее переобуть машину. Заехал в Горбуново. А там всего три зимних колеса вместо четырех :(. И что характерно -сторой зимней лысой резины - тоже три колеса! Взял тогда покрышки от пиканты (они все на месте). Завтра будем переобувать ее. Свое недостающее колесо попробую поискать в гараже. Если не найду - не знаю что делать :(.&lt;/p&gt;
 &lt;p&gt;По дороге домой остановили гаишники. Даже точнее - гаишница. Еду так аккуратно в колонне, вторым или третьим. Нормальная такая колонна. Гаишники стоят в обычном месте перед Невьянском, все их давно увидели и сбросили скорость. Ну не совсем , но в пределах погрешности. Едем. И вдруг мене палочкой машут. Я еще так посмотрел - мне? Да, да, тебе! Остановился. Приоткрыл окно. Жду когда подойдут. Откинулся на спинку и слушаю подкаст про Яндекс.  Эта гаишница по другой стороне обочины доходит до моей машины и через дорогу кричит мне - поезжай! Ну я и поехал. Ехать меня дважды упрашивать не надо :). Зачем останавливали?&lt;/p&gt;
 &lt;p&gt;И если уж говорим о автомобилях - то вот и мой любимый сюжет о автомобилях :)&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/dJfSS0ZXYdo&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -2480,6 +2806,15 @@ Upd. А вот так было.&lt;/p&gt;
         <description>&lt;p&gt;Лажу по интернету. Нахожу всякую фигню.&lt;/p&gt;
 &lt;p&gt;и еще&lt;/p&gt;
 &lt;p&gt;Вышел на все это с сайта Экслера&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/K7eU4Wh62go&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>

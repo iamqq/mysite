@@ -7,4 +7,4 @@ draft = false
 tags = ['видео']
 +++
 
-
+{{< youtube NC7MH3EzBWM >}}
