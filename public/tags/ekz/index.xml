@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Ekz on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/ekz/</link>
+        <link>http://localhost:1313/tags/ekz/</link>
         <description>Recent content in Ekz on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ru-ru</language>
-        <lastBuildDate>Tue, 16 Nov 2010 03:11:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/ekz/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 16 Nov 2010 03:11:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ekz/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Motorola Milestone</title>
-        <link>https://mysite-ci3.pages.dev/posts/20101116_motorola_milestone/</link>
+        <link>http://localhost:1313/posts/20101116_motorola_milestone/</link>
         <pubDate>Tue, 16 Nov 2010 03:11:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20101116_motorola_milestone/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20101116_motorola_milestone/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
 &lt;p&gt;Самое первое впечатление - это не телефон! Чтобы позвонить с голого аппарата требуется не менее четырех действий. Да еще поиск номера - чистое листание списка контактов. Да, со временем частоиспользуемые контакты выводятся в виджеты, ставятся альтернативные программы звонилки и жизнь налаживается. Хотя универсальность аппарата лезет из всех щелей.&lt;/p&gt;
 &lt;p&gt;-Вы его выбрали? А вот все его реквизиты для связи&lt;/p&gt;
 &lt;p&gt;-Позвонить или связаться по скайпу?&lt;/p&gt;
@@ -24,10 +24,10 @@
         </item>
         <item>
         <title>Как я протирал стекла у машины</title>
-        <link>https://mysite-ci3.pages.dev/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</link>
+        <link>http://localhost:1313/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</link>
         <pubDate>Sat, 30 Oct 2010 14:56:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</guid>
+        <guid>http://localhost:1313/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</guid>
         <description>&lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/ntj2h-W70Ms&#34; 
@@ -41,10 +41,10 @@
         </item>
         <item>
         <title>главное, чтобы мозги на месте(сделано Улькой)</title>
-        <link>https://mysite-ci3.pages.dev/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</link>
+        <link>http://localhost:1313/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</link>
         <pubDate>Sat, 30 Oct 2010 04:22:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</guid>
+        <guid>http://localhost:1313/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</guid>
         <description>&lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/_7bBOnzEl54&#34; 

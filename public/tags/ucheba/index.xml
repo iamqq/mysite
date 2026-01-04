@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Учеба on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/ucheba/</link>
+        <link>http://localhost:1313/tags/ucheba/</link>
         <description>Recent content in Учеба on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ru-ru</language>
-        <lastBuildDate>Sun, 01 Jul 2012 19:01:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/ucheba/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 01 Jul 2012 19:01:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ucheba/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>В Москву на учебу</title>
-        <link>https://mysite-ci3.pages.dev/posts/20120701_v_moskvu_na_uchebu/</link>
+        <link>http://localhost:1313/posts/20120701_v_moskvu_na_uchebu/</link>
         <pubDate>Sun, 01 Jul 2012 19:01:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20120701_v_moskvu_na_uchebu/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/20120702_004139_717146.jpeg" alt="Featured image of post В Москву на учебу" /&gt;&lt;p&gt;Лечу на неделю в Москву в SAP AG, изучать разработку мобильных приложений. Москва встречай!
+        <guid>http://localhost:1313/posts/20120701_v_moskvu_na_uchebu/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/20120702_004139_717146.jpeg" alt="Featured image of post В Москву на учебу" /&gt;&lt;p&gt;Лечу на неделю в Москву в SAP AG, изучать разработку мобильных приложений. Москва встречай!
 Из непривычного - гостиницу и самолет оплатил безналично - на руках только бумажки из принтера - удобно, но немного волнительно.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Диалоги не о животных (о получении прав)</title>
-        <link>https://mysite-ci3.pages.dev/posts/20120614_dialogi_ne_o_zhivotnyh_o_poluchenii_prav/</link>
+        <link>http://localhost:1313/posts/20120614_dialogi_ne_o_zhivotnyh_o_poluchenii_prav/</link>
         <pubDate>Thu, 14 Jun 2012 07:04:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20120614_dialogi_ne_o_zhivotnyh_o_poluchenii_prav/</guid>
+        <guid>http://localhost:1313/posts/20120614_dialogi_ne_o_zhivotnyh_o_poluchenii_prav/</guid>
         <description>&lt;p&gt;Старшая дочь сегодня сдавала на права.  Сдала!&lt;/p&gt;
 &lt;p&gt;Решил выложить диалоги.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Я &amp;lt;-&amp;gt; жена&lt;/strong&gt;&lt;/p&gt;
@@ -74,10 +74,10 @@
         </item>
         <item>
         <title>Pre-Intermediate</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110919_pre_intermediate/</link>
+        <link>http://localhost:1313/posts/20110919_pre_intermediate/</link>
         <pubDate>Mon, 19 Sep 2011 16:01:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20110919_pre_intermediate/</guid>
+        <guid>http://localhost:1313/posts/20110919_pre_intermediate/</guid>
         <description>&lt;p&gt;Вот так, за пол часа прошел тестирование, выяснил, что нахожусь между Elementary и Pre-Intermediate, пошел на тестовое занятие на Pre-Intermediate и теперь по понедельникам и четвергам у меня английский.&lt;/p&gt;
 &lt;p&gt;Словарного запаса на занятия почти хватало, но вот формы глаголов, времена и построение приложений - в голове чистый лист.&lt;/p&gt;
 &lt;p&gt;Самое напрягающее - домашнее задание :).&lt;/p&gt;
@@ -85,11 +85,11 @@
         </item>
         <item>
         <title>Съесть торт и не потолстеть!</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110317_sest_tort_i_ne_potolstet/</link>
+        <link>http://localhost:1313/posts/20110317_sest_tort_i_ne_potolstet/</link>
         <pubDate>Thu, 17 Mar 2011 04:21:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20110317_sest_tort_i_ne_potolstet/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/1300178113_lab.png" alt="Featured image of post Съесть торт и не потолстеть!" /&gt;&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/1300178113_sol.png&#34;
+        <guid>http://localhost:1313/posts/20110317_sest_tort_i_ne_potolstet/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/1300178113_lab.png" alt="Featured image of post Съесть торт и не потолстеть!" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/1300178113_sol.png&#34;
 	
 	
 	
@@ -103,10 +103,10 @@
         </item>
         <item>
         <title>Зачем нам эта математика?</title>
-        <link>https://mysite-ci3.pages.dev/posts/20101011_zachem_nam_eta_matematika/</link>
+        <link>http://localhost:1313/posts/20101011_zachem_nam_eta_matematika/</link>
         <pubDate>Mon, 11 Oct 2010 03:00:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20101011_zachem_nam_eta_matematika/</guid>
+        <guid>http://localhost:1313/posts/20101011_zachem_nam_eta_matematika/</guid>
         <description>&lt;p&gt;Изредка принимая участие в решении задач по математике возникает вопрос - зачем все это надо? Вектора, тригонометрия, свойства делимости. А вневписанные окружности чего стоят!&lt;/p&gt;
 &lt;p&gt;Отдельно недоумение возникает при появлении в учебниках за 8-ой класс обозначений, которые совершенно не знакомы нам, людям с высшим мат.образованием. Но сейчас не об этом.&lt;/p&gt;
 &lt;p&gt;Просто хотелось бы, чтобы математика (да и все остальные предметы) преподавались не как гимнастика ума, а как полезный инструмент решения задач, возникающих в нашей жизни! Понятно, что арифметика позволяет нам посчитать сдачу в магазине, но и остальные знания и приемы, данные нам в учебных заведениях, находят применение в жизни. Если не в быту, так в профессиональной деятельности.&lt;/p&gt;

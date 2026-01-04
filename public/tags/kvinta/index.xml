@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>квинта on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/kvinta/</link>
+        <link>http://localhost:1313/tags/kvinta/</link>
         <description>Recent content in квинта on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ru-ru</language>
-        <lastBuildDate>Mon, 19 Sep 2011 15:55:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/kvinta/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 19 Sep 2011 15:55:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/kvinta/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Квинтюше посвящяется</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110919_kvintyushe_posvyashchyaetsya/</link>
+        <link>http://localhost:1313/posts/20110919_kvintyushe_posvyashchyaetsya/</link>
         <pubDate>Mon, 19 Sep 2011 15:55:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20110919_kvintyushe_posvyashchyaetsya/</guid>
+        <guid>http://localhost:1313/posts/20110919_kvintyushe_posvyashchyaetsya/</guid>
         <description></description>
         </item>
         

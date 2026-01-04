@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>телевизор on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/tv/</link>
+        <link>http://localhost:1313/tags/tv/</link>
         <description>Recent content in телевизор on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ru-ru</language>
-        <lastBuildDate>Mon, 11 Apr 2011 04:21:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/tv/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Apr 2011 04:21:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tv/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Как я провел этим выходным</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110411_kak_ya_provel_etim_vyhodnym/</link>
+        <link>http://localhost:1313/posts/20110411_kak_ya_provel_etim_vyhodnym/</link>
         <pubDate>Mon, 11 Apr 2011 04:21:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20110411_kak_ya_provel_etim_vyhodnym/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/images.jpg" alt="Featured image of post Как я провел этим выходным" /&gt;&lt;p&gt;Пару недель назад я озаботился заменой своей акустики, вызванной&lt;a class=&#34;link&#34; href=&#34;http://sergejr.blogspot.com/2011/03/blog-post_24.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/posts/20110411_kak_ya_provel_etim_vyhodnym/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/images.jpg" alt="Featured image of post Как я провел этим выходным" /&gt;&lt;p&gt;Пару недель назад я озаботился заменой своей акустики, вызванной&lt;a class=&#34;link&#34; href=&#34;http://sergejr.blogspot.com/2011/03/blog-post_24.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt; несоответствием&lt;/a&gt; их импеданса (о с какими словами я познакомился) с требованиями ресивера. Что привело уже к поездке с оным ресивером в магазин для ремонта. Повторной поездки мне не хотелось. Существует конечно &amp;ldquo;бесплатное&amp;rdquo; организационное решение - сказать ребенку не выкручивать громкость ресивера на максимум. Но всем же понятно, что даже если эти слова и отложатся у ребенка в голове, то у нее же есть друзья, которые всегда успеют выкрутить громкость повыше, пока их не успели  предупредить (&amp;ldquo;НЕЕЕ-Е-Е-Т!!!&amp;rdquo; - &amp;quot; Поздно!Э&amp;quot;).&lt;/p&gt;
 &lt;p&gt;Поэтому я озаботился поиском новой акустики. Но &amp;ldquo;вдруг&amp;rdquo; выяснилось, что цены на нее начинаются с 10 тысяч рублей. А так как я не такой уж аудиофил, то тратить такие деньги мне не хотелось. Есть конечно и более бюджетные варианты с подходящим импедансом, но они не удовлетворяют меня визуально. Что это за акустика из пяти спичечных коробков? Хотя бы фронтальные колонки должны быть метровой высоты! И я нашел такие! Всего за четыре тысячи! Но только под заказ. Заказал и стал ждать. И чем дольше ждал и читал про них, тем больше понимал, что нет их уже в продаже и не дождусь я исполнения своего заказа.&lt;/p&gt;
 &lt;p&gt;Стал искать альтернативы. Решил заглянуть на наш форум и вдруг нашел на нем! BBK Angel 2 Series. Да, с рук, но всего за 4 тысячи. При ценах в интернетах от восьми тысяч. Правда находил информацию, что в Ашане из в одно время продавали по две тысячи. Но меня то там тогда не было! И наверняка это просто был единственный комплект с витрины. Вообщем написал продавцу в личку и стал ждать ответа. Как выяснилось дальше - решение писать только в личку оказалось стратегически верным :). Ответа ждал практически две недели. Следил за появлением продавца на форуме - а он не появлялся. И в пятницу стал стучаться в скайп (скайп был указан в профиле пользователя). И зачем-то написал в тему. Вот тут то и началось - тема поднялась, народ ее увидел и за один вечер появилось в теме два предложения о покупке акустики! (до этого тема состояла лишь из предложения о продаже). Я как-то даже заочковал. Но в субботу, после занятий йогой, заглянув на форум я увидел в личке сообщение с телефоном продавца! Одолжив денег у Оксанки, взяв Мишку в качестве грузчика (он заинтересованное лицо, т.к. ему отошли мои старые колонки) я за полчаса съездил и купил их!&lt;/p&gt;
@@ -25,10 +25,10 @@
         </item>
         <item>
         <title>Одно за другим</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</link>
+        <link>http://localhost:1313/posts/20110324_odno_za_drugim/</link>
         <pubDate>Thu, 24 Mar 2011 16:45:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</guid>
+        <guid>http://localhost:1313/posts/20110324_odno_za_drugim/</guid>
         <description>&lt;p&gt;Купили сперва вроде телевизор (диагональ 72). Тыщ двадцать вроде стоил.&lt;/p&gt;
 &lt;p&gt;Потом ДВД, чтобы смотреть фильмы. Тыщи за две.&lt;/p&gt;
 &lt;p&gt;Потом акустику к ДВД, чтобы смотреть фильмы с нормальным звуком. Не хорошим, а нормальным. Простая аккустика 5.1. Тыщ за пять.&lt;/p&gt;
@@ -46,10 +46,10 @@
         </item>
         <item>
         <title>День анкетирования</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110126_den_anketirovaniya/</link>
+        <link>http://localhost:1313/posts/20110126_den_anketirovaniya/</link>
         <pubDate>Wed, 26 Jan 2011 13:52:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20110126_den_anketirovaniya/</guid>
+        <guid>http://localhost:1313/posts/20110126_den_anketirovaniya/</guid>
         <description>&lt;p&gt;Сперва звонили из UTEL.TV  и расспрашивали про качество подключения, качество телевидения, пожелания и т.п.. Долго так расспрашивали. Сказал что в целом очень доволен, но высказал несколько замечаний (про пин-код на канале Боец, про сдвиг программы&amp;hellip;)&lt;/p&gt;
 &lt;p&gt;А вечером позвонили из КИА. Причем это уже второй раз. Первый раз звонили в пятницу, когда я собирался уже ехать домой и я им отказал. А вот этот раз согласился с ними пообщаться. Ну, некоторые вводные вопросы (два-три).&lt;/p&gt;
 &lt;p&gt;И спрашивают - а когда вы машину купили?&lt;/p&gt;
@@ -60,20 +60,20 @@
         </item>
         <item>
         <title>Его ПОВЕСИЛИ!</title>
-        <link>https://mysite-ci3.pages.dev/posts/20100918_ego_povesili/</link>
+        <link>http://localhost:1313/posts/20100918_ego_povesili/</link>
         <pubDate>Sat, 18 Sep 2010 16:19:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20100918_ego_povesili/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/2010_09_18_221634.jpg" alt="Featured image of post Его ПОВЕСИЛИ!" /&gt;&lt;p&gt;Ура. Мы раздвинули мебельную стенку и повесили, как хотели, телевизор.&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20100918_ego_povesili/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/2010_09_18_221634.jpg" alt="Featured image of post Его ПОВЕСИЛИ!" /&gt;&lt;p&gt;Ура. Мы раздвинули мебельную стенку и повесили, как хотели, телевизор.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Крепление телевизора на стенку</title>
-        <link>https://mysite-ci3.pages.dev/posts/20100915_kreplenie_televizora_na_stenku/</link>
+        <link>http://localhost:1313/posts/20100915_kreplenie_televizora_na_stenku/</link>
         <pubDate>Wed, 15 Sep 2010 16:57:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20100915_kreplenie_televizora_na_stenku/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/0097254_pe237566_s4.jpg" alt="Featured image of post Крепление телевизора на стенку" /&gt;&lt;p&gt;Хочу повесить телевизор на стенку. Да, во всех магазинах продаются соответствующие крепления. Но почему при цене телевизора от 20 тысяч крепления стоят порядка 2-х тысяч. А то и 4 или 5 тысяч? Т.е. напресовать и скрутить пару железок стоит почти столько же, чколько четверть прекрасного 40 дюймового телевизора? Грустно.&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20100915_kreplenie_televizora_na_stenku/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/0097254_pe237566_s4.jpg" alt="Featured image of post Крепление телевизора на стенку" /&gt;&lt;p&gt;Хочу повесить телевизор на стенку. Да, во всех магазинах продаются соответствующие крепления. Но почему при цене телевизора от 20 тысяч крепления стоят порядка 2-х тысяч. А то и 4 или 5 тысяч? Т.е. напресовать и скрутить пару железок стоит почти столько же, чколько четверть прекрасного 40 дюймового телевизора? Грустно.&lt;/p&gt;
 &lt;p&gt;Ну ничего! Нашел в икее вот такую &lt;a class=&#34;link&#34; href=&#34;http://www.ikea.com/ru/ru/catalog/products/90147936&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;конструкцию&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Выдержка с сайта:&lt;/p&gt;
@@ -87,11 +87,11 @@
         </item>
         <item>
         <title>AV ресивер</title>
-        <link>https://mysite-ci3.pages.dev/posts/20100901_av_resiver/</link>
+        <link>http://localhost:1313/posts/20100901_av_resiver/</link>
         <pubDate>Wed, 01 Sep 2010 05:05:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20100901_av_resiver/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/i.jpg" alt="Featured image of post AV ресивер" /&gt;&lt;p&gt;У меня есть простенькая акустика  5.1, которая была подключена к ДВД проигрывателю через обычные шесть проводов с &amp;ldquo;тюльпанами&amp;rdquo;.&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20100901_av_resiver/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/i.jpg" alt="Featured image of post AV ресивер" /&gt;&lt;p&gt;У меня есть простенькая акустика  5.1, которая была подключена к ДВД проигрывателю через обычные шесть проводов с &amp;ldquo;тюльпанами&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Не так давно приобрел ASUS O!Play для просмотра видео с коридорного сервера. И все бы ничего, но с Асуса звук шел только стерео и только на телевизор. Из выходов для многоканального звука был только оптический выход.&lt;/p&gt;
 &lt;p&gt;И захотелось мне  объединить все устройства, чтобы использовалась вся аппаратура и ничего не простаивало без дела!&lt;/p&gt;
 &lt;p&gt;Стал разбираться в вопросе. Выяснилось что раньше были внешние звуковые карты,позволявшие преобразовать оптический сигнал в 5.1. Но при этом придется отключать ДВД. Не то чтобы я его часто смотрю, но жалко отключать.&lt;/p&gt;
@@ -101,7 +101,7 @@
 &lt;p&gt;Еще один HDMI кабель
 Оптический(SPDIF) кабель
 Медный бескислородный провод (кучу метров без штекеров) чтобы сделать разводку по комнате.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/89994_2248_draft_large.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/89994_2248_draft_large.jpg&#34;
 	
 	
 	
@@ -117,11 +117,11 @@
         </item>
         <item>
         <title>Подключение к телевизору</title>
-        <link>https://mysite-ci3.pages.dev/posts/20100821_podklyuchenie_k_televizoru/</link>
+        <link>http://localhost:1313/posts/20100821_podklyuchenie_k_televizoru/</link>
         <pubDate>Sat, 21 Aug 2010 17:18:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20100821_podklyuchenie_k_televizoru/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/1001065698.jpg" alt="Featured image of post Подключение к телевизору" /&gt;&lt;p&gt;Пришлось покупать новые кабеля для подключения всех устройств к новому телевизору.&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20100821_podklyuchenie_k_televizoru/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/1001065698.jpg" alt="Featured image of post Подключение к телевизору" /&gt;&lt;p&gt;Пришлось покупать новые кабеля для подключения всех устройств к новому телевизору.&lt;/p&gt;
 &lt;p&gt;В первую очередь компонентный AV кабель для приставки WII. В статье, в которой я прочитал про него был указан уровень цен 2000 за оригинальный и 500 за копию. Ну я и рассчитывал уже на 500 рублей. Даже нашел соответствующий кабель в Ozon-е. И тут захожу в Элдораду и что я вижу - 99 рублей!!! Конечно купил. Видимо со времени той статьи прошло достаточно времени&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Но вот за HDMI мне пришлось выложить 330 рублей, хотя я читал про цены в 180 рублей. Ладно хоть не 1000 и более (как за некоторые из имевшихся в магазине).&lt;/p&gt;
 &lt;p&gt;Теперь все устройства зацеплены, осталось только подключить звук (5.1).&lt;/p&gt;
@@ -129,11 +129,11 @@
         </item>
         <item>
         <title>Телевизор</title>
-        <link>https://mysite-ci3.pages.dev/posts/20100820_televizor/</link>
+        <link>http://localhost:1313/posts/20100820_televizor/</link>
         <pubDate>Fri, 20 Aug 2010 16:15:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20100820_televizor/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/2010_08_22_014919.jpg" alt="Featured image of post Телевизор" /&gt;&lt;p&gt;Приобрели телевизор ЖК Samsung LE - 40 C 530 F1W. Теперь надо покупать HDMI кабель&amp;hellip;&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20100820_televizor/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/2010_08_22_014919.jpg" alt="Featured image of post Телевизор" /&gt;&lt;p&gt;Приобрели телевизор ЖК Samsung LE - 40 C 530 F1W. Теперь надо покупать HDMI кабель&amp;hellip;&lt;/p&gt;
 </description>
         </item>
         

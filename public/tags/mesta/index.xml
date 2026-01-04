@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>места on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/mesta/</link>
+        <link>http://localhost:1313/tags/mesta/</link>
         <description>Recent content in места on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ru-ru</language>
-        <lastBuildDate>Thu, 28 Jun 2012 10:05:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/mesta/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 28 Jun 2012 10:05:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mesta/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Алекс приземлился</title>
-        <link>https://mysite-ci3.pages.dev/posts/20120628_aleks_prizemlilsya/</link>
+        <link>http://localhost:1313/posts/20120628_aleks_prizemlilsya/</link>
         <pubDate>Thu, 28 Jun 2012 10:05:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20120628_aleks_prizemlilsya/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/20120628_121554.jpeg" alt="Featured image of post Алекс приземлился" /&gt;&lt;p&gt;Вчера отправляли Алекса обратно домой. Потом через &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.mobiata.flighttrack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/posts/20120628_aleks_prizemlilsya/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/20120628_121554.jpeg" alt="Featured image of post Алекс приземлился" /&gt;&lt;p&gt;Вчера отправляли Алекса обратно домой. Потом через &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.mobiata.flighttrack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;FlightTrack&lt;/a&gt; отслеживал весь его путь. Часовую задержку в Москве, две пересадки. И вот на данный момент он уже в родном штате. Надеюсь что сразу прошла аллергия и прекратили болеть суставы. Не болей, Алекс!&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Горячие источники</title>
-        <link>https://mysite-ci3.pages.dev/posts/20120618_goryachie_istochniki/</link>
+        <link>http://localhost:1313/posts/20120618_goryachie_istochniki/</link>
         <pubDate>Mon, 18 Jun 2012 03:15:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20120618_goryachie_istochniki/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/img_20120616_215828.jpg" alt="Featured image of post Горячие источники" /&gt;&lt;p&gt;В эти выходные ездили на горячие источники, под Тюменью (&lt;a class=&#34;link&#34; href=&#34;https://maps.google.ru/maps?q=57.296854,65.084832&amp;amp;num=1&amp;amp;t=h&amp;amp;z=16&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/posts/20120618_goryachie_istochniki/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/img_20120616_215828.jpg" alt="Featured image of post Горячие источники" /&gt;&lt;p&gt;В эти выходные ездили на горячие источники, под Тюменью (&lt;a class=&#34;link&#34; href=&#34;https://maps.google.ru/maps?q=57.296854,65.084832&amp;amp;num=1&amp;amp;t=h&amp;amp;z=16&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;google map&lt;/a&gt;). Чуть менее 500 км в одну сторону. Туда везли чистую пресную воду. Обратно - грязную соленую. Заплатили за въезд, людей и палатки. И весть вечер и все утро купались в горячей воде и ели еду. Утром от еды мне поплохело. Но машину до дома довести сумел. А уж дома почти сразу завалился спать.&lt;/p&gt;
 &lt;p&gt;Ехал по &amp;ldquo;Прогороду&amp;rdquo;. Ничего так, за исключением требования наличия интернета на момент построения маршрута(может интернет и не обязательный, но без него что-то у меня были проблемы с перестроением маршрута). Для движения по маршруту интернет не нужен. Дополнительно помогал держаться маршрута Володя Сизов, который &amp;ldquo;контролировал&amp;rdquo; поездку по своему туристическому навигатору.&lt;/p&gt;
 &lt;p&gt;Подробнее про поездку можете прочитать &lt;a class=&#34;link&#34; href=&#34;http://usashka.blogspot.com/2012/06/healing-waters-in-siberia.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -31,10 +31,10 @@
         </item>
         <item>
         <title>Киноград</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110622_kinograd/</link>
+        <link>http://localhost:1313/posts/20110622_kinograd/</link>
         <pubDate>Wed, 22 Jun 2011 09:33:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20110622_kinograd/</guid>
+        <guid>http://localhost:1313/posts/20110622_kinograd/</guid>
         <description>&lt;p&gt;В Пышме не было кинотеатра! Т.е. был в ДК Факел, но работал они то ли раз в день, то ли раз в неделю.&lt;/p&gt;
 &lt;p&gt;И вот в прошлом месяце на том же месте открылся новый &lt;a class=&#34;link&#34; href=&#34;http://kino.dkvp.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;кинотеатр&lt;/a&gt;! С 3D!&lt;/p&gt;

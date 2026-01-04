@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>android on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/android/</link>
+        <link>http://localhost:1313/tags/android/</link>
         <description>Recent content in android on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ru-ru</language>
-        <lastBuildDate>Tue, 31 Jul 2012 15:00:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/android/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 31 Jul 2012 15:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/android/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Китайский SGSIII</title>
-        <link>https://mysite-ci3.pages.dev/posts/20120731_chinese_sgs3/</link>
+        <link>http://localhost:1313/posts/20120731_chinese_sgs3/</link>
         <pubDate>Tue, 31 Jul 2012 15:00:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20120731_chinese_sgs3/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/chinasgsiii.png" alt="Featured image of post Китайский SGSIII" /&gt;&lt;p&gt;А почему только одна симка? :)&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20120731_chinese_sgs3/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/chinasgsiii.png" alt="Featured image of post Китайский SGSIII" /&gt;&lt;p&gt;А почему только одна симка? :)&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Блоггер под андрод</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110624_blogger_pod_androd/</link>
+        <link>http://localhost:1313/posts/20110624_blogger_pod_androd/</link>
         <pubDate>Fri, 24 Jun 2011 06:42:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20110624_blogger_pod_androd/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/android_blogger.png" alt="Featured image of post Блоггер под андрод" /&gt;&lt;p&gt;Установил клиент для публикаций в Блог под андроид. Прикольно. Только набирать на экранной клавиатуре не очень удобно.&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20110624_blogger_pod_androd/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/android_blogger.png" alt="Featured image of post Блоггер под андрод" /&gt;&lt;p&gt;Установил клиент для публикаций в Блог под андроид. Прикольно. Только набирать на экранной клавиатуре не очень удобно.&lt;/p&gt;
 &lt;p&gt;Еще, по ходу набора выяснилось, чтобы они корежит текст при использовании форматирования.&lt;/p&gt;
 &lt;p&gt;И посты с картинками с трудом отправляются по нашим телефонным сетям.&lt;/p&gt;
 &lt;p&gt;Но все равно, этот гораздо удобнее чем писать через мобильный браузер.&lt;/p&gt;
@@ -29,11 +29,11 @@
         </item>
         <item>
         <title>Motorola Milestone</title>
-        <link>https://mysite-ci3.pages.dev/posts/20101116_motorola_milestone/</link>
+        <link>http://localhost:1313/posts/20101116_motorola_milestone/</link>
         <pubDate>Tue, 16 Nov 2010 03:11:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20101116_motorola_milestone/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20101116_motorola_milestone/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/motorola_milestone.jpg" alt="Featured image of post Motorola Milestone" /&gt;&lt;p&gt;Что я могу про него сказать?&lt;/p&gt;
 &lt;p&gt;Самое первое впечатление - это не телефон! Чтобы позвонить с голого аппарата требуется не менее четырех действий. Да еще поиск номера - чистое листание списка контактов. Да, со временем частоиспользуемые контакты выводятся в виджеты, ставятся альтернативные программы звонилки и жизнь налаживается. Хотя универсальность аппарата лезет из всех щелей.&lt;/p&gt;
 &lt;p&gt;-Вы его выбрали? А вот все его реквизиты для связи&lt;/p&gt;
 &lt;p&gt;-Позвонить или связаться по скайпу?&lt;/p&gt;

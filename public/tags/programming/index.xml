@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>программирование on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/programming/</link>
+        <link>http://localhost:1313/tags/programming/</link>
         <description>Recent content in программирование on Sergey Ryazanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ru-ru</language>
-        <lastBuildDate>Mon, 13 Mar 2017 08:40:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/programming/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 13 Mar 2017 08:40:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>CNTML</title>
-        <link>https://mysite-ci3.pages.dev/posts/20170313_cntml/</link>
+        <link>http://localhost:1313/posts/20170313_cntml/</link>
         <pubDate>Mon, 13 Mar 2017 08:40:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20170313_cntml/</guid>
+        <guid>http://localhost:1313/posts/20170313_cntml/</guid>
         <description>&lt;p&gt;На работе используется прокси с NMTL авторизацией. Чтобы использовать npm, git и т.п. нашлось решение в виде локального прокси CNTML. Но при установке большого пакета через npm происходило &amp;ldquo;зависание&amp;rdquo; на неком произвольном этапе. Пробовал скачивать отдельные пакеты, но это не помогло. Решением оказалось &amp;ldquo;убийство&amp;rdquo; процесса cntml через диспетчер задач и его повторный запуск в списке служб. После это установка &amp;ldquo;начинала продолжать&amp;rdquo; загрузку.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Я сделал это</title>
-        <link>https://mysite-ci3.pages.dev/posts/20120831_ya_sdelal_eto/</link>
+        <link>http://localhost:1313/posts/20120831_ya_sdelal_eto/</link>
         <pubDate>Fri, 31 Aug 2012 08:31:00 +0000</pubDate>
         
-        <guid>https://mysite-ci3.pages.dev/posts/20120831_ya_sdelal_eto/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/before.png" alt="Featured image of post Я сделал это" /&gt;&lt;p&gt;До переименования&lt;/p&gt;
+        <guid>http://localhost:1313/posts/20120831_ya_sdelal_eto/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/before.png" alt="Featured image of post Я сделал это" /&gt;&lt;p&gt;До переименования&lt;/p&gt;
 &lt;p&gt;Я сделал это! Я написал bat файл для переименования каталогов фотографий.&lt;/p&gt;
 &lt;p&gt;Сохраняем текст программы в файл с расширением bat и запускаем его в папке, содержащей библиотеку фотографий (т.е в папке, содержащей подпапки с фотографиями). Программа обходит все подпапки в текущей папке, анализирует дату создания и добавит в имена подпапок период дат хранящихся  в них фотографий.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/after.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/after.png&#34;
 	
 	
 	
