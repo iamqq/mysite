@@ -1,61 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>музыка on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/muzyka/</link>
-        <description>Recent content in музыка on Sergey Ryazanov</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ru-ru</language>
-        <lastBuildDate>Thu, 24 Mar 2011 16:45:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/muzyka/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Одно за другим</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</link>
-        <pubDate>Thu, 24 Mar 2011 16:45:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</guid>
-        <description>&lt;p&gt;Купили сперва вроде телевизор (диагональ 72). Тыщ двадцать вроде стоил.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>музыка on Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/tags/muzyka/</link><description>Recent content in музыка on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Thu, 24 Mar 2011 16:45:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/muzyka/index.xml" rel="self" type="application/rss+xml"/><item><title>Одно за другим</title><link>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</link><pubDate>Thu, 24 Mar 2011 16:45:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110324_odno_za_drugim/</guid><description>&lt;p&gt;Купили сперва вроде телевизор (диагональ 72). Тыщ двадцать вроде стоил.&lt;/p&gt;
 &lt;p&gt;Потом ДВД, чтобы смотреть фильмы. Тыщи за две.&lt;/p&gt;
 &lt;p&gt;Потом акустику к ДВД, чтобы смотреть фильмы с нормальным звуком. Не хорошим, а нормальным. Простая аккустика 5.1. Тыщ за пять.&lt;/p&gt;
 &lt;p&gt;Ну, потом купили Wii. Не жалею. Сам много не играл, но дети с друзьями всегда могли поиграть. А я читал как ее взламывать, делал софтмод, искал подходящие болванки, качал и записывал игры. Стоила она тыщ десять. И дополнительные контроллеры и лицензионные диски обошлись не в меньшую сумму (а то и раза в два дороже!).&lt;/p&gt;
 &lt;p&gt;Потом стало лень покупать/качать-записывать ДВД и купил сетевой медиаплейер ASUS O!Play HDP-R1. Обязательно сетевой, т.к. в коридоре стоит файловый сервер и не недо заморачиваться с флешками. Стоил O!Play в районе четырех-пять тыщ.&lt;/p&gt;
 &lt;p&gt;А вот тут я что-то запутался - HD телевизор я купил до этого или после? Диагональ 40&amp;quot;. Стоил двадцать четыре тыщи.&lt;/p&gt;
 &lt;p&gt;Но вообщем порядок в этом рассказе не важен. Важно что понадобилось все это подключить к телевизору. А кроме того, что подключить к телевизору, хотелось бы чтобы звук выводился на нормальную (не хорошую) аккустику.&lt;/p&gt;
-&lt;p&gt;Стал изучать вопрос. Оказалось что нужен ресивер! Это еще минимум восемь тыщ . Именно за столько я и купил. И куча проводов! Как жить? Если двух метровый HDMI кабель стоит в магазине минимум шестьсот рублей? Я нашел за 150. А аудиокабель, которого я купил больше двадцати метров, а он стоит в аудиомагазине  минимум шестьдесят рублей за метр? Я купил менее чем за двадцать.&lt;/p&gt;
+&lt;p&gt;Стал изучать вопрос. Оказалось что нужен ресивер! Это еще минимум восемь тыщ . Именно за столько я и купил. И куча проводов! Как жить? Если двух метровый HDMI кабель стоит в магазине минимум шестьсот рублей? Я нашел за 150. А аудиокабель, которого я купил больше двадцати метров, а он стоит в аудиомагазине минимум шестьдесят рублей за метр? Я купил менее чем за двадцать.&lt;/p&gt;
 &lt;p&gt;Собирал несколько выходных. Как, в каком порядке все это подключить к другдругу? Да и логика работы ресивера не во всем соответствовала моим представлениям/требованиям к нему. Процесс передачи знаний по включению и переключению всего этого - тоже отдельная песня! Одних только пультов постоянно в использовании штуки четыре! А потом еще UTEL.TV со своим пятым пультом!&lt;/p&gt;
 &lt;p&gt;Но вообщем собрал, настроил, пользуемся. И в один из выходных ребенок и говорит - что-то не включается ресивер!&lt;/p&gt;
 &lt;p&gt;Повез в ремонт. Отремонтировали за неделю, бесплатно. И что же выяснилось? А выяснилость что колонки слабо подходят в данному ресиверу. Что ему нужны колонки минимум на 6 Ом, а у нас видимо на 4 Ома (это они в сервисе не видя моих колонок написали, а я реально не знаю сопротивления моей аккустики!). И теперь либо звук не задирать выше 45! Либо купить новую аккустику минимум за 11-14 тыщ. Вот так-то&amp;hellip;&lt;/p&gt;
-&lt;p&gt;P.S. Заказал &lt;a class=&#34;link&#34; href=&#34;http://www.sven.ru/catalog/home_theater_sets/hp-550t.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Sven HP-550T&lt;/a&gt; за 3823 р.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Ва-банк. Маршруты Московские</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</link>
-        <pubDate>Thu, 17 Feb 2011 16:52:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</guid>
-        <description>&lt;p&gt;Электричкой из Москвы я поеду, я поеду в никуда&amp;hellip;
+&lt;p&gt;P.S. Заказал &lt;a class="link" href="http://www.sven.ru/catalog/home_theater_sets/hp-550t.htm" target="_blank" rel="noopener"
+&gt;Sven HP-550T&lt;/a&gt; за 3823 р.&lt;/p&gt;</description></item><item><title>Ва-банк. Маршруты Московские</title><link>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</link><pubDate>Thu, 17 Feb 2011 16:52:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</guid><description>&lt;p&gt;Электричкой из Москвы я поеду, я поеду в никуда&amp;hellip;
 Периодически вспоминаю эту песню (точнее припев) и не могу вспомнить название. Может теперь запомню? Песня то замечательная.&lt;/p&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/ZjXov0YIqUg&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-        </item>
-        <item>
-        <title>Музыка</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110203_muzyka/</link>
-        <pubDate>Thu, 03 Feb 2011 13:20:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20110203_muzyka/</guid>
-        <description>&lt;p&gt;Все-таки в музыке меня больше цепляют тексты. Вчера ходил на &amp;ldquo;Бурлеск&amp;rdquo;. Пока субтитрами идет текст песни - меня цепляет. Только картинку смотреть не успеваю. Кончаются субтитры - цепляет меньше, до момента, пока не услышу распознанный по субтитрам английский текст. Т.е. если (может написать &amp;ldquo;когда&amp;rdquo;?) выучу английский, то смогу и английские песни слушать с большим удовольствием (или с меньшим? :) ). А вот набрел вчера на &amp;ldquo;Остров&amp;rdquo; Псоя Короленко - и слушаю который раз этот рифмованный поток немного знакомых фраз!&lt;/p&gt;
-&lt;p&gt;Хотя не только тексты :) Gorillaz я же тоже слушаю с удовольствием. Видимо тексты и ритмы :)&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/ZjXov0YIqUg"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>Музыка</title><link>https://mysite-ci3.pages.dev/posts/20110203_muzyka/</link><pubDate>Thu, 03 Feb 2011 13:20:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110203_muzyka/</guid><description>&lt;p&gt;Все-таки в музыке меня больше цепляют тексты. Вчера ходил на &amp;ldquo;Бурлеск&amp;rdquo;. Пока субтитрами идет текст песни - меня цепляет. Только картинку смотреть не успеваю. Кончаются субтитры - цепляет меньше, до момента, пока не услышу распознанный по субтитрам английский текст. Т.е. если (может написать &amp;ldquo;когда&amp;rdquo;?) выучу английский, то смогу и английские песни слушать с большим удовольствием (или с меньшим? :) ). А вот набрел вчера на &amp;ldquo;Остров&amp;rdquo; Псоя Короленко - и слушаю который раз этот рифмованный поток немного знакомых фраз!&lt;/p&gt;
+&lt;p&gt;Хотя не только тексты :) Gorillaz я же тоже слушаю с удовольствием. Видимо тексты и ритмы :)&lt;/p&gt;</description></item></channel></rss>

@@ -23,6 +23,15 @@ theme = 'stack'
             { type = "toc" }
         ]
 
+    [params.comments]
+        enabled = true
+        provider = "remark42"
+    
+        [params.comments.remark42]
+            host = "https://remark42.iamqq.mywire.org"
+            site = "mysite-ci3"
+            locale = "ru"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

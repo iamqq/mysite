@@ -1,120 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>программирование on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/programming/</link>
-        <description>Recent content in программирование on Sergey Ryazanov</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ru-ru</language>
-        <lastBuildDate>Mon, 13 Mar 2017 08:40:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/programming/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>CNTML</title>
-        <link>https://mysite-ci3.pages.dev/posts/20170313_cntml/</link>
-        <pubDate>Mon, 13 Mar 2017 08:40:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20170313_cntml/</guid>
-        <description>&lt;p&gt;На работе используется прокси с NMTL авторизацией. Чтобы использовать npm, git и т.п. нашлось решение в виде локального прокси CNTML. Но при установке большого пакета через npm происходило &amp;ldquo;зависание&amp;rdquo; на неком произвольном этапе. Пробовал скачивать отдельные пакеты, но это не помогло. Решением оказалось &amp;ldquo;убийство&amp;rdquo; процесса cntml через диспетчер задач и его повторный запуск в списке служб. После это установка &amp;ldquo;начинала продолжать&amp;rdquo; загрузку.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Я сделал это</title>
-        <link>https://mysite-ci3.pages.dev/posts/20120831_ya_sdelal_eto/</link>
-        <pubDate>Fri, 31 Aug 2012 08:31:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20120831_ya_sdelal_eto/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/before.png" alt="Featured image of post Я сделал это" /&gt;&lt;p&gt;До переименования&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>программирование on Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/tags/programming/</link><description>Recent content in программирование on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Mon, 13 Mar 2017 08:40:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>CNTML</title><link>https://mysite-ci3.pages.dev/posts/20170313_cntml/</link><pubDate>Mon, 13 Mar 2017 08:40:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20170313_cntml/</guid><description>&lt;p&gt;На работе используется прокси с NMTL авторизацией. Чтобы использовать npm, git и т.п. нашлось решение в виде локального прокси CNTML. Но при установке большого пакета через npm происходило &amp;ldquo;зависание&amp;rdquo; на неком произвольном этапе. Пробовал скачивать отдельные пакеты, но это не помогло. Решением оказалось &amp;ldquo;убийство&amp;rdquo; процесса cntml через диспетчер задач и его повторный запуск в списке служб. После это установка &amp;ldquo;начинала продолжать&amp;rdquo; загрузку.&lt;/p&gt;</description></item><item><title>Я сделал это</title><link>https://mysite-ci3.pages.dev/posts/20120831_ya_sdelal_eto/</link><pubDate>Fri, 31 Aug 2012 08:31:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20120831_ya_sdelal_eto/</guid><description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/before.png" alt="Featured image of post Я сделал это" /&gt;&lt;p&gt;До переименования&lt;/p&gt;
 &lt;p&gt;Я сделал это! Я написал bat файл для переименования каталогов фотографий.&lt;/p&gt;
-&lt;p&gt;Сохраняем текст программы в файл с расширением bat и запускаем его в папке, содержащей библиотеку фотографий (т.е в папке, содержащей подпапки с фотографиями). Программа обходит все подпапки в текущей папке, анализирует дату создания и добавит в имена подпапок период дат хранящихся  в них фотографий.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/images/blogspot/iamqq/after.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;after.png&#34;
-	
-	
+&lt;p&gt;Сохраняем текст программы в файл с расширением bat и запускаем его в папке, содержащей библиотеку фотографий (т.е в папке, содержащей подпапки с фотографиями). Программа обходит все подпапки в текущей папке, анализирует дату создания и добавит в имена подпапок период дат хранящихся в них фотографий.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/after.png"
+loading="lazy"
+alt="after.png"
 &gt;
 После переименования&lt;/p&gt;
 &lt;p&gt;Протокол пеерименования:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;( 2011.05.16 - 2011.05.16 ) 2011-05-16 -  2011.05.16-2011-05-16
-
-( 2007.09.28 - 2011.04.04 ) _Разобрать -  2007.09.28-2011.04.04-_Разобрать
+&lt;pre&gt;&lt;code&gt;( 2011.05.16 - 2011.05.16 ) 2011-05-16 - 2011.05.16-2011-05-16
+( 2007.09.28 - 2011.04.04 ) _Разобрать - 2007.09.28-2011.04.04-_Разобрать
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Работает на 1 уровень. Дерево целиком не разматывает.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;@echo off
 setlocal enabledelayedexpansion
 for /D %%f in (*) do (
-        echo %%f
- dir /O:D /T:W /4 &amp;quot;%%f\*.jpg&amp;quot; &amp;gt; tmp
- set /a crow=0
- FOR /F &amp;quot;eol=  skip=5 tokens=1,2,3  delims=. &amp;quot; %%i in (tmp) do (
-  set /a crow+=1
- )
- set /a crow-=2
- set /a mrow=0
- FOR /F &amp;quot;eol=  skip=5 tokens=1,2,3  delims=. &amp;quot; %%i in (tmp) do (
-  set /a mrow+=1
-  if !mrow! LEQ !crow! (
-rem echo #mrow= !mrow!  crow= !crow!
-   set &amp;quot;day=%%i&amp;quot;
-   set &amp;quot;month=%%j&amp;quot;
-   set &amp;quot;year=%%k&amp;quot;
-   set dat=%%k%%j%%i
-   echo # !year!.!month!.!day! - !dat! - !ndat! - !xdat!
-   if !mrow! == 1 (
-    set xyear=!year!
-    set xmonth=!month!
-    set xday=!day!
-    set nyear=!year!
-    set nmonth=!month!
-    set nday=!day!
-    set xdat=!xyear!!xmonth!!xday!
-    set ndat=!nyear!!nmonth!!nday!
-rem echo &amp;quot;f0&amp;quot;
-   )
-   if !dat! GTR !xdat! (
-    set xyear=!year!
-    set xmonth=!month!
-    set xday=!day!
-    set xdat=!xyear!!xmonth!!xday!
-rem echo &amp;quot;f1&amp;quot;
-   )
-   if !dat! LSS !ndat! (
-    set nyear=!year!
-    set nmonth=!month!
-    set nday=!day!
-    set ndat=!nyear!!nmonth!!nday!
-rem echo &amp;quot;f2&amp;quot;
-   )
-  )
-  echo ##!year!.!month!.!day! - !dat! - !ndat! - !xdat! 
- )
- echo ### !nyear!.!nmonth!.!nday! - !xyear!.!xmonth!.!xday!
- if !xyear! == !nyear! (
-  set fdate=!nyear!
-  if !xmonth! == !nmonth! (
-   set fdate=!fdate!.!nmonth!
-   if !xday! == !nday! (
-    set fdate=!fdate!.!nday!
-   ) else (
-    set fdate=!fdate!.!nday!-!xday!
-   )    
-  ) else (
-   set fdate=!fdate!.!nmonth!.!nday!-!xmonth!.!xday!
-  )
-
- ) else (
-
-  set fdate=!nyear!.!nmonth!.!nday!-!xyear!.!xmonth!.!xday!
- )
- set &amp;quot;ouname=!fdate!-%%f&amp;quot;
- set &amp;quot;inname=%%f&amp;quot;
-echo ( !nyear!.!nmonth!.!nday! - !xyear!.!xmonth!.!xday! ^) !inname! -  !ouname! 
-  rename &amp;quot;!inname!&amp;quot; &amp;quot;!ouname!&amp;quot; 
+echo %%f
+dir /O:D /T:W /4 &amp;quot;%%f\*.jpg&amp;quot; &amp;gt; tmp
+set /a crow=0
+FOR /F &amp;quot;eol= skip=5 tokens=1,2,3 delims=. &amp;quot; %%i in (tmp) do (
+set /a crow+=1
 )
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+set /a crow-=2
+set /a mrow=0
+FOR /F &amp;quot;eol= skip=5 tokens=1,2,3 delims=. &amp;quot; %%i in (tmp) do (
+set /a mrow+=1
+if !mrow! LEQ !crow! (
+rem echo #mrow= !mrow! crow= !crow!
+set &amp;quot;day=%%i&amp;quot;
+set &amp;quot;month=%%j&amp;quot;
+set &amp;quot;year=%%k&amp;quot;
+set dat=%%k%%j%%i
+echo # !year!.!month!.!day! - !dat! - !ndat! - !xdat!
+if !mrow! == 1 (
+set xyear=!year!
+set xmonth=!month!
+set xday=!day!
+set nyear=!year!
+set nmonth=!month!
+set nday=!day!
+set xdat=!xyear!!xmonth!!xday!
+set ndat=!nyear!!nmonth!!nday!
+rem echo &amp;quot;f0&amp;quot;
+)
+if !dat! GTR !xdat! (
+set xyear=!year!
+set xmonth=!month!
+set xday=!day!
+set xdat=!xyear!!xmonth!!xday!
+rem echo &amp;quot;f1&amp;quot;
+)
+if !dat! LSS !ndat! (
+set nyear=!year!
+set nmonth=!month!
+set nday=!day!
+set ndat=!nyear!!nmonth!!nday!
+rem echo &amp;quot;f2&amp;quot;
+)
+)
+echo ##!year!.!month!.!day! - !dat! - !ndat! - !xdat!
+)
+echo ### !nyear!.!nmonth!.!nday! - !xyear!.!xmonth!.!xday!
+if !xyear! == !nyear! (
+set fdate=!nyear!
+if !xmonth! == !nmonth! (
+set fdate=!fdate!.!nmonth!
+if !xday! == !nday! (
+set fdate=!fdate!.!nday!
+) else (
+set fdate=!fdate!.!nday!-!xday!
+)
+) else (
+set fdate=!fdate!.!nmonth!.!nday!-!xmonth!.!xday!
+)
+) else (
+set fdate=!nyear!.!nmonth!.!nday!-!xyear!.!xmonth!.!xday!
+)
+set &amp;quot;ouname=!fdate!-%%f&amp;quot;
+set &amp;quot;inname=%%f&amp;quot;
+echo ( !nyear!.!nmonth!.!nday! - !xyear!.!xmonth!.!xday! ^) !inname! - !ouname!
+rename &amp;quot;!inname!&amp;quot; &amp;quot;!ouname!&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>
