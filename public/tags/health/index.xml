@@ -1,38 +1,126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>здоровье on Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/tags/health/</link><description>Recent content in здоровье on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Mon, 27 Aug 2012 03:03:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/health/index.xml" rel="self" type="application/rss+xml"/><item><title>Диагностирование болезни по месту боли живота</title><link>https://mysite-ci3.pages.dev/posts/20120827_diagnosing_abdominal_pain/</link><pubDate>Mon, 27 Aug 2012 03:03:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20120827_diagnosing_abdominal_pain/</guid><description>&lt;p&gt;Надеюсь не пригодится, но на всякий случай оставлю здесь, т.к. прецеденты лично у меня уже были. Хотя я не очень верю в самодиагностику, а больше в самовнушение (читайте &amp;ldquo;Трое в лодке не считая собаки&amp;rdquo; про чтение медицинского справочника). Вспоминая свой случай, точно уверен, что если живот болит, то он болит весь :). Если в тот момент у меня кто-то попытался бы выяснить где болит, то он ничего бы не добился &amp;hellip;.&lt;/p&gt;</description></item><item><title>Легкая атлетика</title><link>https://mysite-ci3.pages.dev/posts/20120628_legkaya_atletika/</link><pubDate>Thu, 28 Jun 2012 10:10:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20120628_legkaya_atletika/</guid><description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/img_20120627_191636.jpg" alt="Featured image of post Легкая атлетика" /&gt;&lt;p&gt;Участвовал в соревнованиях по легонькой атлетике. Первоначально соревнования планировались на вторник, я про это благополучно забыл.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>здоровье on Sergey Ryazanov</title>
+        <link>http://localhost:1313/tags/health/</link>
+        <description>Recent content in здоровье on Sergey Ryazanov</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ru-ru</language>
+        <lastBuildDate>Mon, 27 Aug 2012 03:03:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/health/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Диагностирование болезни по месту боли живота</title>
+        <link>http://localhost:1313/posts/20120827_diagnosing_abdominal_pain/</link>
+        <pubDate>Mon, 27 Aug 2012 03:03:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20120827_diagnosing_abdominal_pain/</guid>
+        <description>&lt;p&gt;Надеюсь не пригодится, но на всякий случай оставлю здесь, т.к. прецеденты лично у меня уже были. Хотя я не очень верю в самодиагностику, а больше в самовнушение (читайте &amp;ldquo;Трое в лодке не считая собаки&amp;rdquo; про чтение медицинского справочника). Вспоминая свой случай, точно уверен, что если живот болит, то он болит весь :). Если в тот момент у меня кто-то попытался бы выяснить где болит, то он ничего бы не добился &amp;hellip;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Легкая атлетика</title>
+        <link>http://localhost:1313/posts/20120628_legkaya_atletika/</link>
+        <pubDate>Thu, 28 Jun 2012 10:10:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20120628_legkaya_atletika/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/img_20120627_191636.jpg" alt="Featured image of post Легкая атлетика" /&gt;&lt;p&gt;Участвовал в соревнованиях по легонькой атлетике. Первоначально соревнования планировались на вторник, я про это благополучно забыл.&lt;/p&gt;
 &lt;p&gt;Мы в этот день отдавали документы на гостевую шенгенскую визу и поэтому вся семья была в Пышме/Екатеринбурге. Т.е. для совместного времяпровождения мне совсем не улыбалось участвовать в соревнованиях после работы. И вот оно счастье - гроза! Все соревнования отменились!&lt;/p&gt;
 &lt;p&gt;На следующий день вечер был абсолютно свободен, на небе светило солнышко и ничто не могло мне помешать бросить ядро и пробежать сто метров (прыгать в длину не имело никакого смысла).&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/img_20120627_192027.jpg"
-loading="lazy"
-alt="img_20120627_192027.jpg"
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blogspot/iamqq/img_20120627_192027.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img_20120627_192027.jpg&#34;
+	
+	
 &gt;Бегом ради спорта я не занимался уже черти сколько лет и ради разминки я решил не идти пешком, а доехать на велосипеде - хоть какая-то нагрузка. Приехал, поучаствовал в построении и пошел на старт стометровой дистанции.&lt;/p&gt;
 &lt;p&gt;Побежал во втором забеге. Пробежал метров 10-20 и что-то у меня на задней поверхности бедра правой ноги &amp;ldquo;порвалось&amp;rdquo;. Пытаюсь бежать и думаю - &amp;ldquo;А надо ли продолжать? Все уже почти добежали а припрыгиваю на середине&amp;rdquo;. Но допрыгал. чуть меньше 19 секунд.&lt;/p&gt;
 &lt;p&gt;И тут надо бросать ядро. А правая нога не дает ничего делать. Ну по растягивал ее по всякому. Ядро бросить смог. С места, без всяких там подпрыгиваний. При этом третий результат среди присутствующих. Но думаю, что с здоровой ногой лучше бы не получилось - делал бы лишние движения, ухудшающие результат.&lt;/p&gt;
 &lt;p&gt;Посмотрел прыжки в длину и не дождавшись эстафеты уехал в квартиру. Вечером съездил в аптеку купил какую-то разогревающую мазь. Прикольная вещь - внутри специальная штучка, чтобы мазать ей а не пальцами. И это правильно - даже на следующий день, когда я садился на кожаное кресло мне начинало сильно греть намазанную поверхность ноги.&lt;/p&gt;
-&lt;p&gt;Хожу не спеша, но сегодня, на третий день уже гораздо лучше (например могу спокойно стянуть обувь с больной ноги, что совсем не мог в первый день).&lt;/p&gt;
-&lt;p&gt;Не болейте! Занимайтесь спортом! разминайтесь и растягивайтесь :)&lt;/p&gt;</description></item><item><title>Алекс приземлился</title><link>https://mysite-ci3.pages.dev/posts/20120628_aleks_prizemlilsya/</link><pubDate>Thu, 28 Jun 2012 10:05:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20120628_aleks_prizemlilsya/</guid><description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/20120628_121554.jpeg" alt="Featured image of post Алекс приземлился" /&gt;&lt;p&gt;Вчера отправляли Алекса обратно домой. Потом через &lt;a class="link" href="https://play.google.com/store/apps/details?id=com.mobiata.flighttrack" target="_blank" rel="noopener"
-&gt;FlightTrack&lt;/a&gt; отслеживал весь его путь. Часовую задержку в Москве, две пересадки. И вот на данный момент он уже в родном штате. Надеюсь что сразу прошла аллергия и прекратили болеть суставы. Не болей, Алекс!&lt;/p&gt;</description></item><item><title>Ухо</title><link>https://mysite-ci3.pages.dev/posts/20120628_uho/</link><pubDate>Thu, 28 Jun 2012 09:54:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20120628_uho/</guid><description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/img_20120627_152306_706706.jpg" alt="Featured image of post Ухо" /&gt;&lt;p&gt;Видимо при купании вода попала в ухо и оно заболело. Даже не заболело, а это противное чувство небольшой отечности и желание его почесать изнутри. В итоге Оксанка купила борный спирт, для прогрева.&lt;/p&gt;
-&lt;p&gt;Но кто же знал (т.е. все знали, я не знал), что перед употреблением любого препарата для уха его надо греть. Я не погрел. В итоге всю ночь не знал какой стороной головы прикладываться к подушке - больным ухом вверх - ухо мерзло, вниз - болело. Ну потом как-то приноровился и уснул.&lt;/p&gt;
+&lt;p&gt;Хожу не спеша,  но сегодня, на третий день уже гораздо лучше (например могу спокойно стянуть обувь с больной ноги, что совсем не мог в первый день).&lt;/p&gt;
+&lt;p&gt;Не болейте! Занимайтесь спортом! разминайтесь и растягивайтесь :)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Алекс приземлился</title>
+        <link>http://localhost:1313/posts/20120628_aleks_prizemlilsya/</link>
+        <pubDate>Thu, 28 Jun 2012 10:05:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20120628_aleks_prizemlilsya/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/20120628_121554.jpeg" alt="Featured image of post Алекс приземлился" /&gt;&lt;p&gt;Вчера отправляли Алекса обратно домой. Потом через &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.mobiata.flighttrack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FlightTrack&lt;/a&gt; отслеживал весь его путь. Часовую задержку в Москве, две пересадки. И вот на данный момент он уже в родном штате. Надеюсь что сразу прошла аллергия и прекратили болеть суставы. Не болей, Алекс!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Ухо</title>
+        <link>http://localhost:1313/posts/20120628_uho/</link>
+        <pubDate>Thu, 28 Jun 2012 09:54:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20120628_uho/</guid>
+        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/img_20120627_152306_706706.jpg" alt="Featured image of post Ухо" /&gt;&lt;p&gt;Видимо при купании вода попала в ухо и оно заболело. Даже не заболело, а это противное чувство небольшой отечности и желание его почесать изнутри. В итоге Оксанка купила борный спирт, для прогрева.&lt;/p&gt;
+&lt;p&gt;Но кто же знал (т.е. все знали, я не знал), что перед употреблением любого препарата для уха его надо греть. Я не погрел. В итоге всю ночь не знал какой стороной головы  прикладываться к подушке - больным ухом вверх - ухо мерзло, вниз - болело. Ну потом как-то приноровился и уснул.&lt;/p&gt;
 &lt;p&gt;С утра стало неприятно жевать. После обсуждения о моей ошибке с холодным борным спиртом, я поддался на уговоры и пошел в поликлинику.&lt;/p&gt;
 &lt;p&gt;Все-таки наша медицина самая бесплатная медицина в мире. Нет, возможно это не их вина. Но карточки опять не было. Мне выписали как минимум третью в этой поликлинике новую карточку. И отправили в соседнее здание, записываться к ЛОРу. Очередь во вторую регистратуру была не большая. Мне быстро выдали талончик и я пошел к кабинету. И вот у кабинета началось. Пришел я еще до 10 часов, а талончик был на 11:50. &amp;ldquo;Кто крайний?&amp;rdquo;, &amp;ldquo;А по талончикам или по очереди?&amp;rdquo;,&amp;ldquo;Мне только спросить!&amp;rdquo;,&amp;ldquo;А у вас какое время?У меня раньше!&amp;rdquo;,&amp;ldquo;А профосмотр уже закончился!&amp;rdquo;. Минут через 10 мне это совсем надоело и я ушел на работу.&lt;/p&gt;
 &lt;p&gt;В перерыв сходил в аптеку, описал симптомы и мне в течении 10 минут продали Отипакс, которым я благополучно вылечил ухо, закапав всего два раза в тот же день и один раз, профилактически, на следующий.&lt;/p&gt;
-&lt;p&gt;С каждым разом я лучше понимаю людей, занимающихся самолечением.&lt;/p&gt;</description></item><item><title>Пойду в спортзал</title><link>https://mysite-ci3.pages.dev/posts/20110912_pojdu_v_sportzal/</link><pubDate>Mon, 12 Sep 2011 14:53:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110912_pojdu_v_sportzal/</guid><description>&lt;p&gt;Скачал Радио-Т, подкаст Росновского и Модель для сборки. Теперь можно идти в спортзал. Да, у нас наконец-то дали горячую воду!&lt;/p&gt;</description></item><item><title>Когда курение полезно</title><link>https://mysite-ci3.pages.dev/posts/20110628_kogda_kurenie_polezno/</link><pubDate>Tue, 28 Jun 2011 10:33:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110628_kogda_kurenie_polezno/</guid><description>&lt;p&gt;Завязка: На работе запрещено курение в помещениях. Совсем! Курить можно только на крыльце. Зимой я постоянно вспоминаю сериал компьютерщики, как там курящие работники шли к курилке, которая располагалась черти где. По улицам, под ветром и дождем шли они к какому-то лесу, где на опушке стояла маленькая стеклянная будка, куда все они набивались и курили&amp;hellip;&lt;/p&gt;
+&lt;p&gt;С каждым разом я лучше понимаю людей, занимающихся самолечением.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Пойду в спортзал</title>
+        <link>http://localhost:1313/posts/20110912_pojdu_v_sportzal/</link>
+        <pubDate>Mon, 12 Sep 2011 14:53:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110912_pojdu_v_sportzal/</guid>
+        <description>&lt;p&gt;Скачал Радио-Т, подкаст Росновского и Модель для сборки. Теперь можно идти в спортзал. Да, у нас наконец-то дали горячую воду!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Когда курение полезно</title>
+        <link>http://localhost:1313/posts/20110628_kogda_kurenie_polezno/</link>
+        <pubDate>Tue, 28 Jun 2011 10:33:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110628_kogda_kurenie_polezno/</guid>
+        <description>&lt;p&gt;Завязка: На работе запрещено курение в помещениях. Совсем! Курить можно только на крыльце. Зимой я постоянно вспоминаю сериал компьютерщики, как там курящие работники шли к курилке, которая располагалась черти где. По улицам, под ветром и дождем шли они к какому-то лесу, где на опушке стояла маленькая стеклянная будка, куда все они набивались и курили&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Отвлекся.&lt;/p&gt;
 &lt;p&gt;Получается что все курильщики вынуждены несколько раз в день спуститься на крыльцо и подняться обратно. А если некогда ждать лифт?&lt;/p&gt;
-&lt;p&gt;И получается что курильщики, в отличии от прочих, сидящих постоянно на своем рабочем месте и отсиживающим пятую точку, гуляют. Так как мы работаем на пятом этаже, то те, кто ходит курить пешком накручивают за день такие километры по ступенькам, что неподготовленному человеку мало не покажется.&lt;/p&gt;
-&lt;p&gt;Конечно это не значит, что надо начинать курить! Надо гулять. По коридору, по ступенькам, по улице.&lt;/p&gt;</description></item><item><title>Не смог</title><link>https://mysite-ci3.pages.dev/posts/20110209_ne_smog/</link><pubDate>Wed, 09 Feb 2011 18:23:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110209_ne_smog/</guid><description>&lt;p&gt;Приезжали SAP-овцы. Обсуждали систему оперативного учета. Все идет к тому, что будет PP в отдельном манданте. По ходу разговора всплыло обсуждение внедрения SAP на КУМЗ-е и ВСМПО. Посоветовали мне эти проекты в резюме не включать :) (хотя говорят что КУМЗ с нового года запустился. По этому поводу вспоминается программистский анекдот:&lt;/p&gt;
+&lt;p&gt;И получается что курильщики, в отличии от прочих, сидящих постоянно на своем рабочем месте и отсиживающим пятую точку,  гуляют. Так как мы работаем на пятом этаже, то те, кто ходит курить пешком накручивают за  день такие километры по ступенькам, что неподготовленному человеку мало не покажется.&lt;/p&gt;
+&lt;p&gt;Конечно это  не значит, что надо начинать курить! Надо гулять. По коридору, по ступенькам, по улице.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Не смог</title>
+        <link>http://localhost:1313/posts/20110209_ne_smog/</link>
+        <pubDate>Wed, 09 Feb 2011 18:23:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110209_ne_smog/</guid>
+        <description>&lt;p&gt;Приезжали SAP-овцы. Обсуждали систему оперативного учета. Все идет к тому, что будет PP в отдельном манданте. По ходу разговора всплыло обсуждение внедрения SAP на КУМЗ-е и ВСМПО. Посоветовали мне эти проекты в резюме не включать :) (хотя говорят что КУМЗ с нового года запустился. По этому поводу вспоминается программистский анекдот:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Вы знаете &lt;a class="link" href="http://ru.wikipedia.org/wiki/SQL" target="_blank" rel="noopener"
-&gt;SQL&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Вы знаете &lt;a class=&#34;link&#34; href=&#34;http://ru.wikipedia.org/wiki/SQL&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SQL&lt;/a&gt;?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Нет&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Тогда так и пишите в резюме - знаю &lt;a class="link" href="http://ru.wikipedia.org/wiki/NoSQL" target="_blank" rel="noopener"
-&gt;NOSQL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Тогда так и пишите в резюме - знаю &lt;a class=&#34;link&#34; href=&#34;http://ru.wikipedia.org/wiki/NoSQL&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NOSQL&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Пошел в кино в &amp;ldquo;Карнавал&amp;rdquo;, но из всего что там шло, так и не смог ничего выбрать. И не пошел.&lt;/p&gt;
-&lt;p&gt;Зато посмотрел &amp;ldquo;Серьезный человек&amp;rdquo; - такие зарисовки из жизни евреев. Ничего не понял&amp;hellip;&lt;/p&gt;</description></item><item><title>Здоровье - это когда каждый день болит что-нибудь другое (c) Танатонавты</title><link>https://mysite-ci3.pages.dev/posts/20110112_zdorove_eto_kogda_kazhdyj_den_bolit_chto_nibud_drugoe_c_tanatonavty/</link><pubDate>Wed, 12 Jan 2011 13:11:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110112_zdorove_eto_kogda_kazhdyj_den_bolit_chto_nibud_drugoe_c_tanatonavty/</guid><description>&lt;p&gt;Защемило плечо, да так, что не охота поворачивать голову. Зато совершенно не болит поясница :)&lt;/p&gt;
-&lt;p&gt;Сегодня в бассейн - надеюсь там все отпустит.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Зато посмотрел &amp;ldquo;Серьезный человек&amp;rdquo; - такие зарисовки из жизни евреев. Ничего не понял&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Здоровье - это когда каждый день болит что-нибудь другое (c) Танатонавты</title>
+        <link>http://localhost:1313/posts/20110112_zdorove_eto_kogda_kazhdyj_den_bolit_chto_nibud_drugoe_c_tanatonavty/</link>
+        <pubDate>Wed, 12 Jan 2011 13:11:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110112_zdorove_eto_kogda_kazhdyj_den_bolit_chto_nibud_drugoe_c_tanatonavty/</guid>
+        <description>&lt;p&gt;Защемило плечо, да так, что не охота поворачивать голову. Зато совершенно не болит поясница :)&lt;/p&gt;
+&lt;p&gt;Сегодня в бассейн - надеюсь там все отпустит.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

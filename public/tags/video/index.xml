@@ -1,79 +1,178 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>видео on Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/tags/video/</link><description>Recent content in видео on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Tue, 19 Jun 2012 17:58:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/video/index.xml" rel="self" type="application/rss+xml"/><item><title>Уматурман - В голове моей говешка+Китаец Чань-суй+Река</title><link>https://mysite-ci3.pages.dev/posts/20120619_umaturman_v_golove_moej_goveshkakitaets_chan_sujreka/</link><pubDate>Tue, 19 Jun 2012 17:58:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20120619_umaturman_v_golove_moej_goveshkakitaets_chan_sujreka/</guid><description>&lt;p&gt;Этой песне (первой) место в моем блоге.&lt;/p&gt;
-&lt;div class="video-wrapper"&gt;
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/CIT6oSqyDSI"
-allowfullscreen
-title="YouTube Video"
-&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Ва-банк. Маршруты Московские</title><link>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</link><pubDate>Thu, 17 Feb 2011 16:52:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110217_va_bank_marshruty_moskovskie/</guid><description>&lt;p&gt;Электричкой из Москвы я поеду, я поеду в никуда&amp;hellip;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>видео on Sergey Ryazanov</title>
+        <link>http://localhost:1313/tags/video/</link>
+        <description>Recent content in видео on Sergey Ryazanov</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ru-ru</language>
+        <lastBuildDate>Tue, 19 Jun 2012 17:58:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/video/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Уматурман - В голове моей говешка&#43;Китаец Чань-суй&#43;Река</title>
+        <link>http://localhost:1313/posts/20120619_umaturman_v_golove_moej_goveshkakitaets_chan_sujreka/</link>
+        <pubDate>Tue, 19 Jun 2012 17:58:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20120619_umaturman_v_golove_moej_goveshkakitaets_chan_sujreka/</guid>
+        <description>&lt;p&gt;Этой песне (первой) место в моем блоге.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/CIT6oSqyDSI&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>Ва-банк. Маршруты Московские</title>
+        <link>http://localhost:1313/posts/20110217_va_bank_marshruty_moskovskie/</link>
+        <pubDate>Thu, 17 Feb 2011 16:52:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110217_va_bank_marshruty_moskovskie/</guid>
+        <description>&lt;p&gt;Электричкой из Москвы я поеду, я поеду в никуда&amp;hellip;
 Периодически вспоминаю эту песню (точнее припев) и не могу вспомнить название. Может теперь запомню? Песня то замечательная.&lt;/p&gt;
-&lt;div class="video-wrapper"&gt;
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/ZjXov0YIqUg"
-allowfullscreen
-title="YouTube Video"
-&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Не смог</title><link>https://mysite-ci3.pages.dev/posts/20110209_ne_smog/</link><pubDate>Wed, 09 Feb 2011 18:23:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110209_ne_smog/</guid><description>&lt;p&gt;Приезжали SAP-овцы. Обсуждали систему оперативного учета. Все идет к тому, что будет PP в отдельном манданте. По ходу разговора всплыло обсуждение внедрения SAP на КУМЗ-е и ВСМПО. Посоветовали мне эти проекты в резюме не включать :) (хотя говорят что КУМЗ с нового года запустился. По этому поводу вспоминается программистский анекдот:&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/ZjXov0YIqUg&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>Не смог</title>
+        <link>http://localhost:1313/posts/20110209_ne_smog/</link>
+        <pubDate>Wed, 09 Feb 2011 18:23:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20110209_ne_smog/</guid>
+        <description>&lt;p&gt;Приезжали SAP-овцы. Обсуждали систему оперативного учета. Все идет к тому, что будет PP в отдельном манданте. По ходу разговора всплыло обсуждение внедрения SAP на КУМЗ-е и ВСМПО. Посоветовали мне эти проекты в резюме не включать :) (хотя говорят что КУМЗ с нового года запустился. По этому поводу вспоминается программистский анекдот:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Вы знаете &lt;a class="link" href="http://ru.wikipedia.org/wiki/SQL" target="_blank" rel="noopener"
-&gt;SQL&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Вы знаете &lt;a class=&#34;link&#34; href=&#34;http://ru.wikipedia.org/wiki/SQL&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SQL&lt;/a&gt;?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Нет&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Тогда так и пишите в резюме - знаю &lt;a class="link" href="http://ru.wikipedia.org/wiki/NoSQL" target="_blank" rel="noopener"
-&gt;NOSQL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Тогда так и пишите в резюме - знаю &lt;a class=&#34;link&#34; href=&#34;http://ru.wikipedia.org/wiki/NoSQL&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NOSQL&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Пошел в кино в &amp;ldquo;Карнавал&amp;rdquo;, но из всего что там шло, так и не смог ничего выбрать. И не пошел.&lt;/p&gt;
-&lt;p&gt;Зато посмотрел &amp;ldquo;Серьезный человек&amp;rdquo; - такие зарисовки из жизни евреев. Ничего не понял&amp;hellip;&lt;/p&gt;</description></item><item><title>Пытался делать сумку на Ульянкин ДР по этой инструкции</title><link>https://mysite-ci3.pages.dev/posts/20101124_pytalsya_delat_sumku_na_ulyankin_dr_po_etoj_instruktsii/</link><pubDate>Wed, 24 Nov 2010 19:43:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20101124_pytalsya_delat_sumku_na_ulyankin_dr_po_etoj_instruktsii/</guid><description>&lt;div class="video-wrapper"&gt;
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/NC7MH3EzBWM"
-allowfullscreen
-title="YouTube Video"
-&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Roomba Cat swats Dog pit bull Sharky</title><link>https://mysite-ci3.pages.dev/posts/20101123_roomba_cat_swats_dog_pit_bull_sharky/</link><pubDate>Tue, 23 Nov 2010 17:54:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20101123_roomba_cat_swats_dog_pit_bull_sharky/</guid><description>&lt;p&gt;Говорили про робота-пылесос и по наводке с сайта &lt;a class="link" href="http://www.exler.ru/expromt/23-11-2010.htm" target="_blank" rel="noopener"
-&gt;Экслера&lt;/a&gt; нашел этот ролик&lt;/p&gt;
+&lt;p&gt;Зато посмотрел &amp;ldquo;Серьезный человек&amp;rdquo; - такие зарисовки из жизни евреев. Ничего не понял&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Пытался делать сумку на Ульянкин ДР по этой инструкции</title>
+        <link>http://localhost:1313/posts/20101124_pytalsya_delat_sumku_na_ulyankin_dr_po_etoj_instruktsii/</link>
+        <pubDate>Wed, 24 Nov 2010 19:43:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101124_pytalsya_delat_sumku_na_ulyankin_dr_po_etoj_instruktsii/</guid>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/NC7MH3EzBWM&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>Roomba Cat swats Dog pit bull Sharky</title>
+        <link>http://localhost:1313/posts/20101123_roomba_cat_swats_dog_pit_bull_sharky/</link>
+        <pubDate>Tue, 23 Nov 2010 17:54:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101123_roomba_cat_swats_dog_pit_bull_sharky/</guid>
+        <description>&lt;p&gt;Говорили про робота-пылесос и по наводке с сайта &lt;a class=&#34;link&#34; href=&#34;http://www.exler.ru/expromt/23-11-2010.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Экслера&lt;/a&gt; нашел этот ролик&lt;/p&gt;
 &lt;p&gt;Говори&lt;/p&gt;
-&lt;div class="video-wrapper"&gt;
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/vf9wHkkNGUU"
-allowfullscreen
-title="YouTube Video"
-&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Сирожене пирожене (Padonkas studio)</title><link>https://mysite-ci3.pages.dev/posts/20101107_sirozhene_pirozhene_padonkas_studio/</link><pubDate>Sun, 07 Nov 2010 15:13:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20101107_sirozhene_pirozhene_padonkas_studio/</guid><description>&lt;p&gt;Вот это вариант лучше&lt;/p&gt;
-&lt;div class="video-wrapper"&gt;
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/ptRVRYINM1g"
-allowfullscreen
-title="YouTube Video"
-&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Как я протирал стекла у машины</title><link>https://mysite-ci3.pages.dev/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</link><pubDate>Sat, 30 Oct 2010 14:56:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</guid><description>&lt;div class="video-wrapper"&gt;
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/ntj2h-W70Ms"
-allowfullscreen
-title="YouTube Video"
-&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>главное, чтобы мозги на месте(сделано Улькой)</title><link>https://mysite-ci3.pages.dev/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</link><pubDate>Sat, 30 Oct 2010 04:22:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</guid><description>&lt;div class="video-wrapper"&gt;
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/_7bBOnzEl54"
-allowfullscreen
-title="YouTube Video"
-&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>ЯНСЕН КУКАНСЕН - "Сирожене пирожене"</title><link>https://mysite-ci3.pages.dev/posts/20101028_yansen_kukansen_sirozhene_pirozhene/</link><pubDate>Thu, 28 Oct 2010 06:48:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20101028_yansen_kukansen_sirozhene_pirozhene/</guid><description>&lt;div class="video-wrapper"&gt;
-&lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/GaI9RRpdNSM"
-allowfullscreen
-title="YouTube Video"
-&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/vf9wHkkNGUU&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>Сирожене пирожене (Padonkas studio)</title>
+        <link>http://localhost:1313/posts/20101107_sirozhene_pirozhene_padonkas_studio/</link>
+        <pubDate>Sun, 07 Nov 2010 15:13:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101107_sirozhene_pirozhene_padonkas_studio/</guid>
+        <description>&lt;p&gt;Вот это вариант лучше&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/ptRVRYINM1g&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>Как я протирал стекла у машины</title>
+        <link>http://localhost:1313/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</link>
+        <pubDate>Sat, 30 Oct 2010 14:56:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101030_kak_ya_protiral_stekla_u_mashiny/</guid>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/ntj2h-W70Ms&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>главное, чтобы мозги на месте(сделано Улькой)</title>
+        <link>http://localhost:1313/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</link>
+        <pubDate>Sat, 30 Oct 2010 04:22:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101030_glavnoe_chtoby_mozgi_na_mestesdelano_ulkoj/</guid>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/_7bBOnzEl54&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>ЯНСЕН КУКАНСЕН - &#34;Сирожене пирожене&#34;</title>
+        <link>http://localhost:1313/posts/20101028_yansen_kukansen_sirozhene_pirozhene/</link>
+        <pubDate>Thu, 28 Oct 2010 06:48:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20101028_yansen_kukansen_sirozhene_pirozhene/</guid>
+        <description>&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/GaI9RRpdNSM&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        
+    </channel>
+</rss>

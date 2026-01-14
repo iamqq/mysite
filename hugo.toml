@@ -15,6 +15,7 @@ theme = 'stack'
     [params.widgets]
         homepage = [
             { type = "search" },
+            { type = "remark42-last-comments" },
             { type = "archives", params = { limit = 5 } },
             { type = "categories", params = { limit = 10 } },
             { type = "tag-cloud", params = { limit = 10 } }
@@ -31,6 +32,7 @@ theme = 'stack'
             host = "https://remark42.iamqq.mywire.org"
             site = "mysite-ci3"
             locale = "ru"
+            components = ["embed", "last-comments"]
 
 [markup]
   [markup.goldmark]

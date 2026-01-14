@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>пестня on Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/tags/song/</link><description>Recent content in пестня on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Wed, 08 Feb 2017 19:36:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/song/index.xml" rel="self" type="application/rss+xml"/><item><title>Плеер в подарок</title><link>https://mysite-ci3.pages.dev/posts/20170208_player_gift/</link><pubDate>Wed, 08 Feb 2017 19:36:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20170208_player_gift/</guid><description>&lt;p&gt;Предыстория:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>пестня on Sergey Ryazanov</title>
+        <link>http://localhost:1313/tags/song/</link>
+        <description>Recent content in пестня on Sergey Ryazanov</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ru-ru</language>
+        <lastBuildDate>Wed, 08 Feb 2017 19:36:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/song/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Плеер в подарок</title>
+        <link>http://localhost:1313/posts/20170208_player_gift/</link>
+        <pubDate>Wed, 08 Feb 2017 19:36:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/20170208_player_gift/</guid>
+        <description>&lt;p&gt;Предыстория:&lt;/p&gt;
 &lt;p&gt;Дарили плеер. В субботу. И вот под это переделали песню.&lt;/p&gt;
 &lt;p&gt;Дили дили дили колокольчики дуду&lt;/p&gt;
 &lt;p&gt;А я сегодня на работу не пойду&lt;/p&gt;
@@ -27,4 +41,9 @@
 &lt;p&gt;Дили дили дили колокольчики нуну&lt;/p&gt;
 &lt;p&gt;Вот Так Вот  время я немного обману&lt;/p&gt;
 &lt;p&gt;Чтоб легче мне работу с жизнью совместить&lt;/p&gt;
-&lt;p&gt;Ее частичку можно в уши поместить&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Ее частичку можно в уши поместить&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
