@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>красиво on Sergey Ryazanov</title>
-        <link>http://localhost:1313/tags/krasivo/</link>
-        <description>Recent content in красиво on Sergey Ryazanov</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ru-ru</language>
-        <lastBuildDate>Sat, 09 Jun 2012 07:33:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/krasivo/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Небо</title>
-        <link>http://localhost:1313/posts/20120609_nebo/</link>
-        <pubDate>Sat, 09 Jun 2012 07:33:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/posts/20120609_nebo/</guid>
-        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/img_20120515_084205.jpg" alt="Featured image of post Небо" /&gt;&lt;p&gt;Однажды утром, выглянув из окна на работе увидел такую картину. Облака похожие на расходящиеся круги на воде. Если встать на голову, то как будто город завис над огромным водоемом. Красиво!&lt;/p&gt;
-&lt;p&gt;Через пол часа магия рассеялась&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>красиво on Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/tags/krasivo/</link><description>Recent content in красиво on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Sat, 09 Jun 2012 07:33:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/krasivo/index.xml" rel="self" type="application/rss+xml"/><item><title>Небо</title><link>https://mysite-ci3.pages.dev/posts/20120609_nebo/</link><pubDate>Sat, 09 Jun 2012 07:33:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20120609_nebo/</guid><description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/img_20120515_084205.jpg" alt="Featured image of post Небо" /&gt;&lt;p&gt;Однажды утром, выглянув из окна на работе увидел такую картину. Облака похожие на расходящиеся круги на воде. Если встать на голову, то как будто город завис над огромным водоемом. Красиво!&lt;/p&gt;
+&lt;p&gt;Через пол часа магия рассеялась&lt;/p&gt;</description></item></channel></rss>

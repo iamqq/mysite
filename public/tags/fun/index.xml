@@ -1,30 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>бугагашеньки on Sergey Ryazanov</title>
-        <link>http://localhost:1313/tags/fun/</link>
-        <description>Recent content in бугагашеньки on Sergey Ryazanov</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ru-ru</language>
-        <lastBuildDate>Wed, 23 Feb 2011 19:07:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/fun/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>23 февраля</title>
-        <link>http://localhost:1313/posts/20110223_23_fevralya/</link>
-        <pubDate>Wed, 23 Feb 2011 19:07:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/posts/20110223_23_fevralya/</guid>
-        <description>&lt;img src="http://localhost:1313/images/blogspot/iamqq/cam_0643.jpg" alt="Featured image of post 23 февраля" /&gt;&lt;p&gt;Мои девчонки приехали меня поздравлять с 23-им февраля. А я почти весь день проторчал на работе. Правда вечером удалось сходить на &amp;ldquo;Король говорит&amp;rdquo;. Впечатления только положительные.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>бугагашеньки on Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/tags/fun/</link><description>Recent content in бугагашеньки on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Wed, 23 Feb 2011 19:07:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/fun/index.xml" rel="self" type="application/rss+xml"/><item><title>23 февраля</title><link>https://mysite-ci3.pages.dev/posts/20110223_23_fevralya/</link><pubDate>Wed, 23 Feb 2011 19:07:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110223_23_fevralya/</guid><description>&lt;img src="https://mysite-ci3.pages.dev/images/blogspot/iamqq/cam_0643.jpg" alt="Featured image of post 23 февраля" /&gt;&lt;p&gt;Мои девчонки приехали меня поздравлять с 23-им февраля. А я почти весь день проторчал на работе. Правда вечером удалось сходить на &amp;ldquo;Король говорит&amp;rdquo;. Впечатления только положительные.&lt;/p&gt;
 &lt;p&gt;Мне подарили надувной матрас. Как они его таскали пока мне не отдали? Мне он всю руку оттянул! Да еще накачал его с третьего или с четвертого раза! Физкультзарядка. Спускать теперь ни за что не буду :) . Теперь я понимаю людей которые покупают насосы работающие от прикуривателя покупают! И пахнет пластмассой. Но это как обычно, скоро выветриться. Сегодня у меня испытания матраса. Буду спать как король!&lt;/p&gt;
 &lt;p&gt;Пришло поздравление от Сашки на латинице в фейсбуке. Sashka! Spasibo!&lt;/p&gt;
-&lt;p&gt;На обратном пути видел бесподобную рекламу. Почитали - поржали. Не выдержал - вернулся и сфотографировал.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Опять хочу в Париж</title>
-        <link>http://localhost:1313/posts/20110216_opyat_hochu_v_parizh/</link>
-        <pubDate>Wed, 16 Feb 2011 20:20:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/posts/20110216_opyat_hochu_v_parizh/</guid>
-        <description>&lt;ul&gt;
+&lt;p&gt;На обратном пути видел бесподобную рекламу. Почитали - поржали. Не выдержал - вернулся и сфотографировал.&lt;/p&gt;</description></item><item><title>Опять хочу в Париж</title><link>https://mysite-ci3.pages.dev/posts/20110216_opyat_hochu_v_parizh/</link><pubDate>Wed, 16 Feb 2011 20:20:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20110216_opyat_hochu_v_parizh/</guid><description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Опять хочу в Париж&lt;/p&gt;
 &lt;/li&gt;
@@ -34,16 +11,7 @@
 &lt;li&gt;
 &lt;p&gt;Нет, я уже хотел в Париж&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>Математики</title>
-        <link>http://localhost:1313/posts/20101129_matematiki/</link>
-        <pubDate>Mon, 29 Nov 2010 07:43:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/posts/20101129_matematiki/</guid>
-        <description>&lt;p&gt;Стоит бесконечная очередь математиков за хлебом. Первый говорит:&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Математики</title><link>https://mysite-ci3.pages.dev/posts/20101129_matematiki/</link><pubDate>Mon, 29 Nov 2010 07:43:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20101129_matematiki/</guid><description>&lt;p&gt;Стоит бесконечная очередь математиков за хлебом. Первый говорит:&lt;/p&gt;
 &lt;p&gt;-Мне буханку хлеба.&lt;/p&gt;
 &lt;p&gt;Второй говорит:&lt;/p&gt;
 &lt;p&gt;-Мне полбуханки хлеба.&lt;/p&gt;
@@ -52,9 +20,4 @@
 &lt;p&gt;Четвертый говорит:&lt;/p&gt;
 &lt;p&gt;-Мне восьмушку, пожалуйста&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Тут продавец их прерывает, и говорит:&lt;/p&gt;
-&lt;p&gt;-Я все понял. Вот вам две буханки.&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+&lt;p&gt;-Я все понял. Вот вам две буханки.&lt;/p&gt;</description></item></channel></rss>

@@ -3,7 +3,7 @@
     var remark_config = {
         host: '{{ .host }}',
         site_id: '{{ .site }}',
-        components: {{ default (slice "embed") .components | jsonify }},
+        components: {{ default (slice "embed") .components | jsonify | safeJS }},
     url: '{{ $.Permalink }}',
         max_shown_comments: {{ default 15 .max_shown_comments }},
     theme: document.documentElement.dataset.scheme,
