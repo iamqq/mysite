@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/</link><description>Recent content on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Wed, 24 Dec 2025 16:15:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/</link><pubDate>Wed, 24 Dec 2025 16:15:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/</guid><description>&lt;img src="https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/2.JPG" alt="Featured image of post Hugo" /&gt;&lt;p&gt;Осваиваю Hugo. Решил попробовать пост с галереей.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sergey Ryazanov</title><link>https://mysite-ci3.pages.dev/</link><description>Recent content on Sergey Ryazanov</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Tue, 13 Jan 2026 02:00:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Интеграция Remark42: комментарии и виджет последних событий</title><link>https://mysite-ci3.pages.dev/posts/20260113_remark42_integration/</link><pubDate>Tue, 13 Jan 2026 02:00:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20260113_remark42_integration/</guid><description>&lt;p&gt;Сегодня я завершил интеграцию системы комментариев &lt;strong&gt;Remark42&lt;/strong&gt; в этот блог. Процесс оказался интересным и потребовал решения нескольких технических нюансов, о которых стоит рассказать.&lt;/p&gt;
+&lt;h3 id="почему-remark42"&gt;Почему Remark42?
+&lt;/h3&gt;&lt;p&gt;Remark42 — это легкий и функциональный движок для комментариев, который не следит за пользователями, поддерживает авторизацию через соцсети и отлично вписывается в концепцию статического сайта.&lt;/p&gt;
+&lt;h3 id="трудности-перевода-и-авторизации"&gt;Трудности перевода (и авторизации)
+&lt;/h3&gt;&lt;p&gt;Сначала всё шло гладко: тема &lt;strong&gt;Stack&lt;/strong&gt; имеет встроенную поддержку Remark42. Однако после включения я столкнулся с тем, что авторизация через GitHub открывала окно, которое тут же закрывалось без результата.&lt;/p&gt;
+&lt;p&gt;Оказалось, что проблема в &lt;strong&gt;Cross-Domain Cookies&lt;/strong&gt;. Так как сам блог живет на одном домене, а сервер Remark42 на другом, современные браузеры блокируют куки авторизации. Решение нашлось в настройках сервера:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Установка &lt;code&gt;AUTH_SAME_SITE=none&lt;/code&gt; для разрешения передачи кук между доменами.&lt;/li&gt;
+&lt;li&gt;Настройка &lt;code&gt;ALLOWED_HOSTS&lt;/code&gt; для явного разрешения запросов с домена блога.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="виджет-последних-комментариев"&gt;Виджет последних комментариев
+&lt;/h3&gt;&lt;p&gt;Одной из интересных задач стала установка виджета &amp;ldquo;Последние комментарии&amp;rdquo; прямо в сайдбар. В теме Stack нет готового виджета для этого, поэтому пришлось:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Создать новый партиал для виджета.&lt;/li&gt;
+&lt;li&gt;Вынести скрипт инициализации Remark42 в глобальный футер, чтобы виджет работал не только на страницах постов, но и на главной.&lt;/li&gt;
+&lt;li&gt;Добавить переводы для заголовка виджета.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Теперь в правой колонке (после поиска) вы можете видеть ленту последних обсуждений.&lt;/p&gt;
+&lt;h3 id="итог"&gt;Итог
+&lt;/h3&gt;&lt;p&gt;Блог стал чуточку более живым. Теперь под каждым постом можно оставить свое мнение или задать вопрос. Весь процесс интеграции занял пару вечеров, но результат того стоит!&lt;/p&gt;</description></item><item><title>Hugo</title><link>https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/</link><pubDate>Wed, 24 Dec 2025 16:15:00 +0000</pubDate><guid>https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/</guid><description>&lt;img src="https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/2.JPG" alt="Featured image of post Hugo" /&gt;&lt;p&gt;Осваиваю Hugo. Решил попробовать пост с галереей.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://mysite-ci3.pages.dev/posts/20251224_hugo_gallery/1.jpg"
 width="2268"
 height="4032"
