@@ -39,4 +39,34 @@ theme = 'stack'
     [markup.goldmark.renderer]
       unsafe = true
 
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Главная"
+        url = "/"
+        weight = -100
+        params = { icon = "home" }
+
+    [[menu.main]]
+        identifier = "archives"
+        name = "Архив"
+        url = "/archives/"
+        weight = -90
+        params = { icon = "archives" }
+
+    [[menu.main]]
+        identifier = "search"
+        name = "Поиск"
+        url = "/search/"
+        weight = -80
+        params = { icon = "search" }
+
+    [[menu.main]]
+        identifier = "visited-states"
+        name = "Карта штатов"
+        url = "/visited-states/"
+        weight = -70
+        params = { icon = "map" }
+
+
       
