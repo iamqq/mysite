@@ -1,8 +1,8 @@
 +++
-title = "Карта штатов"
-description = "Интерактивная карта посещенных мной штатов США."
-slug = "visited-states"
-comments = false
+title = "Посещенные места"
+description = "Интерактивная карта посещенных мной мест по всему миру."
+slug = "visited-places"
+comments = true
 toc = false
 +++
 

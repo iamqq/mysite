@@ -62,9 +62,9 @@ theme = 'stack'
         params = { icon = "search" }
 
     [[menu.main]]
-        identifier = "visited-states"
-        name = "Карта штатов"
-        url = "/visited-states/"
+        identifier = "visited-places"
+        name = "Посещенные места"
+        url = "/visited-places/"
         weight = -70
         params = { icon = "map" }
 
