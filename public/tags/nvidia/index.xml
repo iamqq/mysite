@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Nvidia on Sergey Ryazanov</title>
+		<link>https://mysite-ci3.pages.dev/tags/nvidia/</link>
+		<description>Recent content in Nvidia on Sergey Ryazanov</description>
+		<generator>Hugo</generator>
+		<language>ru-ru</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 18 Jun 2026 19:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://mysite-ci3.pages.dev/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Как я неделю воевал с собственной видеокартой (и победил)</title>
+				<link>https://mysite-ci3.pages.dev/posts/20260618_kak_ya_pobedil_videokartu/</link>
+				<pubDate>Thu, 18 Jun 2026 19:00:00 +0000</pubDate>
+				<guid>https://mysite-ci3.pages.dev/posts/20260618_kak_ya_pobedil_videokartu/</guid>
+				<description>&lt;p&gt;Я держу домашнюю лабораторию (homelab). Те, кто в теме, знают: это хобби находится где-то на стыке продуктивности и одержимости. Это когда ты тратишь три вечера на исправление того, что и так технически работало, просто ради того, чтобы оно работало &lt;em&gt;лучше&lt;/em&gt;. Это как раз одна из таких историй.&lt;/p&gt;&#xA;&lt;h2 id=&#34;стенд&#34;&gt;Стенд&lt;/h2&gt;&#xA;&lt;p&gt;Мой домашний NVR (сетевой видеорегистратор) работает на базе &lt;strong&gt;Frigate&lt;/strong&gt; — self-hosted системы видеонаблюдения с распознаванием объектов с помощью искусственного интеллекта. Она умеет отличать человека от кошки или от качающейся на ветру тени. Всё это крутится в Docker на сервере с OpenMediaVault, а управление идет через Portainer.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

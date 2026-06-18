@@ -1,108 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>wish on Sergey Ryazanov</title>
-        <link>https://mysite-ci3.pages.dev/tags/wish/</link>
-        <description>Recent content in wish on Sergey Ryazanov</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ru-ru</language>
-        <lastBuildDate>Fri, 27 Jul 2012 07:36:00 +0000</lastBuildDate><atom:link href="https://mysite-ci3.pages.dev/tags/wish/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Fitbit Ultra</title>
-        <link>https://mysite-ci3.pages.dev/posts/20120727_fitbit_ultra/</link>
-        <pubDate>Fri, 27 Jul 2012 07:36:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20120727_fitbit_ultra/</guid>
-        <description>&lt;p&gt;Такого ленивого в плане спорта человека, как я, еще надо поискать. Но я хочу такую &lt;a class=&#34;link&#34; href=&#34;http://www.fitbit.com/product&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;штуку&lt;/a&gt;.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Доставка</title>
-        <link>https://mysite-ci3.pages.dev/posts/20110203_dostavka/</link>
-        <pubDate>Thu, 03 Feb 2011 14:34:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20110203_dostavka/</guid>
-        <description>&lt;img src="https://mysite-ci3.pages.dev/posts/20110203_dostavka/sku_43579_3_small.jpg" alt="Featured image of post Доставка" /&gt;&lt;p&gt;Что у нас сейчас в пути (надеюсь что в пути):&lt;/p&gt;
-&lt;p&gt;магический шар (AC Powered Plasma Ball in Beast Claw) On 1/4/2011: Shipped&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20110203_dostavka/ciss_cli.gif&#34;
-	width=&#34;350&#34;
-	height=&#34;350&#34;
-	srcset=&#34;https://mysite-ci3.pages.dev/posts/20110203_dostavka/ciss_cli_hu_93801546a1a5e4a4.gif 480w, https://mysite-ci3.pages.dev/posts/20110203_dostavka/ciss_cli_hu_28e85e701c2ada47.gif 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;ciss_cli.gif&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;100&#34;
-		data-flex-basis=&#34;240px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;СНПЧ и чернила для МФУ HP 6500 (вроде из Томска)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20110203_dostavka/zzz.png&#34;
-	width=&#34;296&#34;
-	height=&#34;258&#34;
-	srcset=&#34;https://mysite-ci3.pages.dev/posts/20110203_dostavka/zzz_hu_e2f25022c90e3d15.png 480w, https://mysite-ci3.pages.dev/posts/20110203_dostavka/zzz_hu_1041e2d658f1ac7c.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;zzz.png&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;114&#34;
-		data-flex-basis=&#34;275px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;9-ти ячеечная батарея для Samsung X 360 (ebay.com)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mysite-ci3.pages.dev/posts/20110203_dostavka/zz.png&#34;
-	width=&#34;296&#34;
-	height=&#34;291&#34;
-	srcset=&#34;https://mysite-ci3.pages.dev/posts/20110203_dostavka/zz_hu_f01f7778dcd88b80.png 480w, https://mysite-ci3.pages.dev/posts/20110203_dostavka/zz_hu_a79e118102105600.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;zz.png&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;101&#34;
-		data-flex-basis=&#34;244px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;И 6-ти ячеечную батарею для Compaq CQ60 от туда же&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Хочу</title>
-        <link>https://mysite-ci3.pages.dev/posts/20101213_hochu/</link>
-        <pubDate>Mon, 13 Dec 2010 15:39:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20101213_hochu/</guid>
-        <description>&lt;p&gt;Послушав Сашкины восторги по Старбаксу - хочу в &lt;a class=&#34;link&#34; href=&#34;http://starbuckscoffee.ru/ru/_About&amp;#43;Starbucks/Our_Stores.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Старбакс&lt;/a&gt;! Правда для этого надо хотя бы в Москву попасть.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Wish list</title>
-        <link>https://mysite-ci3.pages.dev/posts/20101124_wish_list/</link>
-        <pubDate>Wed, 24 Nov 2010 05:33:00 +0000</pubDate>
-        
-        <guid>https://mysite-ci3.pages.dev/posts/20101124_wish_list/</guid>
-        <description>&lt;p&gt;Ну, не совсем список ЖЕЛАНИЙ. Собираюсь писать сюда то, что меня заинтересовало. Т.е. не все из этого списка я ХОЧУ, а просто мне это в какой-то момент стало интересно. Будут пункты, которые я НЕ ХОЧУ, но надо :) (например самый первый).&lt;/p&gt;
-&lt;p&gt;Ремонт в туалете
-&lt;a class=&#34;link&#34; href=&#34;http://www.blogger.com/goog_1586369478&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Читалку книг на e-ink&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.3dnews.ru/offsyanka/Amazon-Kindle-3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt; Kindle3 (139$)&lt;/a&gt; с чехлом
-Робот пылесос (например &lt;a class=&#34;link&#34; href=&#34;http://www.exler.ru/expromt/23-11-2010.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;такой&lt;/a&gt;)
-А к нему еще маленький батареечный пылесос &lt;a class=&#34;link&#34; href=&#34;http://www.ozon.ru/context/detail/id/4833913/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Bosch BKS-3043&lt;/a&gt; (знаю, что будет почти всегда просто валяться и почти не будет использоваться, но сколько вещей у нас уже так валяются и очень редко используются?)
-Выучить английский
-Научится играть на гитаре
-Освоить десятипальцевый набор на клавиатуре
-Прокатиться самому на иномарке, чтобы почувствовать что это действительно ВАУ (или опять убедиться что оно не стоит ТЕХ ДЕНЕГ)&lt;/p&gt;
-&lt;p&gt;Буду дополнять по мере возникновения интереса и вычеркивать по мере исполнения или полной потери интереса.&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+	<channel>
+		<title>wish on Sergey Ryazanov</title>
+		<link>https://mysite-ci3.pages.dev/tags/wish/</link>
+		<description>Recent content in wish on Sergey Ryazanov</description>
+		<generator>Hugo</generator>
+		<language>ru-ru</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 27 Jul 2012 07:36:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://mysite-ci3.pages.dev/tags/wish/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Fitbit Ultra</title>
+				<link>https://mysite-ci3.pages.dev/posts/20120727_fitbit_ultra/</link>
+				<pubDate>Fri, 27 Jul 2012 07:36:00 +0000</pubDate>
+				<guid>https://mysite-ci3.pages.dev/posts/20120727_fitbit_ultra/</guid>
+				<description>&lt;p&gt;Такого ленивого в плане спорта человека, как я, еще надо поискать. Но я хочу такую &lt;a href=&#34;http://www.fitbit.com/product&#34;&gt;штуку&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Доставка</title>
+				<link>https://mysite-ci3.pages.dev/posts/20110203_dostavka/</link>
+				<pubDate>Thu, 03 Feb 2011 14:34:00 +0000</pubDate>
+				<guid>https://mysite-ci3.pages.dev/posts/20110203_dostavka/</guid>
+				<description>&lt;p&gt;Что у нас сейчас в пути (надеюсь что в пути):&lt;/p&gt;&#xA;&lt;p&gt;магический шар (AC Powered Plasma Ball in Beast Claw) On 1/4/2011: Shipped&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;ciss_cli.gif&#34; alt=&#34;ciss_cli.gif&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;СНПЧ и чернила для МФУ HP 6500 (вроде из Томска)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;zzz.png&#34; alt=&#34;zzz.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;9-ти ячеечная батарея для Samsung X 360 (ebay.com)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;zz.png&#34; alt=&#34;zz.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;И 6-ти ячеечную батарею для Compaq CQ60 от туда же&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Хочу</title>
+				<link>https://mysite-ci3.pages.dev/posts/20101213_hochu/</link>
+				<pubDate>Mon, 13 Dec 2010 15:39:00 +0000</pubDate>
+				<guid>https://mysite-ci3.pages.dev/posts/20101213_hochu/</guid>
+				<description>&lt;p&gt;Послушав Сашкины восторги по Старбаксу - хочу в &lt;a href=&#34;http://starbuckscoffee.ru/ru/_About+Starbucks/Our_Stores.htm&#34;&gt;Старбакс&lt;/a&gt;! Правда для этого надо хотя бы в Москву попасть.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wish list</title>
+				<link>https://mysite-ci3.pages.dev/posts/20101124_wish_list/</link>
+				<pubDate>Wed, 24 Nov 2010 05:33:00 +0000</pubDate>
+				<guid>https://mysite-ci3.pages.dev/posts/20101124_wish_list/</guid>
+				<description>&lt;p&gt;Ну, не совсем список ЖЕЛАНИЙ. Собираюсь писать сюда то, что меня заинтересовало. Т.е. не все из этого списка я ХОЧУ, а просто мне это в какой-то момент стало интересно. Будут пункты, которые я НЕ ХОЧУ, но надо :) (например самый первый).&lt;/p&gt;&#xA;&lt;p&gt;Ремонт в туалете&#xA;&lt;a href=&#34;http://www.blogger.com/goog_1586369478&#34;&gt;Читалку книг на e-ink&lt;/a&gt;&lt;a href=&#34;http://www.3dnews.ru/offsyanka/Amazon-Kindle-3/&#34;&gt; Kindle3 (139$)&lt;/a&gt; с чехлом&#xA;Робот пылесос (например &lt;a href=&#34;http://www.exler.ru/expromt/23-11-2010.htm&#34;&gt;такой&lt;/a&gt;)&#xA;А к нему еще маленький батареечный пылесос &lt;a href=&#34;http://www.ozon.ru/context/detail/id/4833913/&#34;&gt;Bosch BKS-3043&lt;/a&gt; (знаю, что будет почти всегда просто валяться и почти не будет использоваться, но сколько вещей у нас уже так валяются и очень редко используются?)&#xA;Выучить английский&#xA;Научится играть на гитаре&#xA;Освоить десятипальцевый набор на клавиатуре&#xA;Прокатиться самому на иномарке, чтобы почувствовать что это действительно ВАУ (или опять убедиться что оно не стоит ТЕХ ДЕНЕГ)&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
