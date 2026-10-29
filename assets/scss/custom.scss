@@ -2,3 +2,10 @@
 .article-page .article-details .article-title-wrapper .article-subtitle {
     display: none;
 }
+
+/* Keep desktop sidebar links compact; retain mobile menu spacing. */
+@media (min-width: 768px) {
+    #main-menu {
+        gap: 8px;
+    }
+}
